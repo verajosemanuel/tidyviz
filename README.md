@@ -11,7 +11,4 @@ List of R packages
 	knitr leaflet XML assertive RDocumentation janitor data.table ggThemeAssist 	
 	ggthemes microbenchmark reshape2 rmarkdown chunked udunits2 
 	plotly Hmisc prettydoc listviewer gmodels flexdashboard udunits2 
-	tidytext diffobj plotrr ggraph readbulk textclean tidyxl  
-  
-github("smach/rmiscutils")' 
-github("swarm-lab/editR")' 
+	tidytext diffobj plotrr ggraph readbulk textclean tidyxl rmiscutils editR
