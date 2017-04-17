@@ -16,7 +16,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	tidyverse ggplot2 profvis formatR remotes rio validate MASS magrittr \
 	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats \
 	knitr leaflet XML assertive RDocumentation janitor data.table ggThemeAssist \	
-	ggthemes microbenchmark reshape2 rmarkdown chunked udunits2 \
+	ggthemes microbenchmark reshape2 rmarkdown chunked udunits2 rms \
 	plotly Hmisc prettydoc listviewer gmodels flexdashboard udunits2 \
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl  
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
