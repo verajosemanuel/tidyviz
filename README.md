@@ -9,7 +9,7 @@ Added:
 - tidyverse
 - report specific packages (rmdformats, tufte, prettydoc...)
 - visualization packages (ggvis, plotly, leaflet, ggThemeAssist, ggthemes...)
-- imputation and assertions packages (mice, validate, VIM, Amelia...)
+- imputation and assertions packages (mice, validate, VIM, assertive...)
 
 Suitable container for sharing prettier analysis and reproducibility.
 
