@@ -17,7 +17,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats htmlwidgets \
 	knitr leaflet XML RDocumentation janitor data.table ggThemeAssist filesstrings \	
 	ggthemes ggvis microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies \
-	plotly Hmisc prettydoc listviewer gmodels flexdashboard udunits2 gap choroplethr \
+	plotly Hmisc prettydoc listviewer gmodels flexdashboard gap choroplethr \
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi \
 	mice VIM Amelia missForest assertthat assertr assertive ensurer
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
