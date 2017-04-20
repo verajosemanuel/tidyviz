@@ -2,7 +2,16 @@
 
 Docker file for Rstudio.
 
-base from rocker/rstudio plus tidyverse and some report-visualization packages. Suitable for sharing analysis and reproducibility.
+base is rocker/rstudio 
+
+Added:
+
+- tidyverse
+- report specific packages (rmdformats, tufte, prettydoc...)
+- visualization packages (ggvis, plotly, leaflet, ggThemeAssist, ggthemes...)
+- imputation and assertions packages (mice, validate, VIM, Amelia...)
+
+Suitable container for sharing prettier analysis and reproducibility.
 
 List of R packages
 
