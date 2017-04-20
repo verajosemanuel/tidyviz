@@ -12,4 +12,4 @@ List of R packages
 	ggthemes ggiraph microbenchmark reshape2 rmarkdown chunked udunits2 rms
 	plotly Hmisc htmlwidgets prettydoc listviewer gmodels flexdashboard udunits2 
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl rmiscutils editR
-	RcppQuantuccia
+	RcppQuantuccia choroplethr dummies gap
