@@ -22,4 +22,4 @@ List of R packages
 	plotly Hmisc htmlwidgets prettydoc listviewer gmodels flexdashboard 
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl rmiscutils editR
 	RcppQuantuccia choroplethr dummies gap mice VIM Amelia missForest mi
-	assertthat assertr assertive ensurer huxtable
+	assertthat assertr assertive ensurer huxtable glue
