@@ -23,4 +23,5 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	pathological xts
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
+RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
 RUN rm -rf /tmp/downloaded_packages/
