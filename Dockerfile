@@ -18,9 +18,10 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	knitr leaflet XML RDocumentation janitor data.table ggThemeAssist filesstrings \	
 	ggthemes ggvis microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies \
 	plotly Hmisc prettydoc listviewer gmodels flexdashboard gap choroplethr glue \
-	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi \
+	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi 
+RUN install2.r --error \
 	mice VIM Amelia missForest assertthat assertr assertive ensurer huxtable digest \
-	xts DBI
+	xts DBI pathological
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
 RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
