@@ -19,7 +19,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	ggthemes ggvis microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies \
 	plotly Hmisc prettydoc listviewer gmodels flexdashboard gap choroplethr glue \
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi \
-	mice VIM Amelia missForest assertthat assertr assertive ensurer huxtable digest \
+	mice VIM Amelia missForest assertthat assertr assertive huxtable digest \
 	xts DBI pathological rpg highcharter DiagrammeR
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
