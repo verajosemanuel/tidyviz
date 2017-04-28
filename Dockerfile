@@ -20,7 +20,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	plotly Hmisc prettydoc listviewer gmodels flexdashboard gap choroplethr glue \
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi \
 	mice VIM Amelia missForest assertthat assertr assertive huxtable digest \
-	xts DBI pathological rpg highcharter DiagrammeR
+	xts DBI pathological rpg highcharter DiagrammeR stringdist
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
 RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
