@@ -23,4 +23,4 @@ List of R packages
 	tidytext diffobj plotrr ggraph readbulk textclean tidyxl rmiscutils editR
 	RcppQuantuccia choroplethr dummies gap mice VIM Amelia missForest mi
 	assertthat assertr assertive ensurer huxtable glue digest pathological
-	xts twidlr DBI RPostgres rpg highcharter DiagrammeR
+	xts twidlr DBI RPostgres rpg highcharter DiagrammeR stringdist
