@@ -12,15 +12,16 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libproj-dev \
   && . /etc/environment \
   && install2.r --error \
-	devtools \
-	tidyverse ggplot2 ggiraph profvis formatR remotes rio validate MASS magrittr \
-	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats htmlwidgets \
-	knitr leaflet XML RDocumentation janitor data.table ggThemeAssist filesstrings \	
-	ggthemes ggvis microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies \
-	plotly Hmisc prettydoc listviewer gmodels flexdashboard gap choroplethr glue \
-	tidytext diffobj plotrr ggraph readbulk textclean tidyxl RcppQuantuccia mi \
-	mice VIM Amelia missForest assertthat assertr assertive huxtable digest \
-	xts DBI pathological rpg highcharter DiagrammeR stringdist anytime ggsci
+	devtools tidyverse magrittr \
+	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats huxtable MASS zoo xts anytime \
+	prettydoc httpuv tufte ggsci ggthemes ggvis ggraph rticles ggiraph ggThemeAssist gmodels tmaptools \
+	corrplot choroplethr DT Hmisc digest gap udunits2 rms dummies R.utils data.table \
+	htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer \
+	glue filesstrings stringdist chunked pathological tidytext textclean \	
+	mice VIM Amelia missForest mi assertthat assertr assertive validate \
+	XML RDocumentation cranlogs janitor diffobj plotrr \
+	RcppQuantuccia rio readbulk tidyxl 
+RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
 RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
