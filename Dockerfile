@@ -11,6 +11,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
+  r-cran-rjava \
   && . /etc/environment \
   && install2.r --error \
 	devtools tidyverse magrittr \
@@ -21,7 +22,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	glue filesstrings stringdist chunked pathological tidytext textclean \	
 	mice VIM Amelia missForest mi assertthat assertr assertive validate \
 	XML RDocumentation cranlogs janitor diffobj plotrr \
-	RcppQuantuccia rio readbulk tidyxl rJava
+	RcppQuantuccia rio readbulk tidyxl
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
