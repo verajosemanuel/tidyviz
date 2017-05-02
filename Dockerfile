@@ -28,4 +28,5 @@ RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
 RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
 RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
 RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
+RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
 RUN rm -rf /tmp/downloaded_packages/
