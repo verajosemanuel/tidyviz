@@ -10,6 +10,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
+  libv8-3.14-dev \
   && . /etc/environment \
   && install2.r --error \
 	devtools tidyverse magrittr \
