@@ -13,8 +13,8 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   && . /etc/environment \
   && install2.r --error \
 	devtools tidyverse magrittr \
-	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats huxtable MASS zoo xts anytime \
-	prettydoc httpuv tufte ggsci ggthemes ggvis ggraph rticles ggiraph ggThemeAssist gmodels tmaptools \
+	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime \
+	httpuv tufte ggsci ggthemes ggvis ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
 	corrplot choroplethr DT Hmisc digest gap udunits2 rms dummies R.utils data.table \
 	htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer \
 	glue filesstrings stringdist chunked pathological tidytext textclean \	
