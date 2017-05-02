@@ -20,10 +20,12 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	glue filesstrings stringdist chunked pathological tidytext textclean \	
 	mice VIM Amelia missForest mi assertthat assertr assertive validate \
 	XML RDocumentation cranlogs janitor diffobj plotrr \
-	RcppQuantuccia rio readbulk tidyxl 
+	RcppQuantuccia rio readbulk tidyxl rJava
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
 RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
 RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
 RUN rm -rf /tmp/downloaded_packages/
