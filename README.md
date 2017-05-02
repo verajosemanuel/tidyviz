@@ -24,4 +24,4 @@ List of R packages
 	RcppQuantuccia choroplethr dummies gap mice VIM Amelia missForest mi
 	assertthat assertr assertive ensurer huxtable glue digest pathological
 	xts twidlr DBI RPostgres rpg highcharter DiagrammeR stringdist anytime ggsci
-	DT sf precis zoo tmaptools
+	DT sf precis zoo tmaptools rJava tabulizer
