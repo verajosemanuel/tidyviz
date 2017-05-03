@@ -11,7 +11,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
-  r-cran-rjava \
   && . /etc/environment \
   && install2.r --error \
 	devtools tidyverse magrittr \
@@ -28,7 +27,5 @@ RUN Rscript -e 'devtools::install_github("smach/rmiscutils")'
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
 RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
 RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
-RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
-RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
 RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
 RUN rm -rf /tmp/downloaded_packages/
