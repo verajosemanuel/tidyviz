@@ -17,7 +17,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime \
 	httpuv tufte ggsci ggthemes ggvis ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
 	corrplot choroplethr DT Hmisc digest gap udunits2 rms dummies R.utils data.table \
-	htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer \
+	htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer riverplot \
 	glue filesstrings stringdist chunked pathological tidytext textclean \	
 	mice VIM Amelia missForest mi assertthat assertr assertive validate \
 	XML RDocumentation cranlogs janitor diffobj plotrr \
