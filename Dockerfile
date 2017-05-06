@@ -8,20 +8,20 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libmariadb-client-lgpl-dev \
   libpq-dev \
   libudunits2-dev \
-  libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
+  libgdal-dev \
   && . /etc/environment \
-  && install2.r --error \
-	devtools tidyverse magrittr \
-	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime \
-	httpuv tufte ggsci ggthemes ggvis ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
-	corrplot choroplethr DT Hmisc digest gap udunits2 rms dummies R.utils data.table \
-	htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer riverplot \
-	glue filesstrings stringdist chunked pathological tidytext textclean \	
+  && install2.r --error devtools tidyverse magrittr \
+	profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime tseries \
+	httpuv tufte ggsci ggthemes ggvis ggmap tmap igraph ggraph popgraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
+	corrplot choroplethr lattice RColorBrewer DT Hmisc digest gap udunits2 rms dummies R.utils data.table png \
+        rgdal htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer riverplot NMF RCurl \
+	glue filesstrings stringdist chunked pathological tidytext textclean tm Matrix wordcloud topicmodels \	
 	mice VIM Amelia missForest mi assertthat assertr assertive validate \
-	XML RDocumentation cranlogs janitor diffobj plotrr \
-	RcppQuantuccia rio readbulk tidyxl
+	XML RDocumentation cranlogs janitor diffobj plotrr rstan datasets \
+	RcppQuantuccia rio readbulk tidyxl BTYD BTYDplus effects kernlab \
+  cluster randomForest caret party e1071 gbm FFTrees arules arulesViz
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
