@@ -12,7 +12,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libv8-3.14-dev \
   libgdal-dev \
   && . /etc/environment \
-  && install2.r --error devtools rgdal sp tidyverse magrittr rio \
+  && install2.r --error devtools rgdal sp tidyverse magrittr rio addinslist \
 profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime tseries \
 httpuv tufte ggsci ggthemes ggvis ggmap tmap igraph ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
 corrplot choroplethr RColorBrewer DT Hmisc digest gap udunits2 rms dummies R.utils data.table png effects kernlab \
