@@ -15,7 +15,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   && install2.r --error devtools rgdal sp tidyverse magrittr rio addinslist \
 profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime tseries \
 httpuv tufte ggsci ggthemes ggvis ggmap tmap igraph ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools \
-corrplot choroplethr RColorBrewer DT Hmisc digest gap udunits2 rms dummies R.utils data.table png effects kernlab \
+corrplot choroplethr RColorBrewer DT Hmisc digest gap udunits2 rms dummies R.utils data.table effects kernlab \
 glue filesstrings stringdist chunked pathological tidytext textclean tm Matrix wordcloud topicmodels NMF \
 htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer riverplot RCurl \	
 mice VIM Amelia missForest mi assertthat assertr assertive validate \
