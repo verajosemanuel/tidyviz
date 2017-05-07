@@ -23,4 +23,4 @@ glue filesstrings stringdist chunked pathological tidytext textclean tm Matrix w
 mice VIM Amelia missForest mi assertthat assertr assertive validate 
 XML RDocumentation cranlogs janitor diffobj plotrr rstan datasets 
 RcppQuantuccia rio readbulk tidyxl BTYD BTYDplus effects kernlab 
-cluster randomForest caret party e1071 gbm FFTrees arules arulesViz
+cluster randomForest caret party e1071 gbm FFTrees arules arulesViz addinslist
