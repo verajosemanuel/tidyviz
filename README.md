@@ -15,13 +15,12 @@ Suitable container for sharing prettier analysis and reproducibility.
 
 List of R packages
 
-	devtools tidyverse ggplot2 profvis formatR remotes rio validate MASS magrittr 
-	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats ggvis
-	knitr leaflet XML RDocumentation janitor data.table ggThemeAssist filesstrings	
-	ggthemes ggiraph microbenchmark reshape2 rmarkdown chunked udunits2 rms
-	plotly Hmisc htmlwidgets prettydoc listviewer gmodels flexdashboard 
-	tidytext diffobj plotrr ggraph readbulk textclean tidyxl rmiscutils editR
-	RcppQuantuccia choroplethr dummies gap mice VIM Amelia missForest mi
-	assertthat assertr assertive ensurer huxtable glue digest pathological
-	xts twidlr DBI RPostgres rpg highcharter DiagrammeR stringdist anytime ggsci
-	DT sf precis zoo tmaptools riverplot
+profvis formatR remotes microbenchmark reshape2 rmarkdown knitr rmdformats prettydoc huxtable MASS zoo xts anytime tseries 
+httpuv tufte ggsci ggthemes ggvis ggmap tmap igraph ggraph rticles ggiraph ggThemeAssist gmodels ggbeeswarm tmaptools 
+corrplot choroplethr lattice RColorBrewer DT Hmisc digest gap udunits2 rms dummies R.utils data.table png 
+rgdal htmlwidgets plotly rpg highcharter DiagrammeR leaflet flexdashboard listviewer riverplot NMF RCurl 
+glue filesstrings stringdist chunked pathological tidytext textclean tm Matrix wordcloud topicmodels 	
+mice VIM Amelia missForest mi assertthat assertr assertive validate 
+XML RDocumentation cranlogs janitor diffobj plotrr rstan datasets 
+RcppQuantuccia rio readbulk tidyxl BTYD BTYDplus effects kernlab 
+cluster randomForest caret party e1071 gbm FFTrees arules arulesViz
