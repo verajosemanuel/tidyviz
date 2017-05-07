@@ -29,4 +29,5 @@ RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
 RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
 RUN Rscript -e 'devtools::install_githu("thomasp85/lime")'
 RUN Rscript -e 'devtools::install_github("dyerlab/popgraph")'
+RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
 RUN rm -rf /tmp/downloaded_packages/
