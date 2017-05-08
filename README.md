@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/version/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own version badge on microbadger.com")  [![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://opensource.org/licenses/GPL-2.0)
 
 # tidyviz
 
