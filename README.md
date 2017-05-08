@@ -6,11 +6,11 @@ Docker file for Rstudio.
 
 base is rocker/verse
 
-Added:
+Added packages:
 
-- report specific packages (rmdformats, tufte, prettydoc...)
-- visualization packages (ggvis, leaflet, ggThemeAssist, ggthemes...)
-- imputation and assertions packages (mice, validate, VIM, assertive...)
+- report specific (rmdformats, tufte, prettydoc, printR...)
+- visualization (ggvis, leaflet, ggThemeAssist, ggthemes...)
+- imputation and assertions (mice, validate, VIM, assertive...)
 - interactive graphics (highcharter, plotly, DiagrammeR...)
 - text analytics (tidytext, textclean, wordcloud, topicmodels...)
 - machine learning (randomForest, caret, party, e1071, gbm ...)
