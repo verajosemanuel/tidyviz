@@ -1,4 +1,6 @@
- # tidyviz
+[![](https://images.microbadger.com/badges/version/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own version badge on microbadger.com")
+
+# tidyviz
 
 Docker file for Rstudio.
 
