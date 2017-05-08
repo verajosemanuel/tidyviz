@@ -4,14 +4,16 @@
 
 Docker file for Rstudio.
 
-base is rocker/rstudio 
+base is rocker/verse
 
 Added:
 
-- tidyverse
 - report specific packages (rmdformats, tufte, prettydoc...)
-- visualization packages (ggvis, plotly, leaflet, ggThemeAssist, ggthemes...)
+- visualization packages (ggvis, leaflet, ggThemeAssist, ggthemes...)
 - imputation and assertions packages (mice, validate, VIM, assertive...)
+- interactive graphics (highcharter, plotly, DiagrammeR...)
+- text analytics (tidytext, textclean, wordcloud, topicmodels...)
+- machine learning (randomForest, caret, party, e1071, gbm ...)
 
 Suitable container for sharing prettier analysis and reproducibility.
 
