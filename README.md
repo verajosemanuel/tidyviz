@@ -34,7 +34,7 @@ Connect to port 8787 with your browser (rstudio as user and password) to check i
 By default, the RStudio user does not have access to root, such that users cannot install binary libraries with apt-get without first entering the container. To enable root from within RStudio, launch the container with the flag -e ROOT=TRUE, e.g.
 
 ```bash
-docker run -d -p 8787:8787 -e ROOT=TRUE rocker/rstudio
+docker run -d -p 8787:8787 -e ROOT=TRUE jvera/tidyviz
 ```
 You can now open a shell from RStudio (see the "Tools" menu), or directly from the R console using system(), e.g.
 
