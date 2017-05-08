@@ -19,7 +19,7 @@ Added packages:
 Suitable for sharing ·even· prettier analysis and reproducibility.
 
 
-Pull the image from repo and start a container:
+Pull the image from repo:
 
 ```bash
 docker pull jvera/tidyviz:latest
