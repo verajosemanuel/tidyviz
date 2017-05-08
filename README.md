@@ -16,10 +16,15 @@ Added packages:
 - machine learning (randomForest, caret, party, e1071, gbm ...)
 
 
-Suitable container for sharing prettier analysis and reproducibility.
+Suitable for sharing ·even· prettier analysis and reproducibility.
 
 
 Pull the image from repo and start a container:
+
+```bash
+docker pull jvera/tidyviz:latest
+```
+Then build a container:
 
 ```bash
 docker run -d -p 8787:8787 jvera/tidyviz
@@ -37,16 +42,11 @@ You can now open a shell from RStudio (see the "Tools" menu), or directly from t
 system("sudo apt-get install -y vim")
 ```
 
-When container is generated you can start it with:
+When container is built you can start it with:
 
 ```bash
 docker start mycontainer --interactive /bin/bash
 ```
-
-“mycontainer” is a name I’ve given using the name modifier when starting the docker container from the image.
---name
-
-/bin/bash at the end makes a terminal available to connect to it. You can see it’s a simple plain linux machine.
 
 Sharing data with host:
 
@@ -54,5 +54,5 @@ Sharing data with host:
 docker start mycontainer --interactive -v ~/dockerdata:/data /bin/bash
 ```
 
-dockerdata folder is located at home folder in my host o.s. and data folder belongs to container. Any file you place there, will be available for the container to use, and vice versa. Maybe you need a Shiny Server, so run a Dockerized Shiny and share the same folder so you can develop your viz in Rstudio and serve with Shiny.
+Any file you place there, will be available for the container to use, and vice versa. Maybe you need a Shiny Server, so run a Dockerized Shiny and share the same folder so you can develop your viz in Rstudio and serve with Shiny.
 
