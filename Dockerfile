@@ -8,8 +8,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libmariadb-client-lgpl-dev \
   libpq-dev \
   libudunits2-dev \
-  libgdal1-dev \
-  libproj-dev \
   && . /etc/environment \
   && install2.r --error \
 	devtools \
