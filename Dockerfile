@@ -8,10 +8,11 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libmariadb-client-lgpl-dev \
   libpq-dev \
   libudunits2-dev \
+  libgdal1-dev \
+  libproj-dev \
   && . /etc/environment \
-  && install2.r --error \
-	devtools \
-	tidyverse ggplot2 ggiraph profvis formatR remotes rio validate MASS magrittr \
+  && install2.r --error devtools rgdal 
+RUN install2.r --error tidyverse ggplot2 ggiraph profvis formatR remotes rio validate MASS magrittr \
 	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats htmlwidgets \
 	knitr leaflet XML RDocumentation janitor data.table ggThemeAssist filesstrings \	
 	ggthemes ggvis microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies \
