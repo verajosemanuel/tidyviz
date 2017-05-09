@@ -19,6 +19,7 @@ Added packages:
 
 Suitable for sharing ·even· prettier analysis and reproducibility.
 
+## Quick Reference
 
 Pull the image from repo:
 
@@ -57,3 +58,6 @@ docker start mycontainer --interactive -v ~/dockerdata:/data /bin/bash
 
 Any file you place there, will be available for the container to use, and vice versa. Maybe you need a Shiny Server, so run a Dockerized Shiny and share the same folder so you can develop your viz in Rstudio and serve with Shiny.
 
+### Using Rstudio Image
+
+[https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image)
