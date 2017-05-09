@@ -12,16 +12,16 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libproj-dev \
   libv8-3.14-dev \
   && . /etc/environment \
-  && install2.r --error devtools rgdal tidyverse tmaptools effects kernlab RCurl
+  && install2.r --error devtools rgdal tidyverse tmaptools effects kernlab RCurl Hmisc listviewer datasets gap zoo xts tseries anytime
   RUN install2.r --error ggplot2 ggiraph ggsci ggraph ggthemes gmodels ggThemeAssist ggvis igraph ggbeeswarm formatR remotes rio MASS magrittr \
     prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats htmlwidgets RColorBrewer viridis huxtable flexdashboard addinslist \
-	knitr XML RDocumentation janitor data.table filesstrings glue stringdist digest rstan \	
-	microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies DT cranlogs profvis \
-	Hmisc listviewer datasets gap zoo xts tseries anytime \
 	tidytext diffobj plotrr readbulk textclean tidyxl tm Matrix wordcloud topicmodels NMF RcppQuantuccia mi \
-	mice VIM Amelia missForest mi assertthat assertr assertive validate \
+	microbenchmark reshape2 rmarkdown chunked udunits2 rms dummies DT cranlogs profvis \
 	cluster randomForest caret party e1071 gbm FFTrees arules arulesViz  BTYD BTYDplus \
-	DBI pathological rpg leaflet highcharter plotly DiagrammeR riverplot 
+	knitr XML RDocumentation janitor data.table filesstrings glue stringdist digest \	
+	mice VIM Amelia missForest mi assertthat assertr assertive validate \
+	DBI pathological rpg leaflet highcharter plotly DiagrammeR riverplot
+RUN install2.r --error rstan
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
