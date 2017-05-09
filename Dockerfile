@@ -10,6 +10,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
+  libv8-3.14-dev \
   && . /etc/environment \
   && install2.r --error devtools rgdal tidyverse tmaptools effects kernlab RCurl
   RUN install2.r --error ggplot2 ggiraph ggsci ggraph ggthemes gmodels ggThemeAssist ggvis igraph ggbeeswarm formatR remotes rio MASS magrittr \
