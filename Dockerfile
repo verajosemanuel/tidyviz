@@ -13,8 +13,9 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libv8-3.14-dev \
   libgsl0-dev \
   && . /etc/environment \
-  && install2.r --error devtools topicmodels 
-RUN install2.r --error rgdal \
+  && install2.r --error devtools \
+  topicmodels \
+  rgdal \
   tidyverse \
   tmaptools \
   effects \
@@ -114,8 +115,8 @@ RUN install2.r --error rgdal \
   highcharter \
   plotly \
   DiagrammeR \
-  riverplot
-RUN install2.r --error rstan
+  riverplot \
+  rstan
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
