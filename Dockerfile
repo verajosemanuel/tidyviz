@@ -11,6 +11,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
+  libgsl0-dev \
   && . /etc/environment \
   && install2.r --error devtools topicmodels 
 RUN install2.r --error rgdal \
