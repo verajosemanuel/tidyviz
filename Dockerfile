@@ -1,19 +1,13 @@
 FROM rocker/verse:latest
 
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
-  libxml2-dev \
-  libcairo2-dev \
-  libsqlite-dev \
-  libmariadbd-dev \
-  libmariadb-client-lgpl-dev \
-  libpq-dev \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
   libgsl0-dev \
   && . /etc/environment \
-  && install2.r --error devtools \
+  && install2.r --error --deps TRUE devtools \
   topicmodels \
   rgdal \
   tidyverse \
