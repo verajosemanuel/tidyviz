@@ -1,116 +1,115 @@
 FROM rocker/verse:latest
 
-RUN apt-get update -qq && apt-get -y --no-install-recommends install \
+RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
   libgsl0-dev \
   && . /etc/environment \
-  && install2.r --error --deps TRUE devtools \
-  topicmodels \
-  rgdal \
-  tidyverse \
-  tmaptools \
-  effects \
-  kernlab \
-  RCurl \
-  Hmisc \
-  listviewer \
-  gap \
-  zoo \
-  xts \
-  tseries \
+  && install2.r --error --deps TRUE addinslist \
+  Amelia \
   anytime \
-  ggplot2 \
-  ggiraph \
-  ggsci \
-  ggraph \
-  ggthemes \
-  gmodels \
-  ggThemeAssist \
-  ggvis \
-  igraph \
-  ggbeeswarm \
-  formatR \
-  remotes \
-  rio \
-  MASS \
-  magrittr \
-  prettydoc \
-  devtools \
-  httpuv \
-  tufte \
-  corrplot \
-  rticles \
-  R.utils \
-  rmdformats \
-  htmlwidgets \
-  RColorBrewer \
-  viridis \
-  huxtable \
-  flexdashboard \
-  addinslist \
-  tidytext \
-  diffobj \
-  plotrr \
-  readbulk \
-  textclean \
-  tidyxl \
-  tm \
-  Matrix \
-  wordcloud \
-  NMF \
-  RcppQuantuccia \
-  microbenchmark \
-  reshape2 \
-  rmarkdown \
-  chunked \
-  udunits2 \
-  rms \
-  dummies \
-  DT \
-  cranlogs \
-  profvis \
-  cluster \
-  randomForest \
-  caret \
-  party \
-  e1071 \
-  gbm \
-  FFTrees \
   arules \
   arulesViz  \
+  assertive \
+  assertr \
+  assertthat \
   BTYD \
   BTYDplus \
-  knitr \
-  XML \
-  RDocumentation \
-  janitor \
+  caret \
+  chunked \
+  cluster \
+  corrplot \
+  cranlogs \
   data.table \
-  filesstrings \
-  glue \
-  stringdist \
-  digest \	
-  mice \
-  VIM \
-  Amelia \
-  missForest \
-  mi \
-  assertthat \
-  assertr \
-  assertive \
-  validate \
-  tester \
   DBI \
-  pathological \
-  rpg \
-  leaflet \
-  highcharter \
-  plotly \
+  devtools \
   DiagrammeR \
+  diffobj \
+  digest \
+  DT \
+  dummies \
+  e1071 \
+  effects \
+  FFTrees \
+  filesstrings \
+  flexdashboard \
+  formatR \
+  gap \
+  gbm \
+  ggbeeswarm \
+  ggiraph \
+  ggplot2 \
+  ggraph \
+  ggsci \
+  ggThemeAssist \
+  ggthemes \
+  ggvis \
+  glue \
+  gmodels \
+  highcharter \
+  Hmisc \
+  htmlwidgets \
+  httpuv \
+  huxtable \
+  igraph \
+  janitor \
+  kernlab \
+  knitr \
+  leaflet \
+  listviewer \
+  magrittr \
+  MASS \
+  Matrix \
+  mi \
+  mice \
+  microbenchmark \
+  missForest \
+  NMF \
+  party \
+  pathological \
+  plotly \
+  plotrr \
+  prettydoc \
+  profvis \
+  R.utils \
+  randomForest \
+  RColorBrewer \
+  RcppQuantuccia \
+  RCurl \
+  RDocumentation \
+  readbulk \
+  remotes \
+  reshape2 \
+  rgdal \
+  rio \
   riverplot \
-  rstan
+  rmarkdown \
+  rmdformats \
+  rms \
+  rpg \
+  rstan \
+  rticles \
+  stringdist \
+  tester \
+  textclean \
+  tidytext \
+  tidyverse \
+  tidyxl \
+  tm \
+  tmaptools \
+  topicmodels \
+  tseries \
+  tufte \
+  udunits2 \
+  validate \
+  VIM \
+  viridis \
+  wordcloud \
+  XML \
+  xts \
+  zoo
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
