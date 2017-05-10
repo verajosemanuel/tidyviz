@@ -1,6 +1,5 @@
 FROM rocker/verse:latest
 
-RUN 
 RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
