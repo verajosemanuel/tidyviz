@@ -10,8 +10,8 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommen
   && install2.r --error --deps TRUE addinslist \
   Amelia \
   anytime \
-  arules \
   arulesViz  \
+  arules \
   assertive \
   assertr \
   assertthat \
@@ -110,13 +110,14 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommen
   XML \
   xts \
   zoo
+RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
+RUN Rscript -e 'devtools::install_github("dyerlab/popgraph")'
 RUN Rscript -e 'devtools::install_github("hadley/precis")'
+RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
+RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
-RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
-RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
+RUN Rscript -e 'devtools::install_github("ThinkRstat/littleboxes")'
 RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
-RUN Rscript -e 'devtools::install_github("dyerlab/popgraph")'
-RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
 RUN Rscript -e 'devtools::install_github("yihui/printr")'
 RUN rm -rf /tmp/downloaded_packages/
