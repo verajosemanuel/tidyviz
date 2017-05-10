@@ -7,6 +7,7 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommen
   libv8-3.14-dev \
   libgsl0-dev \
   r-cran-rjava \
+  && sudo R CMD javareconf \
   && . /etc/environment \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("graph")' \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("Rgraphviz")' \
