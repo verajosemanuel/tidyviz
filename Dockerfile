@@ -13,12 +13,13 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommen
   && export DISPLAY=:0.0 \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("graph")' \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("Rgraphviz")' \
-  && install2.r --error addinslist \
+  && install2.r --error nloptr \
+  addinslist \
   Amelia \
   anytime \
   arulesViz \
-  arules 
-RUN install2.r --error assertive \
+  arules \
+  assertive \
   assertr \
   assertthat \
   BTYD \
