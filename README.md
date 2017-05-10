@@ -1,4 +1,5 @@
-# tidyviz [![Build Status](https://img.shields.io/badge/build-passed-brightgreen.svg)](https://img.shields.io/badge/build-passed-brightgreen.svg) [![](https://images.microbadger.com/badges/version/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own version badge on microbadger.com")  [![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://opensource.org/licenses/GPL-2.0)
+# tidyviz
+[![Build Status](https://img.shields.io/badge/build-passed-brightgreen.svg)](https://img.shields.io/badge/build-passed-brightgreen.svg) [![](https://images.microbadger.com/badges/version/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own version badge on microbadger.com")  [![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://opensource.org/licenses/GPL-2.0)
 
 
 image            | description                               | size   | metrics | build status 
@@ -9,9 +10,9 @@ base is rocker/verse
 
 Added packages:
 
-- report specific (rmdformats, tufte, prettydoc, printR...)
+- report specific (rmdformats, tufte, prettydoc, rticles, printR...)
 - visualization (ggvis, leaflet, ggThemeAssist, ggthemes...)
-- imputation and assertions (mice, validate, VIM, assertive...)
+- imputation and assertions (mice, validate, VIM, assertive, tester...)
 - interactive graphics (highcharter, plotly, DiagrammeR...)
 - text analytics (tidytext, textclean, wordcloud, topicmodels...)
 - machine learning (randomForest, caret, party, e1071, gbm ...)
@@ -50,7 +51,7 @@ When container is built you can start it with:
 docker start mycontainer --interactive /bin/bash
 ```
 
-Sharing data with host:
+### Sharing data with host:
 
 ```bash
 docker start mycontainer --interactive -v ~/dockerdata:/data /bin/bash
@@ -58,6 +59,6 @@ docker start mycontainer --interactive -v ~/dockerdata:/data /bin/bash
 
 Any file you place there, will be available for the container to use, and vice versa. Maybe you need a Shiny Server, so run a Dockerized Shiny and share the same folder so you can develop your viz in Rstudio and serve with Shiny.
 
-### Using Rstudio Image
+### More info: Using Rstudio Image
 
 [https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image)
