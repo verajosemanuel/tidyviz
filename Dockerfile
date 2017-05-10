@@ -1,22 +1,24 @@
 FROM rocker/verse:latest
 
 RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommends install \
+  openjdk-7-jre \
+  openjdk-7-jdk \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
   libv8-3.14-dev \
   libgsl0-dev \
   r-cran-rjava \
-  && sudo R CMD javareconf \
   && . /etc/environment \
+  && export DISPLAY=:0.0 \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("graph")' \
   && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("Rgraphviz")' \
-  && install2.r --error --deps TRUE addinslist \
+  && install2.r --error addinslist \
   Amelia \
   anytime \
-  arulesViz  \
-  arules \
-  assertive \
+  arulesViz \
+  arules 
+RUN install2.r --error assertive \
   assertr \
   assertthat \
   BTYD \
@@ -121,6 +123,8 @@ RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
 RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
 RUN Rscript -e 'devtools::install_github("ThinkRstat/littleboxes")'
 RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
 RUN Rscript -e 'devtools::install_github("yihui/printr")'
