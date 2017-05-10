@@ -1,5 +1,6 @@
 FROM rocker/verse:latest
 
+RUN 
 RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
@@ -7,6 +8,8 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get -y --no-install-recommen
   libv8-3.14-dev \
   libgsl0-dev \
   && . /etc/environment \
+  && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("graph")' \
+  && Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("Rgraphviz")' \
   && install2.r --error --deps TRUE addinslist \
   Amelia \
   anytime \
