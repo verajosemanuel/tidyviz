@@ -16,7 +16,17 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libgsl0-dev \
   r-cran-rjava \
   && . /etc/environment \
-  && install2.r --error assertive \
+  && install2.r --error addinslist \
+Amelia \
+anytime \
+arulesViz \
+arules \
+assertive \
+assertr \
+assertthat \
+BTYD \
+BTYDplus \
+caret \
 chunked \
 corrplot \
 data.table \
@@ -58,6 +68,16 @@ tufte \
 udunits2 \
 validate \
 XML 
+RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
+RUN Rscript -e 'devtools::install_github("dyerlab/popgraph")'
+RUN Rscript -e 'devtools::install_github("hadley/precis")'
+RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
+RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
 RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
 RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
+RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
+RUN Rscript -e 'devtools::install_github("ThinkRstat/littleboxes")'
+RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
+RUN Rscript -e 'devtools::install_github("yihui/printr")' 
 RUN rm -rf /tmp/downloaded_packages/
