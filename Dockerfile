@@ -19,8 +19,8 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   && install2.r --error addinslist \
 Amelia \
 anytime \
-arulesViz \
 arules \
+arulesViz \
 assertive \
 assertr \
 assertthat \
@@ -45,51 +45,83 @@ FFTrees \
 filesstrings \
 flexdashboard \
 formatR \
-data.table \
+gap \
+gbm \
+ggbeeswarm \
+ggfortify \
+ggiraph \
+ggplot2 \
 ggraph \
+ggrepel \
+ggsci \
 ggThemeAssist \
 ggthemes \
+ggvis \
+glue \
 gmodels \
+highcharter \
 Hmisc \
+htmlwidgets \
 httpuv \
+huxtable \
+igraph \
 janitor \
+kernlab \
 knitr \
 leaflet \
 listviewer \
 magrittr \
 MASS \
+Matrix \
+mi \
+mice \
 microbenchmark \
+missForest \
 nloptr \
+NMF \
+party \
+pathological \
 plotly \
 plotrr \
 prettydoc \
 profvis \
 R.utils \
+randomForest \
+RColorBrewer \
+Rcpp \
+RcppEigen \
+RcppQuantuccia \
+RCurl \
 RDocumentation \
 readbulk \
 remotes \
 reshape2 \
+rgdal \
 rio \
+riverplot \
 rmarkdown \
 rmdformats \
+rms \
+rpg \
+rstan \
 rticles \
+stringdist \
+tester \
 textclean \
 tidytext \
 tidyxl \
+tm \
+tmaptools \
+topicmodels \
+tseries \
 tufte \
 udunits2 \
 validate \
-XML 
-RUN Rscript -e 'devtools::install_github("drsimonj/twidlr")'
-RUN Rscript -e 'devtools::install_github("dyerlab/popgraph")'
-RUN Rscript -e 'devtools::install_github("hadley/precis")'
-RUN Rscript -e 'devtools::install_github("houstonusers/pipefittr")'
-RUN Rscript -e 'devtools::install_github("rstats-db/RPostgres")'
-RUN Rscript -e 'devtools::install_github("smach/rmiscutils")' 
-RUN Rscript -e 'devtools::install_github("swarm-lab/editR")' 
-RUN Rscript -e 'devtools::install_github("ropensci/tabulizerjars")'
-RUN Rscript -e 'devtools::install_github("ropensci/tabulizer")'
-RUN Rscript -e 'devtools::install_github("ThinkRstat/littleboxes")'
-RUN Rscript -e 'devtools::install_github("thomasp85/lime")'
-RUN Rscript -e 'devtools::install_github("yihui/printr")' 
+VIM \
+viridis \
+wordcloud \
+XML \
+xts \
+zoo
+RUN Rscript -e 'devtools::install_github(c("drsimonj/twidlr","dyerlab/popgraph","hadley/precis","houstonusers/pipefittr","rstats-db/RPostgres","smach/rmiscutils","swarm-lab/editR","ropensci/tabulizerjars","ropensci/tabulizer","ThinkRstat/littleboxes","thomasp85/lime","yihui/printr"))'
 RUN rm -rf /tmp/downloaded_packages/
