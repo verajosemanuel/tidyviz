@@ -14,7 +14,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   openjdk-7-jdk \
   libv8-3.14-dev \
   libgsl0-dev \
-  r-cran-rjava \
   && . /etc/environment \
   && install2.r --error addinslist \
 Amelia \
