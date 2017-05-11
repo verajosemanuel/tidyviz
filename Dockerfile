@@ -10,9 +10,13 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libudunits2-dev \
   libgdal1-dev \
   libproj-dev \
+  openjdk-7-jre \
+  openjdk-7-jdk \
+  libv8-3.14-dev \
+  libgsl0-dev \
   && . /etc/environment \
   && install2.r --error \
-	devtools \
+	devtools nloptr rjava \
 	tidyverse ggplot2 profvis formatR remotes rio validate MASS magrittr \
 	prettydoc devtools httpuv tufte corrplot rticles R.utils rmdformats \
 	knitr leaflet XML assertive RDocumentation janitor data.table ggThemeAssist \
