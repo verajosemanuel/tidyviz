@@ -2,121 +2,49 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN install2.r addinslist \
-Amelia \
-anytime \
-arules \
+RUN install2.r arules \
 arulesViz \
-assertive \
-assertr \
-assertthat \
 BTYD \
 BTYDplus \
-caret \
 choroplethr \
 choroplethrMaps \
-chunked \
-cluster \
-corrplot \
 cranlogs \
-data.table \
-DBI \
-devtools \
 DiagrammeR \
-diffobj \
-digest \
-DT \
 dummies \
 e1071 \
 effects \
 FFTrees \
-filesstrings \
-flexdashboard \
-formatR \
 gap \
-GGally \
-gbm \
-ggbeeswarm \
-ggfortify \
-ggiraph \
-ggplot2 \
-ggraph \
-ggrepel \
-ggsci \
-ggThemeAssist \
-ggthemes \
-ggvis \
-glue \
-gmodels \
-gpclib \
-grid \
-gridExtra \
-gtable \
-highcharter \
-Hmisc \
-htmlwidgets \
-httpuv \
-huxtable \
-igraph \
-janitor \
 kernlab \
-knitr \
-leaflet \
 listviewer \
-magrittr \
 maptools \
 MASS \
 Matrix \
 mi \
 mice \
-microbenchmark \
 missForest \
 nloptr \
-NMF \
 party \
-pathological \
-plotly \
-plotrr \
-prettydoc \
-profvis \
 progress \
-R.utils \
 randomForest \
-RColorBrewer \
-Rcpp \
 RcppEigen \
 RcppQuantuccia \
 RCurl \
 RDocumentation \
-readbulk \
-remotes \
-reshape2 \
 rgdal \
-rio \
-riverplot \
-rmarkdown \
-rmdformats \
 rms \
 rpg \
 rstan \
-rticles \
 sp \
-stringdist \
-tester \
-textclean \
-tidytext \
-tidyxl \
-tm \
 tmaptools \
-topicmodels \
 tseries \
-tufte \
-udunits2 \
-validate \
-VIM \
-viridis \
-wordcloud \
 XML \
 xts \
 zoo 
+RUN Rscript -e 'devtools::install_github(c("drsimonj/twidlr","dyerlab/popgraph","houstonusers/pipefittr","swarm-lab/editR","ropensci/tabulizerjars","ropensci/tabulizer","ThinkRstat/littleboxes","thomasp85/lime"))'
+RUN echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
+&& R CMD javareconf
+RUN apt-get clean \
+&& rm -rf /var/lib/apt/lists/ \
+&& RUN rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 RUN rm -rf /tmp/downloaded_packages/
