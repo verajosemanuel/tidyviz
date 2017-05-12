@@ -28,6 +28,8 @@ assertthat \
 BTYD \
 BTYDplus \
 caret \
+choroplethr \
+choroplethrMaps \
 chunked \
 cluster \
 corrplot \
@@ -47,6 +49,7 @@ filesstrings \
 flexdashboard \
 formatR \
 gap \
+GGally \
 gbm \
 ggbeeswarm \
 ggfortify \
@@ -60,6 +63,10 @@ ggthemes \
 ggvis \
 glue \
 gmodels \
+gpclib \
+grid \
+gridExtra \
+gtable \
 highcharter \
 Hmisc \
 htmlwidgets \
@@ -72,6 +79,7 @@ knitr \
 leaflet \
 listviewer \
 magrittr \
+maptools \
 MASS \
 Matrix \
 mi \
@@ -86,6 +94,7 @@ plotly \
 plotrr \
 prettydoc \
 profvis \
+progress \
 R.utils \
 randomForest \
 RColorBrewer \
@@ -106,6 +115,7 @@ rms \
 rpg \
 rstan \
 rticles \
+sp \
 stringdist \
 tester \
 textclean \
