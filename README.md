@@ -6,7 +6,7 @@ image            | description                               | size   | metrics 
 ---------------- | ----------------------------------------- | ------ | ------- | --------------
 [tidyviz](https://hub.docker.com/r/jvera/tidyviz)            |  Adds reporting & interactive charts packages   |[![](https://images.microbadger.com/badges/image/jvera/tidyviz.svg)](https://microbadger.com/images/jvera/tidyviz "Get your own image badge on microbadger.com")| [![](https://img.shields.io/docker/pulls/jvera/tidyviz.svg)](https://hub.docker.com/r/jvera/tidyviz) | [![](https://img.shields.io/docker/automated/jvera/tidyviz.svg)](https://hub.docker.com/r/jvera/tidyviz/builds)
 
-base is rocker/verse 
+base is jvera/tidyviz-base 
 
 Added packages:
 

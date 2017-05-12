@@ -118,5 +118,5 @@ viridis \
 wordcloud \
 XML \
 xts \
-zoo
+zoo 
 RUN rm -rf /tmp/downloaded_packages/
