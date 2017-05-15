@@ -46,5 +46,5 @@ RUN echo "install.packages('rJava', repos='http://www.rforge.net/', configure.ar
 && R CMD javareconf
 RUN apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
-&& RUN rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 RUN rm -rf /tmp/downloaded_packages/
