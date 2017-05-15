@@ -34,7 +34,6 @@ RDocumentation \
 rgdal \
 rms \
 rpg \
-
 sp \
 tmaptools \
 tseries \
