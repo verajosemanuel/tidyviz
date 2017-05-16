@@ -35,6 +35,7 @@ rgdal \
 rms \
 rpg \
 sp \
+timekit \
 tmaptools \
 tseries \
 XML \
