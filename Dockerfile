@@ -8,6 +8,7 @@ BTYD \
 BTYDplus \
 choroplethr \
 choroplethrMaps \
+class \
 cranlogs \
 DiagrammeR \
 dummies \
@@ -16,6 +17,7 @@ effects \
 FFTrees \
 gap \
 glmnet \
+jpeg \
 kernlab \
 listviewer \
 maptools \
@@ -23,9 +25,12 @@ MASS \
 Matrix \
 mi \
 mice \
+MicroDatosEs \
 missForest \
 nloptr \
 party \
+pdftools \
+png \
 progress \
 randomForest \
 RcppEigen \
