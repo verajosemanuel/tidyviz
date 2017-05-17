@@ -15,6 +15,7 @@ e1071 \
 effects \
 FFTrees \
 gap \
+glmnet \
 kernlab \
 listviewer \
 maptools \
@@ -41,7 +42,7 @@ tseries \
 XML \
 xts \
 zoo 
-RUN Rscript -e 'devtools::install_github(c("drsimonj/twidlr","dyerlab/popgraph","houstonusers/pipefittr","swarm-lab/editR","ropensci/tabulizerjars","ropensci/tabulizer","ThinkRstat/littleboxes","thomasp85/lime"))'
+RUN Rscript -e 'devtools::install_github(c("drsimonj/twidlr","dyerlab/popgraph","houstonusers/pipefittr","swarm-lab/editR","ropensci/tabulizerjars","ropensci/tabulizer","ThinkRstat/littleboxes","thomasp85/lime","gabrielrvsc/HDeconometrics"))'
 RUN echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
 && R CMD javareconf
 RUN apt-get clean \
