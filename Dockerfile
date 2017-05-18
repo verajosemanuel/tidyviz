@@ -25,7 +25,6 @@ MASS \
 Matrix \
 mi \
 mice \
-MicroDatosEs \
 missForest \
 nloptr \
 party \
@@ -53,3 +52,4 @@ RUN echo "install.packages('rJava', repos='http://www.rforge.net/', configure.ar
 RUN apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+# future addition:  devtools::install_github("thomasp85/tidygraph")
