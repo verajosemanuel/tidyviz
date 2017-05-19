@@ -17,7 +17,6 @@ effects \
 FFTrees \
 gap \
 glmnet \
-jpeg \
 kernlab \
 listviewer \
 maptools \
@@ -29,7 +28,6 @@ missForest \
 nloptr \
 party \
 pdftools \
-png \
 progress \
 randomForest \
 RcppEigen \
