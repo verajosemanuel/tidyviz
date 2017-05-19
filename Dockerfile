@@ -39,6 +39,8 @@ RDocumentation \
 rgdal \
 rms \
 rpg \
+shiny \
+shinydashboard \
 sp \
 timekit \
 tmaptools \
