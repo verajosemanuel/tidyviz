@@ -37,6 +37,8 @@ RDocumentation \
 rgdal \
 rms \
 rpg \
+sas7bdat \
+lessR \
 shiny \
 shinydashboard \
 sp \
