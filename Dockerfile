@@ -9,6 +9,7 @@ BTYDplus \
 choroplethr \
 choroplethrMaps \
 class \
+confinterpret \
 cranlogs \
 DiagrammeR \
 dummies \
