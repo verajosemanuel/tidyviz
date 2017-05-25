@@ -39,6 +39,8 @@ rgdal \
 rms \
 rpg \
 sas7bdat \
+sjmisc\
+sjPlot \
 lessR \
 shiny \
 shinydashboard \
