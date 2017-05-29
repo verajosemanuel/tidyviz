@@ -37,6 +37,7 @@ RcppQuantuccia \
 RCurl \
 RDocumentation \
 rgdal \
+RgoogleMaps \
 rms \
 rpg \
 sas7bdat \
