@@ -17,6 +17,7 @@ e1071 \
 effects \
 FFTrees \
 gap \
+geosphere \
 glmnet \
 kernlab \
 listviewer \
