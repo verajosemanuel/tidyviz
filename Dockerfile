@@ -19,6 +19,7 @@ FFTrees \
 gap \
 geosphere \
 glmnet \
+heatmaply \
 kernlab \
 listviewer \
 maptools \
