@@ -49,6 +49,7 @@ shiny \
 shinydashboard \
 sp \
 timekit \
+tidyquant \
 tmaptools \
 tseries \
 XML \
