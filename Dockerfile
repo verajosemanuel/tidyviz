@@ -63,10 +63,6 @@ zoo \
 && echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
 && R CMD javareconf \
 && echo 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE)' > /tmp/packages_bioc.R \
-&& Rscript /tmp/packages_bioc.R \
-&& Rscript -e 'source("http://bioconductor.org/biocLite.R")' \
-&& Rscript -e 'biocLite(suppressUpdates = T)' \
-&& Rscript -e 'biocLite("EBImage")' \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds \
