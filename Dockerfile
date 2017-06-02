@@ -22,6 +22,7 @@ FFTrees \
 gap \
 geosphere \
 glmnet \
+googlesheets \
 heatmaply \
 hexSticker \
 kernlab \
