@@ -13,6 +13,7 @@ choroplethrMaps \
 class \
 confinterpret \
 cranlogs \
+cshapes \
 DiagrammeR \
 dummies \
 d3Tree \
