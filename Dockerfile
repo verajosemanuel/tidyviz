@@ -46,6 +46,7 @@ rgdal \
 RgoogleMaps \
 rms \
 rpg \
+rworldmap \
 sas7bdat \
 sjmisc\
 sjPlot \
