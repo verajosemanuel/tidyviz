@@ -45,6 +45,7 @@ RDocumentation \
 rgdal \
 RgoogleMaps \
 rms \
+rpart \
 rpg \
 rworldmap \
 sas7bdat \
