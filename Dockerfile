@@ -51,6 +51,7 @@ sjmisc\
 sjPlot \
 leaflet.minicharts \
 lessR \
+reprex \
 shiny \
 shinydashboard \
 sp \
