@@ -38,6 +38,7 @@ nloptr \
 party \
 pdftools \
 progress \
+prophet \
 randomForest \
 RcppEigen \
 RcppQuantuccia \
