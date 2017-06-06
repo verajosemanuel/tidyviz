@@ -55,8 +55,6 @@ sjPlot \
 leaflet.minicharts \
 lessR \
 reprex \
-shiny \
-shinydashboard \
 sp \
 timekit \
 tidyquant \
