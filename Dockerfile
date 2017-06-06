@@ -2,10 +2,9 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN install2.r arules \
+RUN install2.r --error arules \
 arulesViz \
 bookdown \
-blogdown \
 BTYD \
 BTYDplus \
 choroplethr \
@@ -21,6 +20,7 @@ e1071 \
 effects \
 FFTrees \
 gap \
+gapminder \
 geosphere \
 glmnet \
 googlesheets \
