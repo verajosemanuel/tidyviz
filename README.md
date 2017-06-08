@@ -65,5 +65,5 @@ Any file you place there, will be available for the container to use, and vice v
 
 ## List of included packages
 
-[https://github.com/verajosemanuel/tidyviz/packages_list.md ](https://github.com/verajosemanuel/tidyviz/packages_list.md)
+[https://github.com/verajosemanuel/tidyviz/blob/master/packages_list.md](https://github.com/verajosemanuel/tidyviz/blob/master/packages_list.md)
                                                                                                                                                                                                                                                                  
