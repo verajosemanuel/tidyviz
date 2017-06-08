@@ -71,5 +71,20 @@ zoo \
 && R CMD javareconf \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
-&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds \
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+
+RUN install2.r --error geoR \
+mapdata \
+maps \
+RandomFields \
+plotKML \
+rgeos \
+shapefiles \
+spatstat \
+raster \
+rts \
+&& apt-get clean \
+&& rm -rf /var/lib/apt/lists/ \
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+
 
