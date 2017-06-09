@@ -3,8 +3,7 @@ FROM jvera/tidyviz-base:latest
 LABEL maintainer "vera.josemanuel@gmail.com"
 
 RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE)' > /tmp/packages_bioc.R
-RUN install2.r --error gridGraphics  \
-ggimage \
+RUN install2.r --error ggimage \
 arules \
 arulesViz \
 bookdown \
