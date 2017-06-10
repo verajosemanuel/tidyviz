@@ -61,7 +61,7 @@ rworldmap \
 sas7bdat \
 shapefiles \
 spatstat \
-sjmisc\
+sjmisc \
 sjPlot \
 leaflet.minicharts \
 lessR \
