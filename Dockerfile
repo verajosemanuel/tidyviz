@@ -23,6 +23,7 @@ effects \
 FFTrees \
 gap \
 gapminder \
+geoR \
 geosphere \
 glmnet \
 googlesheets \
@@ -30,6 +31,8 @@ heatmaply \
 hexSticker \
 kernlab \
 listviewer \
+mapdata \
+maps \
 maptools \
 MASS \
 Matrix \
@@ -39,19 +42,25 @@ missForest \
 nloptr \
 party \
 pdftools \
+plotKML \
 progress \
-prophet \
+RandomFields \
 randomForest \
 RcppEigen \
 RcppQuantuccia \
 RDocumentation \
+raster \
 rgdal \
+rgeos \
 RgoogleMaps \
 rms \
 rpart \
 rpg \
+rts \
 rworldmap \
 sas7bdat \
+shapefiles \
+spatstat \
 sjmisc\
 sjPlot \
 leaflet.minicharts \
@@ -68,20 +77,6 @@ zoo \
 && Rscript -e 'devtools::install_github(c("drsimonj/twidlr","dyerlab/popgraph","houstonusers/pipefittr","swarm-lab/editR","ropensci/tabulizerjars","ropensci/tabulizer","ThinkRstat/littleboxes","thomasp85/lime","gabrielrvsc/HDeconometrics","RhoInc/CRANsearcher","rstudio/blogdown","nacnudus/unpivotr"))' \
 && echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
 && R CMD javareconf \
-&& apt-get clean \
-&& rm -rf /var/lib/apt/lists/ \
-&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
-
-RUN install2.r --error geoR \
-mapdata \
-maps \
-RandomFields \
-plotKML \
-rgeos \
-shapefiles \
-spatstat \
-raster \
-rts \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
