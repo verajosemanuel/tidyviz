@@ -23,6 +23,7 @@ effects \
 FFTrees \
 gap \
 gapminder \
+geonames \
 geoR \
 geosphere \
 glmnet \
@@ -32,8 +33,10 @@ hexSticker \
 kernlab \
 listviewer \
 mapdata \
+mapmisc \
 maps \
 maptools \
+mapview \
 MASS \
 Matrix \
 mi \
@@ -46,10 +49,11 @@ plotKML \
 progress \
 RandomFields \
 randomForest \
+raster \
+rasterVis \
 RcppEigen \
 RcppQuantuccia \
 RDocumentation \
-raster \
 rgdal \
 rgeos \
 RgoogleMaps \
