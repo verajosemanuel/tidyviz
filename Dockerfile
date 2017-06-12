@@ -21,6 +21,7 @@ d3Tree \
 e1071 \
 effects \
 FFTrees \
+funr \
 gap \
 gapminder \
 geonames \
