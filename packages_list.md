@@ -1,4 +1,4 @@
-<table style="font-size:10px">
+<table>
  <thead>
   <tr>
    <th style="text-align:left;"> Package </th>
@@ -8,6 +8,21 @@
   </tr>
  </thead>
 <tbody>
+  <tr>
+   <td style="text-align:left;"> afex </td>
+   <td style="text-align:left;"> Analysis of Factorial Experiments </td>
+   <td style="text-align:left;"> Convenience functions for analyzing factorial experiments using ANOVA or
+          mixed models. aov_ez(), aov_car(), and aov_4() allow specification of between,
+          within (i.e., repeated-measures), or mixed between-within (i.e., split-plot)
+          ANOVAs for data in long format (i.e., one observation per row), aggregating
+          multiple observations per individual and cell of the design. mixed() fits mixed
+          models using lme4::lmer() and computes p-values for all fixed effects using
+          either Kenward-Roger or Satterthwaite approximation for degrees of freedom (LMM
+          only), parametric bootstrap (LMMs and GLMMs), or likelihood ratio tests (LMMs
+          and GLMMs). afex uses type 3 sums of squares as default (imitating commercial
+          statistical software). </td>
+   <td style="text-align:left;"> http://afex.singmann.science/, https://github.com/singmann/afex </td>
+  </tr>
   <tr>
    <td style="text-align:left;"> Amelia </td>
    <td style="text-align:left;"> A Program for Missing Data </td>
@@ -43,6 +58,15 @@ Animations </td>
     e.g. Flash, 'GIF', HTML pages, 'PDF' and videos. 'PDF' animations can be
     inserted into 'Sweave' / 'knitr' easily. </td>
    <td style="text-align:left;"> https://yihui.name/animation </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> antiword </td>
+   <td style="text-align:left;"> Extract Text from Microsoft Word Documents </td>
+   <td style="text-align:left;"> Wraps the 'AntiWord' utility to extract text from Microsoft
+    Word documents. The utility only supports the old 'doc' format, not the 
+    new xml based 'docx' format. Use the 'xml2' package to read the latter. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/antiword#readme (devel)
+http://www.winfield.demon.nl (upstream) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> anytime </td>
@@ -182,6 +206,23 @@ http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html </td>
     package on CRAN which uses a neural network model instead. </td>
    <td style="text-align:left;"> https://github.com/ropensci/cld2 (devel)
 https://github.com/cld2owners/cld2 (upstream) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> cld3 </td>
+   <td style="text-align:left;"> Google's Compact Language Detector 3 </td>
+   <td style="text-align:left;"> Google's Compact Language Detector 3 is a neural network model for language 
+    identification and the successor of 'cld2' (available from CRAN). The algorithm is still
+    experimental and takes a novel approach to language detection with different properties
+    and outcomes. It can be useful to combine this with the Bayesian classifier results 
+    from 'cld2'. See &lt;https://github.com/google/cld3#readme&gt; for more information. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/cld3 (devel)
+https://github.com/google/cld3 (upstream) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> clickR </td>
+   <td style="text-align:left;"> Fix Data and Create Report Tables from Different Objects </td>
+   <td style="text-align:left;"> Fixes data errors in numerical, factor and date variables, checks data quality and performs report tables from models and summaries. </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> cluster </td>
@@ -581,7 +622,7 @@ http://www.gapminder.org/data/ </td>
   Python's Literal String Interpolation &lt;https://www.python.org/dev/peps/pep-0498/&gt; and Docstrings
   &lt;https://www.python.org/dev/peps/pep-0257/&gt; and Julia's Triple-Quoted String Literals
   &lt;https://docs.julialang.org/en/stable/manual/strings/#triple-quoted-string-literals&gt;. </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> https://github.com/tidyverse/glue </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gmodels </td>
@@ -719,6 +760,17 @@ https://github.com/harrelfe/Hmisc </td>
     which were developed by Joyent, Inc. (See LICENSE file for libuv and
     http-parser license information.) </td>
    <td style="text-align:left;"> https://github.com/rstudio/httpuv </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> hunspell </td>
+   <td style="text-align:left;"> High-Performance Stemmer, Tokenizer, and Spell Checker for R </td>
+   <td style="text-align:left;"> A spell checker and morphological analyzer library designed for
+    languages with rich morphology and complex word compounding or character
+    encoding. The package can check and analyze individual words as well as
+    search for incorrect words within a text, latex, html or xml document. Use
+    the 'devtools' package to spell check R documentation with 'hunspell'. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/hunspell#readme (devel)
+https://hunspell.github.io (upstream) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> huxtable </td>
@@ -970,6 +1022,14 @@ Library </td>
    <td style="text-align:left;"> http://renozao.github.io/NMF </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> optparse </td>
+   <td style="text-align:left;"> Command Line Option Parser </td>
+   <td style="text-align:left;"> A command line parser inspired by Python's 'optparse' library to
+    be used with Rscript to write &quot;#!&quot; shebang scripts that accept short and
+    long flag/options. </td>
+   <td style="text-align:left;"> https://github.com/trevorld/optparse </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> party </td>
    <td style="text-align:left;"> A Laboratory for Recursive Partytioning </td>
    <td style="text-align:left;"> A computational toolbox for recursive partitioning.
@@ -1176,6 +1236,14 @@ Library </td>
    <td style="text-align:left;"> Integrate R with 'RDocumentation.org' </td>
    <td style="text-align:left;"> Wraps around the default help functionality in R. Instead of plain documentation files, documentation will now show up as it does on 'RDocumentation.org', a platform that shows R documentation from CRAN, GitHub and Bioconductor, together with informative stats to assess the package quality and possibilities to discuss packages. </td>
    <td style="text-align:left;"> https://www.rdocumentation.org, https://www.datacamp.com </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> readtext </td>
+   <td style="text-align:left;"> Import and Handling for Plain and Formatted Text Files </td>
+   <td style="text-align:left;"> Functions for importing and handling text files and formatted text
+    files with additional meta-data, such including '.csv', '.tab', '.json', '.xml',
+    '.pdf', '.doc', '.docx', '.xls', '.xlsx', and others. </td>
+   <td style="text-align:left;"> http://github.com/kbenoit/readtext </td>
   </tr>
   <tr>
    <td style="text-align:left;"> reprex </td>
@@ -1483,6 +1551,13 @@ Various Output Formats </td>
    <td style="text-align:left;"> https://github.com/dcomtois/summarytools </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> tesseract </td>
+   <td style="text-align:left;"> Open Source OCR Engine </td>
+   <td style="text-align:left;"> An OCR engine with unicode (UTF-8) support that can recognize
+    over 100 languages out of the box. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/tesseract </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> tester </td>
    <td style="text-align:left;"> Tests and checks characteristics of R objects </td>
    <td style="text-align:left;"> tester allows you to test characteristics of common R objects. </td>
@@ -1499,6 +1574,13 @@ Various Output Formats </td>
         'replace_emoticon' function replaces emoticons with word
         equivalents. </td>
    <td style="text-align:left;"> http://github.com/trinker/textclean </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> textreadr </td>
+   <td style="text-align:left;"> Read Text Documents into R </td>
+   <td style="text-align:left;"> A small collection of convenience tools for reading text documents
+    into R. </td>
+   <td style="text-align:left;"> https://github.com/trinker/textreadr </td>
   </tr>
   <tr>
    <td style="text-align:left;"> tidyquant </td>
@@ -1586,6 +1668,15 @@ Various Output Formats </td>
    <td style="text-align:left;"> Provides simple bindings to Unidata's udunits library. </td>
    <td style="text-align:left;"> https://github.com/pacificclimate/Rudunits2
 https://www.unidata.ucar.edu/software/udunits/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> unrtf </td>
+   <td style="text-align:left;"> Extract Text from Rich Text Format (RTF) Documents </td>
+   <td style="text-align:left;"> Wraps the 'unrtf' utility to extract text from RTF files. Supports
+    document conversion to HTML, LaTeX or plain text. Output in HTML is recommended
+    because 'unrtf' has limited support for converting between character encodings. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/unrtf#readme (devel)
+https://www.gnu.org/software/unrtf/ (upstream) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> validate </td>
@@ -1844,6 +1935,26 @@ Ordered Observations) </td>
    <td style="text-align:left;"> Easily Expose R Functions to Command Line Arguments. </td>
    <td style="text-align:left;"> This package provides an easy wrapper for automagically converting any R function into a command line driven application. It is inspired by easyargs in Python, and uses the R argparse library to access the Python argparse parser. </td>
    <td style="text-align:left;"> https://github.com/jeremystan/aargh </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> r-lib/boxes </td>
+   <td style="text-align:left;"> Draw rules and boxes in the terminal. </td>
+   <td style="text-align:left;"> Draw rules and boxes in the terminal. </td>
+   <td style="text-align:left;"> https://github.com/r-lib/boxes </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ropenscilabs/available </td>
+   <td style="text-align:left;"> Check if a package name is available to use. </td>
+   <td style="text-align:left;"> The goal of available is to help you choose a good name for your R package. It helps you determine if the package name you are considering is available to use (on GitHub, CRAN and Bioconductor), checks Urban Dictionary to make sure you haven't unintentionally chosen a bad word, searches for the name on Wikipedia, checks the sentiment of your chosen name and lets you know about packages with similar names. It can also suggest a possible name for your package based on its title or a short description of what it does. </td>
+   <td style="text-align:left;"> https://github.com/ropenscilabs/available </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ropenscilabs/data-packages </td>
+   <td style="text-align:left;"> The State Of Data On CRAN: Discovering Good Data Packages. </td>
+   <td style="text-align:left;"> Most of us are involved in teaching R in some way, and it is always a struggle to find suitable datasets with which to teach, especially across domain expertise. There are many packages that have data, but finding them and knowing what is in them is a struggle due to inadequate documentation.
+      Make it easy to discover suitable data
+      Write some guidance on documenting data in packages </td>
+   <td style="text-align:left;"> https://github.com/ropenscilabs/data-packages </td>
   </tr>
 </tbody>
 </table>
