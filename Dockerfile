@@ -45,7 +45,6 @@ mice \
 missForest \
 nloptr \
 party \
-pdftools \
 plotKML \
 progress \
 RandomFields \
