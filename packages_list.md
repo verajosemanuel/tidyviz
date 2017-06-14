@@ -1,4 +1,4 @@
-<table>
+<table style="font-size:10px">
  <thead>
   <tr>
    <th style="text-align:left;"> Package </th>
