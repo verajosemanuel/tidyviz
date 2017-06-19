@@ -301,6 +301,15 @@ Library </td>
    <td style="text-align:left;"> http://r-datatable.com </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> dbplyr </td>
+   <td style="text-align:left;"> A 'dplyr' Back End for Databases </td>
+   <td style="text-align:left;"> A 'dplyr' back end for databases that allows you to work with 
+    remote database tables as if they are in-memory data frames. Basic features
+    works with any database that has a 'DBI' back end; more advanced features 
+    require 'SQL' translation to be provided by the package author. </td>
+   <td style="text-align:left;"> https://github.com/tidyverse/dbplyr </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> desctable </td>
    <td style="text-align:left;"> Produce Descriptive and Comparative Tables Easily </td>
    <td style="text-align:left;"> Easily create descriptive and comparative tables.
@@ -386,6 +395,18 @@ Theory Group (Formerly: E1071), TU Wien </td>
    <td style="text-align:left;"> https://github.com/wch/extrafont </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> factoextra </td>
+   <td style="text-align:left;"> Extract and Visualize the Results of Multivariate Data Analyses </td>
+   <td style="text-align:left;"> Provides some easy-to-use functions to extract and visualize the
+    output of multivariate data analyses, including 'PCA' (Principal Component
+    Analysis), 'CA' (Correspondence Analysis), 'MCA' (Multiple Correspondence
+    Analysis), 'FAMD' (Factor Analysis of Mixed Data), 'MFA' (Multiple Factor Analysis) and 'HMFA' (Hierarchical Multiple
+    Factor Analysis) functions from different R packages. It contains also functions
+    for simplifying some clustering analysis steps and provides 'ggplot2' - based
+    elegant data visualization. </td>
+   <td style="text-align:left;"> http://www.sthda.com/english/rpkgs/factoextra </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> FFTrees </td>
    <td style="text-align:left;"> Generate, Visualise, and Compare Fast and Frugal Decision Trees </td>
    <td style="text-align:left;"> Create, visualise, and test fast and frugal decision trees (FFTrees). FFTrees are very simple decision trees for
@@ -430,13 +451,6 @@ Theory Group (Formerly: E1071), TU Wien </td>
     web pages. </td>
    <td style="text-align:left;"> https://renkun.me/formattable,
 https://github.com/renkun-ken/formattable </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> funr </td>
-   <td style="text-align:left;"> Simple Utility Providing Terminal Access to all R Functions </td>
-   <td style="text-align:left;"> A small utility which wraps Rscript and provides access to all R
-    functions from the shell. </td>
-   <td style="text-align:left;"> https://github.com/sahilseth/funr </td>
   </tr>
   <tr>
    <td style="text-align:left;"> futile.logger </td>
@@ -716,8 +730,8 @@ https://www.r-statistics.com/tag/heatmaply/ </td>
   <tr>
    <td style="text-align:left;"> hexSticker </td>
    <td style="text-align:left;"> Create Hexagon Sticker in R </td>
-   <td style="text-align:left;"> Helper function for creating reproducible hexagon sticker purely in
-    R. </td>
+   <td style="text-align:left;"> Helper functions for creating reproducible hexagon sticker purely
+    in R. </td>
    <td style="text-align:left;"> https://github.com/GuangchuangYu/hexSticker </td>
   </tr>
   <tr>
@@ -850,6 +864,20 @@ Library </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> lessR </td>
+   <td style="text-align:left;"> Less Code, More Results </td>
+   <td style="text-align:left;"> Each function accomplishes the work of several or more standard R functions. For example, two function calls, Read() and CountAll(), read the data and generate summary statistics for all variables in the data frame, plus histograms and bar charts as appropriate.  Other functions provide for descriptive statistics, a comprehensive regression analysis, analysis of variance and t-test, plotting, bar chart, histogram, box plot, density curves, calibrated power curve, reading multiple data formats with the same function call, variable labels, color themes, Trellis graphics and a built-in help system. A confirmatory factor analysis of multiple indicator measurement models is available, as are pedagogical routines for data simulation such as for the Central Limit Theorem. Compatible with 'RStudio' and 'knitr' including generation of R markdown instructions for interpretative output. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> lintr </td>
+   <td style="text-align:left;"> Static R Code Analysis </td>
+   <td style="text-align:left;"> Checks adherence to a given style, syntax errors and possible
+    semantic issues.  Supports on the fly checking of R code edited with Emacs,
+    Vim and Sublime Text. </td>
+   <td style="text-align:left;"> https://github.com/jimhester/lintr </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> listviewer </td>
    <td style="text-align:left;"> 'htmlwidget' for Interactive Views of R Lists </td>
    <td style="text-align:left;"> R lists, especially nested lists, can be very difficult to
@@ -866,6 +894,18 @@ Library </td>
  for diagnostic checking in linear regression models. Furthermore,
  some generic tools for inference in parametric models are provided. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> magick </td>
+   <td style="text-align:left;"> Advanced Image-Processing in R </td>
+   <td style="text-align:left;"> Bindings to 'ImageMagick': the most comprehensive open-source image
+    processing library available. Supports many common formats (png, jpeg, tiff,
+    pdf, etc) and manipulations (rotate, scale, crop, trim, flip, blur, etc).
+    All operations are vectorized via the Magick++ STL meaning they operate either
+    on a single frame or a series of frames for working with layers, collages,
+    or animation. In RStudio images are automatically previewed when printed to
+    the console, resulting in an interactive editing environment. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/magick#readme </td>
   </tr>
   <tr>
    <td style="text-align:left;"> magrittr </td>
@@ -1308,12 +1348,6 @@ http://trac.osgeo.org/geos/ </td>
    <td style="text-align:left;"> http://logfc.wordpress.com </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> rJava </td>
-   <td style="text-align:left;"> Low-Level R to Java Interface </td>
-   <td style="text-align:left;"> Low-level interface to Java VM very much like .C/.Call and friends. Allows creation of objects, calling methods and accessing fields. </td>
-   <td style="text-align:left;"> http://www.rforge.net/rJava/ </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> rmarkdown </td>
    <td style="text-align:left;"> Dynamic Documents for R </td>
    <td style="text-align:left;"> Convert R Markdown documents into a variety of formats. </td>
@@ -1479,6 +1513,16 @@ http://andysouth.co.uk/ </td>
    <td style="text-align:left;"> https://github.com/yixuan/showtext </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> sigr </td>
+   <td style="text-align:left;"> Format Significance Summaries for Reports </td>
+   <td style="text-align:left;"> Succinctly format significance summaries of
+    various models and tests (F-test, Chi-Sq-test, Fisher-test, T-test, and rank-significance).  The main purpose is unified reporting and planning
+    of experimental results, working around issue such as the difficulty of
+    extracting model summary facts (such as with 'lm'/'glm').  This package also
+    includes empirical tests, such as bootstrap estimates. </td>
+   <td style="text-align:left;"> https://github.com/WinVector/sigr </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> sjmisc </td>
    <td style="text-align:left;"> Data and Variable Transformation Functions </td>
    <td style="text-align:left;"> Collection of miscellaneous utility functions, supporting data 
@@ -1549,13 +1593,6 @@ Various Output Formats </td>
     (its class, type, mode, attributes, etc.) and extends the base is() function, 
     checking the object against most is.() functions. </td>
    <td style="text-align:left;"> https://github.com/dcomtois/summarytools </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> tesseract </td>
-   <td style="text-align:left;"> Open Source OCR Engine </td>
-   <td style="text-align:left;"> An OCR engine with unicode (UTF-8) support that can recognize
-    over 100 languages out of the box. </td>
-   <td style="text-align:left;"> https://github.com/ropensci/tesseract </td>
   </tr>
   <tr>
    <td style="text-align:left;"> tester </td>
@@ -1712,6 +1749,12 @@ https://www.gnu.org/software/unrtf/ (upstream) </td>
     also designed to be perceived by readers with the most common form of color
     blindness. </td>
    <td style="text-align:left;"> https://github.com/sjmgarnier/viridis </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> wesanderson </td>
+   <td style="text-align:left;"> A Wes Anderson Palette Generator </td>
+   <td style="text-align:left;"> Palettes generated mostly from Wes Anderson movies </td>
+   <td style="text-align:left;"> https://github.com/karthik/wesanderson </td>
   </tr>
   <tr>
    <td style="text-align:left;"> wordcloud </td>
@@ -1955,6 +1998,24 @@ Ordered Observations) </td>
       Make it easy to discover suitable data
       Write some guidance on documenting data in packages </td>
    <td style="text-align:left;"> https://github.com/ropenscilabs/data-packages </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> hrbrmstr/waffle </td>
+   <td style="text-align:left;"> waffle is a package to make waffle charts (square pie charts) </td>
+   <td style="text-align:left;"> waffle is a package to make waffle charts (square pie charts). It uses ggplot2 and returns a ggplot2 object. </td>
+   <td style="text-align:left;"> https://github.com/hrbrmstr/waffle/tree/cran </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> MangoTheCat/goodpractice </td>
+   <td style="text-align:left;"> Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc. </td>
+   <td style="text-align:left;"> Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc. </td>
+   <td style="text-align:left;"> https://github.com/MangoTheCat/goodpractice </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> hadley/pkgdown </td>
+   <td style="text-align:left;"> pkgdown is designed to make it quick and easy to build a website for your package. </td>
+   <td style="text-align:left;"> You can see pkgdown in action at http://hadley.github.io/pkgdown/: this is the output of pkgdown applied to the latest version of pkgdown. Learn more in vignette(pkgdown) or ?build_site. </td>
+   <td style="text-align:left;"> https://github.com/hadley/pkgdown </td>
   </tr>
 </tbody>
 </table>
