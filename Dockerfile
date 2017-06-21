@@ -43,7 +43,7 @@ MASS \
 Matrix \
 mi \
 mice \
-minicran \
+miniCRAN \
 missForest \
 nloptr \
 party \
