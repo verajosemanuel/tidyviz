@@ -948,6 +948,12 @@ Library </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> mallet </td>
+   <td style="text-align:left;"> A wrapper around the Java machine learning tool MALLET </td>
+   <td style="text-align:left;"> This package allows you to train topic models in mallet and load results directly into R. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> manipulate </td>
    <td style="text-align:left;"> Interactive Plots for RStudio </td>
    <td style="text-align:left;"> Interactive plotting functions for use within RStudio.
@@ -2059,3 +2065,4 @@ Ordered Observations) </td>
   </tr>
 </tbody>
 </table>
+
