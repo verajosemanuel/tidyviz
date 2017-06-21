@@ -7,6 +7,7 @@ RUN install2.r --error ggimage \
 arules \
 arulesViz \
 bookdown \
+Boruta \
 BTYD \
 BTYDplus \
 choroplethr \
@@ -42,6 +43,7 @@ MASS \
 Matrix \
 mi \
 mice \
+minicran \
 missForest \
 nloptr \
 party \
