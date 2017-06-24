@@ -46,6 +46,7 @@ mice \
 miniCRAN \
 missForest \
 nloptr \
+osmdata \
 party \
 plotKML \
 progress \
