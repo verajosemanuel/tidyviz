@@ -46,6 +46,15 @@
    <td style="text-align:left;"> http://gking.harvard.edu/amelia </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> anim.plots </td>
+   <td style="text-align:left;"> Simple Animated Plots for R </td>
+   <td style="text-align:left;"> Simple animated versions of basic R plots, using the 'animation'
+    package. Includes animated versions of plot, barplot, persp, contour,
+    filled.contour, hist, curve, points, lines, text, symbols, segments, and
+    arrows. </td>
+   <td style="text-align:left;"> http://github.com/hughjonesd/anim.plots </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> animation </td>
    <td style="text-align:left;"> A Gallery of Animations in Statistics and Utilities to Create
 Animations </td>
@@ -118,6 +127,12 @@ http://www.winfield.demon.nl (upstream) </td>
     satisfy, while also producing friendly error messages so that your
     users know what they've done wrong. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bigrquery </td>
+   <td style="text-align:left;"> An Interface to Google's 'BigQuery' 'API' </td>
+   <td style="text-align:left;"> Easily talk to Google's 'BigQuery' database from R. </td>
+   <td style="text-align:left;"> https://github.com/rstats-db/bigrquery </td>
   </tr>
   <tr>
    <td style="text-align:left;"> bookdown </td>
@@ -885,12 +900,6 @@ Library </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> lessR </td>
-   <td style="text-align:left;"> Less Code, More Results </td>
-   <td style="text-align:left;"> Each function accomplishes the work of several or more standard R functions. For example, two function calls, Read() and CountAll(), read the data and generate summary statistics for all variables in the data frame, plus histograms and bar charts as appropriate.  Other functions provide for descriptive statistics, a comprehensive regression analysis, analysis of variance and t-test, plotting, bar chart, histogram, box plot, density curves, calibrated power curve, reading multiple data formats with the same function call, variable labels, color themes, Trellis graphics and a built-in help system. A confirmatory factor analysis of multiple indicator measurement models is available, as are pedagogical routines for data simulation such as for the Central Limit Theorem. Compatible with 'RStudio' and 'knitr' including generation of R markdown instructions for interpretative output. </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> lintr </td>
    <td style="text-align:left;"> Static R Code Analysis </td>
    <td style="text-align:left;"> Checks adherence to a given style, syntax errors and possible
@@ -1047,6 +1056,18 @@ Library </td>
    <td style="text-align:left;"> https://github.com/yihui/mime </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> miniCRAN </td>
+   <td style="text-align:left;"> Create a Mini Version of CRAN Containing Only Selected Packages </td>
+   <td style="text-align:left;"> Makes it possible to create an internally consistent
+    repository consisting of selected packages from CRAN-like repositories.
+    The user specifies a set of desired packages, and miniCRAN recursively
+    reads the dependency tree for these packages, then downloads only this
+    subset. The user can then install packages from this repository directly,
+    rather than from CRAN.  This is useful in production settings, e.g. server
+    behind a firewall, or remote locations with slow broadband access. </td>
+   <td style="text-align:left;"> https://github.com/RevolutionAnalytics/miniCRAN </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> missForest </td>
    <td style="text-align:left;"> Nonparametric Missing Value Imputation using Random Forest </td>
    <td style="text-align:left;"> The function 'missForest' in this package is used to
@@ -1104,6 +1125,15 @@ Library </td>
    <td style="text-align:left;"> https://github.com/trevorld/optparse </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> osmdata </td>
+   <td style="text-align:left;"> Import 'OpenStreetMap' Data as Simple Features or Spatial
+Objects </td>
+   <td style="text-align:left;"> Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp'
+    objects.  'OSM' data are extracted from the 'Overpass' web server and
+    processed with very fast 'C++' routines for return to 'R'. </td>
+   <td style="text-align:left;"> https://github.com/osmdatar/osmdata </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> party </td>
    <td style="text-align:left;"> A Laboratory for Recursive Partytioning </td>
    <td style="text-align:left;"> A computational toolbox for recursive partitioning.
@@ -1141,6 +1171,20 @@ Library </td>
    <td style="text-align:left;"> https://ropensci.org/blog/2016/03/01/pdftools-and-jeroen (blog)
 https://github.com/ropensci/pdftools#readme (devel)
 https://poppler.freedesktop.org (upstream) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> pixiedust </td>
+   <td style="text-align:left;"> Tables so Beautifully Fine-Tuned You Will Believe It's Magic </td>
+   <td style="text-align:left;"> The introduction of the 'broom' package has made converting model
+    objects into data frames as simple as a single function. While the 'broom'
+    package focuses on providing tidy data frames that can be used in advanced
+    analysis, it deliberately stops short of providing functionality for reporting
+    models in publication-ready tables. 'pixiedust' provides this functionality with
+    a programming interface intended to be similar to 'ggplot2's system of layers
+    with fine tuned control over each cell of the table. Options for output include
+    printing to the console and to the common markdown formats (markdown, HTML, and
+    LaTeX). With a little 'pixiedust' (and happy thoughts) tables can really fly. </td>
+   <td style="text-align:left;"> https://github.com/nutterb/pixiedust </td>
   </tr>
   <tr>
    <td style="text-align:left;"> plotKML </td>
@@ -1557,6 +1601,16 @@ http://andysouth.co.uk/ </td>
    <td style="text-align:left;"> https://github.com/WinVector/sigr </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> Simpsons </td>
+   <td style="text-align:left;"> Detecting Simpson's Paradox </td>
+   <td style="text-align:left;"> This package detects instances of Simpson's Paradox in
+        datasets. It examines subpopulations in the data, either
+        user-defined or by means of cluster analysis, to test whether a
+        regression at the level of the group is in the opposite
+        direction at the level of subpopulations. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> sjmisc </td>
    <td style="text-align:left;"> Data and Variable Transformation Functions </td>
    <td style="text-align:left;"> Collection of miscellaneous utility functions, supporting data 
@@ -1579,6 +1633,27 @@ http://andysouth.co.uk/ </td>
    <td style="text-align:left;"> https://github.com/sjPlot/devel </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> sjstats </td>
+   <td style="text-align:left;"> Collection of Convenient Functions for Common Statistical
+Computations </td>
+   <td style="text-align:left;"> Collection of convenient functions for common statistical computations,
+             which are not directly provided by R's base or stats packages.
+             This package aims at providing, first, shortcuts for statistical
+             measures, which otherwise could only be calculated with additional
+             effort (like standard errors or root mean squared errors). Second,
+             these shortcut functions are generic (if appropriate), and can be
+             applied not only to vectors, but also to other objects as well
+             (e.g., the Coefficient of Variation can be computed for vectors,
+             linear models, or linear mixed models; the r2()-function returns
+             the r-squared value for 'lm', 'glm', 'merMod' or 'lme' objects).
+             The focus of most functions lies on summary statistics or fit
+             measures for regression models, including generalized linear
+             models and mixed effects models. However, some of the functions
+             also deal with other statistical measures, like Cronbach's Alpha,
+             Cramer's V, Phi etc. </td>
+   <td style="text-align:left;"> https://github.com/strengejacke/sjstats </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> sp </td>
    <td style="text-align:left;"> Classes and Methods for Spatial Data </td>
    <td style="text-align:left;"> Classes and methods for spatial
@@ -1587,6 +1662,15 @@ http://andysouth.co.uk/ </td>
   plotting data as maps, spatial selection, as well as methods for
   retrieving coordinates, for subsetting, print, summary, etc. </td>
    <td style="text-align:left;"> https://github.com/edzer/sp/ https://edzer.github.io/sp/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sparklyr </td>
+   <td style="text-align:left;"> R Interface to Apache Spark </td>
+   <td style="text-align:left;"> R interface to Apache Spark, a fast and general engine for big data
+    processing, see &lt;http://spark.apache.org&gt;. This package supports connecting to
+    local and remote Apache Spark clusters, provides a 'dplyr' compatible back-end,
+    and provides an interface to Spark's built-in machine learning algorithms. </td>
+   <td style="text-align:left;"> http://spark.rstudio.com </td>
   </tr>
   <tr>
    <td style="text-align:left;"> spatstat </td>
@@ -2065,4 +2149,3 @@ Ordered Observations) </td>
   </tr>
 </tbody>
 </table>
-
