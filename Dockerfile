@@ -5,6 +5,7 @@ LABEL maintainer "vera.josemanuel@gmail.com"
 RUN install2.r --error ggimage \
 arules \
 arulesViz \
+bigrquery \
 bookdown \
 Boruta \
 BTYD \
