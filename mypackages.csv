@@ -7,6 +7,7 @@ antiword
 anytime
 arules
 arulesViz
+ascii
 assertive
 assertr
 assertthat
@@ -26,6 +27,7 @@ cld3
 clickR
 cluster
 colorspace
+condformat
 confinterpret
 corrplot
 countrycode
@@ -43,6 +45,7 @@ dummies
 e1071
 effects
 errors
+expss
 extrafont
 factoextra
 FFTrees
@@ -57,6 +60,7 @@ gbm
 geonames
 geoR
 geosphere
+GeoXp
 GGally
 ggbeeswarm
 ggforce
