@@ -31,6 +31,7 @@ gapminder \
 geonames \
 geoR \
 geosphere \
+GeoXp \
 glmnet \
 googlesheets \
 heatmaply \
