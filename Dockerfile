@@ -15,6 +15,7 @@ BTYDplus \
 choroplethr \
 choroplethrMaps \
 class \
+condformat \
 confinterpret \
 cranlogs \
 cshapes \
