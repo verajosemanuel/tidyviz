@@ -24,6 +24,7 @@ dummies \
 d3Tree \
 e1071 \
 effects \
+expss \
 FFTrees \
 gap \
 gapminder \
