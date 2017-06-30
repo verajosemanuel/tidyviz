@@ -54,6 +54,7 @@ nloptr \
 osmdata \
 party \
 plotKML \
+postGIStools \
 progress \
 RandomFields \
 randomForest \
@@ -68,6 +69,7 @@ RgoogleMaps \
 rms \
 rpart \
 rpg \
+rpostgis \
 rts \
 rworldmap \
 sas7bdat \

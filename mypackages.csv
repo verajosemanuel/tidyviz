@@ -134,6 +134,7 @@ pixiedust
 plotKML
 plotly
 plotrr
+postGIStools
 prettydoc
 profvis
 progress
@@ -162,6 +163,7 @@ rmarkdown
 rmdformats
 rms
 rpart
+rpostgis
 rpg
 rprojroot
 RTextTools
