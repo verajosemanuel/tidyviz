@@ -28,6 +28,7 @@ expss \
 FFTrees \
 gap \
 gapminder \
+gdalUtils \
 geonames \
 geoR \
 geosphere \
