@@ -154,6 +154,7 @@ RCurl
 RDocumentation
 readtext
 reprex
+reticulate
 revealjs
 rgdal
 rgeos
