@@ -83,6 +83,7 @@ leaflet.minicharts \
 lessR \
 reprex \
 sp \
+sweep \
 timekit \
 tidyquant \
 tmaptools \
