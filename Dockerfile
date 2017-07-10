@@ -64,6 +64,7 @@ rasterVis \
 RcppEigen \
 RcppQuantuccia \
 RDocumentation \
+reticulate \
 rgdal \
 rgeos \
 RgoogleMaps \
