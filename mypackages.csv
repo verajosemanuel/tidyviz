@@ -37,6 +37,7 @@ d3Tree
 data.table
 dbplyr
 desctable
+DescTools
 DiagrammeR
 diffobj
 directlabels
