@@ -57,7 +57,8 @@ df.git <-
       "MangoTheCat/goodpractice",
       "hadley/pkgdown",
       "stefanedwards/lemon",
-      "hadley/strict"
+      "hadley/strict",
+	  "clauswilke/ggjoy"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -98,7 +99,8 @@ df.git <-
       "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
       "pkgdown is designed to make it quick and easy to build a website for your package.",
       "Just another ggplot2 and knitr extension package.",
-      "The goal of strict to make R behave a little more strictly, making base functions more likely to throw an error rather than returning potentially ambiguous results."
+      "The goal of strict to make R behave a little more strictly, making base functions more likely to throw an error rather than returning potentially ambiguous results.",
+	  "Geoms to make joy plots using ggplot2, written by Claus O. Wilke"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -143,7 +145,8 @@ df.git <-
       "waffle is a package to make waffle charts (square pie charts). It uses ggplot2 and returns a ggplot2 object.",
       "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
       "You can see pkgdown in action at http://hadley.github.io/pkgdown/: this is the output of pkgdown applied to the latest version of pkgdown. Learn more in vignette(pkgdown) or ?build_site.",
-      "Axis lines, repeated axis lines on facets, legends, knitr...","library(strict) forces you to confront potential problems now, instead of in the future. This has both pros and cons: often you can most easily fix a potential ambiguity when your working on the code (rather than in six months time when you've forgotten how it works), but it also forces you to resolve ambiguities that might never occur with your code/data."
+      "Axis lines, repeated axis lines on facets, legends, knitr...","library(strict) forces you to confront potential problems now, instead of in the future. This has both pros and cons: often you can most easily fix a potential ambiguity when your working on the code (rather than in six months time when you've forgotten how it works), but it also forces you to resolve ambiguities that might never occur with your code/data.",
+	  "Geoms to make joy plots using ggplot2."
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -184,7 +187,8 @@ df.git <-
       "https://github.com/MangoTheCat/goodpractice",
       "https://github.com/hadley/pkgdown",
       "https://github.com/stefanedwards/lemon",
-      "https://github.com/hadley/strict"
+      "https://github.com/hadley/strict",
+	  "https://github.com/clauswilke/ggjoy"
     )
   )
 
