@@ -59,7 +59,8 @@ df.git <-
       "stefanedwards/lemon",
       "hadley/strict",
 	  "clauswilke/ggjoy",
-	  "ropenscilabs/available"
+	  "ropenscilabs/available",
+	  "Stan125/GREA"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -102,7 +103,8 @@ df.git <-
       "Just another ggplot2 and knitr extension package.",
       "The goal of strict to make R behave a little more strictly, making base functions more likely to throw an error rather than returning potentially ambiguous results.",
 	  "Geoms to make joy plots using ggplot2, written by Claus O. Wilke",
-	  "Check if a package name is available to use."
+	  "Check if a package name is available to use.",
+	  "Gotta Read Em All: RStudio Add-In to interactively read ALL the data into R using RIO."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -149,7 +151,8 @@ df.git <-
       "You can see pkgdown in action at http://hadley.github.io/pkgdown/: this is the output of pkgdown applied to the latest version of pkgdown. Learn more in vignette(pkgdown) or ?build_site.",
       "Axis lines, repeated axis lines on facets, legends, knitr...","library(strict) forces you to confront potential problems now, instead of in the future. This has both pros and cons: often you can most easily fix a potential ambiguity when your working on the code (rather than in six months time when you've forgotten how it works), but it also forces you to resolve ambiguities that might never occur with your code/data.",
 	  "Geoms to make joy plots using ggplot2.",
-	  "available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description."
+	  "available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description.",
+	  "GREA (Gotta Read 'Em All) is an RStudio Add-In assisting to read all popular file formats into R through R base functions and rio. In the beginning, the user selects a file on his/her computer. After some optional adjustments (which are done interactively), the proper function to read the file is pasted into the console, with an object name that can be specified by the user. Supported file formats include Stata (.dta), SPSS (.sav), Matlab (.mat), Excel (.xls, .xlsx) and various text/delimited-formats (.raw, .csv, .txt, .asc, .dat, etc.)."
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -192,7 +195,8 @@ df.git <-
       "https://github.com/stefanedwards/lemon",
       "https://github.com/hadley/strict",
 	  "https://github.com/clauswilke/ggjoy",
-	  "https://github.com/ropenscilabs/available"
+	  "https://github.com/ropenscilabs/available",
+	  "https://github.com/Stan125/GREA"
     )
   )
 
