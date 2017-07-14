@@ -15,6 +15,7 @@ BTYDplus \
 choroplethr \
 choroplethrMaps \
 class \
+cleanNLP \
 condformat \
 confinterpret \
 cranlogs \
