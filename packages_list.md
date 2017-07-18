@@ -432,10 +432,9 @@ Theory Group (Formerly: E1071), TU Wien </td>
   </tr>
   <tr>
    <td style="text-align:left;"> FFTrees </td>
-   <td style="text-align:left;"> Generate, Visualise, and Compare Fast and Frugal Decision Trees </td>
-   <td style="text-align:left;"> Create, visualise, and test fast and frugal decision trees (FFTrees). FFTrees are very simple decision trees for
-    classifying cases (i.e.; breast cancer patients) into one of two classes (e.g.;
-    no cancer vs. true cancer) based on a small number of cues (e.g.; test results). FFTrees can be preferable to more complex algorithms because they are easy to communicate, require very little information, and are
+   <td style="text-align:left;"> Generate, Visualise, and Evaluate Fast-and-Frugal Decision Trees </td>
+   <td style="text-align:left;"> Create, visualize, and test fast-and-frugal decision trees (FFTs). FFTs are very simple decision trees for
+    binary classification problems. FFTs can be preferable to more complex algorithms because they are easy to communicate, require very little information, and are
     robust against overfitting. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
@@ -821,8 +820,8 @@ https://hunspell.github.io (upstream) </td>
    <td style="text-align:left;"> igraph </td>
    <td style="text-align:left;"> Network Analysis and Visualization </td>
    <td style="text-align:left;"> Routines for simple graphs and network analysis. It can
-    handle large graphs very well and provides functions for generating random
-    and regular graphs, graph visualization, centrality methods and much more. </td>
+  handle large graphs very well and provides functions for generating random
+  and regular graphs, graph visualization, centrality methods and much more. </td>
    <td style="text-align:left;"> http://igraph.org </td>
   </tr>
   <tr>
@@ -1894,7 +1893,7 @@ http://research.cens.ucla.edu/ </td>
    <td style="text-align:left;"> xts </td>
    <td style="text-align:left;"> eXtensible Time Series </td>
    <td style="text-align:left;"> Provide for uniform handling of R's different time-based data classes by extending zoo, maximizing native format information preservation and allowing for user level customization and extension, while simplifying cross-class interoperability. </td>
-   <td style="text-align:left;"> http://r-forge.r-project.org/projects/xts/ </td>
+   <td style="text-align:left;"> https://github.com/joshuaulrich/xts </td>
   </tr>
   <tr>
    <td style="text-align:left;"> zoo </td>
@@ -2071,7 +2070,7 @@ Ordered Observations) </td>
    <td style="text-align:left;"> o2r-project/containerit </td>
    <td style="text-align:left;"> containeRit packages R script/session/workspace and all dependencies as a Docker container. </td>
    <td style="text-align:left;"> containeRit packages R script/session/workspace and all dependencies as a Docker container. </td>
-   <td style="text-align:left;"> http://o2r.info/2017/05/30/containerit-package/#introduction </td>
+   <td style="text-align:left;"> http://o2r.info/2017/05/30/containerit-package/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> krlmlr/here </td>
@@ -2146,6 +2145,36 @@ Ordered Observations) </td>
    <td style="text-align:left;"> The goal of strict to make R behave a little more strictly, making base functions more likely to throw an error rather than returning potentially ambiguous results. </td>
    <td style="text-align:left;"> library(strict) forces you to confront potential problems now, instead of in the future. This has both pros and cons: often you can most easily fix a potential ambiguity when your working on the code (rather than in six months time when you've forgotten how it works), but it also forces you to resolve ambiguities that might never occur with your code/data. </td>
    <td style="text-align:left;"> https://github.com/hadley/strict </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> clauswilke/ggjoy </td>
+   <td style="text-align:left;"> Geoms to make joy plots using ggplot2, written by Claus O. Wilke </td>
+   <td style="text-align:left;"> Geoms to make joy plots using ggplot2. </td>
+   <td style="text-align:left;"> https://github.com/clauswilke/ggjoy </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ropenscilabs/available </td>
+   <td style="text-align:left;"> Check if a package name is available to use. </td>
+   <td style="text-align:left;"> available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description. </td>
+   <td style="text-align:left;"> https://github.com/ropenscilabs/available </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Stan125/GREA </td>
+   <td style="text-align:left;"> Gotta Read Em All: RStudio Add-In to interactively read ALL the data into R using RIO. </td>
+   <td style="text-align:left;"> GREA (Gotta Read 'Em All) is an RStudio Add-In assisting to read all popular file formats into R through R base functions and rio. In the beginning, the user selects a file on his/her computer. After some optional adjustments (which are done interactively), the proper function to read the file is pasted into the console, with an object name that can be specified by the user. Supported file formats include Stata (.dta), SPSS (.sav), Matlab (.mat), Excel (.xls, .xlsx) and various text/delimited-formats (.raw, .csv, .txt, .asc, .dat, etc.). </td>
+   <td style="text-align:left;"> https://github.com/Stan125/GREA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tarakc02/rmapzen </td>
+   <td style="text-align:left;"> R client for the Mapzen API </td>
+   <td style="text-align:left;"> rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/. </td>
+   <td style="text-align:left;"> https://github.com/tarakc02/rmapzen </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> lchiffon/wordcloud2 </td>
+   <td style="text-align:left;"> R interface to wordcloud for data visualization. </td>
+   <td style="text-align:left;"> This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package. </td>
+   <td style="text-align:left;"> https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html </td>
   </tr>
 </tbody>
 </table>

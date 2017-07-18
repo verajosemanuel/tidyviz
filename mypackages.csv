@@ -16,6 +16,7 @@ bookdown
 Boruta
 BTYD
 BTYDplus
+C50
 car
 caret
 choroplethr
@@ -128,6 +129,7 @@ mime
 miniCRAN
 missForest
 munsell
+neuralnet
 nloptr
 NMF
 optparse

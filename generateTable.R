@@ -61,7 +61,8 @@ df.git <-
 	    "clauswilke/ggjoy",
 	    "ropenscilabs/available",
 	    "Stan125/GREA",
-		"tarakc02/rmapzen"
+		"tarakc02/rmapzen",
+		"lchiffon/wordcloud2"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -106,7 +107,8 @@ df.git <-
 	    "Geoms to make joy plots using ggplot2, written by Claus O. Wilke",
 	    "Check if a package name is available to use.",
 	    "Gotta Read Em All: RStudio Add-In to interactively read ALL the data into R using RIO.",
-		"R client for the Mapzen API"
+		"R client for the Mapzen API",
+		"R interface to wordcloud for data visualization."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -155,8 +157,9 @@ df.git <-
 	    "Geoms to make joy plots using ggplot2.",
 	    "available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description.",
 	    "GREA (Gotta Read 'Em All) is an RStudio Add-In assisting to read all popular file formats into R through R base functions and rio. In the beginning, the user selects a file on his/her computer. After some optional adjustments (which are done interactively), the proper function to read the file is pasted into the console, with an object name that can be specified by the user. Supported file formats include Stata (.dta), SPSS (.sav), Matlab (.mat), Excel (.xls, .xlsx) and various text/delimited-formats (.raw, .csv, .txt, .asc, .dat, etc.).",
-		"rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/.
-	),
+		"rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/.",
+		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package. "
+		),
     "URL" = c(
       "https://github.com/hadley/colformat",
       "https://github.com/hadley/precis",
@@ -184,7 +187,7 @@ df.git <-
       "https://github.com/nacnudus/unpivotr",
       "https://www.bioconductor.org/packages/devel/bioc/vignettes/EBImage/inst/doc/EBImage-introduction.html",
       "https://github.com/r-hub/sysreqs",
-      "http://o2r.info/2017/05/30/containerit-package/#introduction",
+      "http://o2r.info/2017/05/30/containerit-package/",
       "https://krlmlr.github.io/here/",
       "https://krlmlr.github.io/rprojroot",
       "https://github.com/ropenscilabs/packagemetrics",
@@ -200,7 +203,8 @@ df.git <-
 	    "https://github.com/clauswilke/ggjoy",
 	    "https://github.com/ropenscilabs/available",
 	    "https://github.com/Stan125/GREA",
-		"https://github.com/tarakc02/rmapzen"
+		"https://github.com/tarakc02/rmapzen",
+		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html"
     )
   )
 
