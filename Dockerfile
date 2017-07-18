@@ -86,6 +86,7 @@ lessR \
 reprex \
 sp \
 sweep \
+tidygraph \
 timekit \
 tidyquant \
 tmaptools \
