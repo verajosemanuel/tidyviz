@@ -118,6 +118,7 @@ magrittr
 mallet
 manipulate
 mapdata
+mapedit
 mapmisc
 maps
 maptools
@@ -212,6 +213,7 @@ tidyxl
 timekit
 tint
 tm
+tmap
 tmaptools
 topicmodels
 tseries

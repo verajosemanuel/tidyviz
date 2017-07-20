@@ -40,7 +40,6 @@ df.git <-
       "ThinkRstat/littleboxes",
       "thomasp85/lime",
       "gabrielrvsc/HDeconometrics",
-      "RhoInc/CRANsearcher",
       "rstudio/blogdown",
       "nacnudus/unpivotr",
       "Bioclite/EBImage",
@@ -62,7 +61,8 @@ df.git <-
 	    "ropenscilabs/available",
 	    "Stan125/GREA",
 		"tarakc02/rmapzen",
-		"lchiffon/wordcloud2"
+		"lchiffon/wordcloud2",
+		"bhaskarvk/leaflet.extras"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -86,7 +86,6 @@ df.git <-
       "Rstudio Addin - create boxed title in an Rscript",
       "Local Interpretable Model-Agnostic Explanations (R port of original Python package)",
       "Set of R functions for high-dimensional econometrics",
-      "RStudio addin to search CRAN packages titles and descriptions",
       "Create Blogs and Websites with R Markdown ",
       "Unpivot complex and irregular data layouts in R",
       "Image processing and analysis toolbox for R",
@@ -108,7 +107,8 @@ df.git <-
 	    "Check if a package name is available to use.",
 	    "Gotta Read Em All: RStudio Add-In to interactively read ALL the data into R using RIO.",
 		"R client for the Mapzen API",
-		"R interface to wordcloud for data visualization."
+		"R interface to wordcloud for data visualization.",
+		"Extra functionality for leaflet R package."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -135,7 +135,6 @@ df.git <-
       "This is an R port of the Python lime package (https://github.com/marcotcr/lime) developed by the authors of the lime (Local Interpretable Model-agnostic Explanations) approach for black-box model explanations. All credits goes to the original developers.
       The purpose of lime is to explain the predictions of black box classifiers. What this means is that for any given prediction and any given classifier it is able to determine a small set of features in the original data that has driven the outcome of the prediction. To learn more about the methodology of lime read the paper and visit the repository of the original implementation.",
       "-",
-      "RStudio addin to search CRAN packages titles and descriptions",
       "A open-source (GPL-3) R package to generate static websites based on R Markdown and Hugo.",
       "unpivotr provides tools for converting data from complex or irregular layouts to a columnar structure. For example, tables with multi-level column or row headers, or spreadsheets. Header and data cells are selected by their contents, position and formatting, and are associated with one other by their relative positions. Excel (.xlsx) files can be prepared for unpivotr via the tidyxl package.",
       "-",
@@ -158,7 +157,8 @@ df.git <-
 	    "available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description.",
 	    "GREA (Gotta Read 'Em All) is an RStudio Add-In assisting to read all popular file formats into R through R base functions and rio. In the beginning, the user selects a file on his/her computer. After some optional adjustments (which are done interactively), the proper function to read the file is pasted into the console, with an object name that can be specified by the user. Supported file formats include Stata (.dta), SPSS (.sav), Matlab (.mat), Excel (.xls, .xlsx) and various text/delimited-formats (.raw, .csv, .txt, .asc, .dat, etc.).",
 		"rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/.",
-		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package. "
+		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package.",
+		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins."
 		),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -182,7 +182,6 @@ df.git <-
       "https://github.com/ThinkRstat/littleboxes",
       "https://github.com/thomasp85/lime",
       "https://github.com/gabrielrvsc/HDeconometrics",
-      "https://github.com/RhoInc/CRANsearcher",
       "https://github.com/rstudio/blogdown",
       "https://github.com/nacnudus/unpivotr",
       "https://www.bioconductor.org/packages/devel/bioc/vignettes/EBImage/inst/doc/EBImage-introduction.html",
@@ -204,7 +203,8 @@ df.git <-
 	    "https://github.com/ropenscilabs/available",
 	    "https://github.com/Stan125/GREA",
 		"https://github.com/tarakc02/rmapzen",
-		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html"
+		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
+		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html"
     )
   )
 
