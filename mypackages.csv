@@ -19,6 +19,7 @@ BTYDplus
 C50
 car
 caret
+checkmate
 choroplethr
 choroplethrMaps
 chunked
@@ -57,6 +58,7 @@ factoextra
 FFTrees
 filesstrings
 flexdashboard
+foreign
 formatR
 formattable
 futile.logger
