@@ -71,6 +71,7 @@ geoR
 geosphere
 GeoXp
 GGally
+ggalt
 ggbeeswarm
 ggforce
 ggfortify
@@ -81,6 +82,7 @@ ggraph
 ggrepel
 ggsci
 ggThemeAssist
+ggtern
 ggthemes
 ggvis
 glmnet
