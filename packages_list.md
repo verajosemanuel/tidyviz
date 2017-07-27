@@ -1059,7 +1059,7 @@ Library </td>
    <td style="text-align:left;"> Create a Mini Version of CRAN Containing Only Selected Packages </td>
    <td style="text-align:left;"> Makes it possible to create an internally consistent
     repository consisting of selected packages from CRAN-like repositories.
-    The user specifies a set of desired packages, and miniCRAN recursively
+    The user specifies a set of desired packages, and 'miniCRAN' recursively
     reads the dependency tree for these packages, then downloads only this
     subset. The user can then install packages from this repository directly,
     rather than from CRAN.  This is useful in production settings, e.g. server
@@ -1768,15 +1768,6 @@ Various Output Formats </td>
    <td style="text-align:left;"> https://github.com/nacnudus/tidyxl </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> timekit </td>
-   <td style="text-align:left;"> A Collection of Tools for Working with Time Series in R </td>
-   <td style="text-align:left;"> Get the time series index, signature, and summary from time series objects and
-    time-based tibbles. Create future time series based on properties of 
-    existing time series index.  
-    Coerce between time-based tibbles ('tbl') and 'xts', 'zoo', and 'ts'. </td>
-   <td style="text-align:left;"> https://github.com/business-science/timekit </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> tint </td>
    <td style="text-align:left;"> Tint is not Tufte </td>
    <td style="text-align:left;"> A 'tufte'-alike style for 'rmarkdown'. </td>
@@ -2037,12 +2028,6 @@ Ordered Observations) </td>
    <td style="text-align:left;"> https://github.com/gabrielrvsc/HDeconometrics </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> RhoInc/CRANsearcher </td>
-   <td style="text-align:left;"> RStudio addin to search CRAN packages titles and descriptions </td>
-   <td style="text-align:left;"> RStudio addin to search CRAN packages titles and descriptions </td>
-   <td style="text-align:left;"> https://github.com/RhoInc/CRANsearcher </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> rstudio/blogdown </td>
    <td style="text-align:left;"> Create Blogs and Websites with R Markdown </td>
    <td style="text-align:left;"> A open-source (GPL-3) R package to generate static websites based on R Markdown and Hugo. </td>
@@ -2175,6 +2160,18 @@ Ordered Observations) </td>
    <td style="text-align:left;"> R interface to wordcloud for data visualization. </td>
    <td style="text-align:left;"> This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package. </td>
    <td style="text-align:left;"> https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bhaskarvk/leaflet.extras </td>
+   <td style="text-align:left;"> Extra functionality for leaflet R package. </td>
+   <td style="text-align:left;"> The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins. </td>
+   <td style="text-align:left;"> http://r-spatial.org/r/2017/01/30/mapedit_intro.html </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> gsimchoni/kandinsky </td>
+   <td style="text-align:left;"> Turn any dataset into a Kandinsky painting </td>
+   <td style="text-align:left;"> To generate random Wassily Kandinsky paintings or even make any dataset into one. </td>
+   <td style="text-align:left;"> http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/ </td>
   </tr>
 </tbody>
 </table>
