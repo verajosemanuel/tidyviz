@@ -19,6 +19,7 @@ BTYDplus
 C50
 car
 caret
+charlatan
 checkmate
 choroplethr
 choroplethrMaps
@@ -145,6 +146,7 @@ party
 pathological
 pdftools
 pixiedust
+pkggraph
 plotKML
 plotly
 plotrr
@@ -187,6 +189,7 @@ rts
 rworldmap
 sas7bdat
 scatterplot3d
+sessioninfo
 shapefiles
 shiny
 shinyBS
@@ -227,6 +230,7 @@ unrtf
 validate
 VIM
 viridis
+webglobe
 wesanderson
 wordcloud 
 XML
