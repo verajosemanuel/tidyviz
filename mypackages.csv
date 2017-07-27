@@ -11,6 +11,7 @@ ascii
 assertive
 assertr
 assertthat
+beepr
 bigrquery
 bookdown
 Boruta
@@ -30,6 +31,7 @@ cld3
 cleanNLP
 clickR
 cluster
+CodeDepends
 colorspace
 condformat
 confinterpret
@@ -38,6 +40,7 @@ corrr
 corrplot
 countrycode
 cranlogs
+cronR
 cshapes
 ctv
 d3Tree
@@ -74,6 +77,7 @@ GeoXp
 GGally
 ggalt
 ggbeeswarm
+ggbiplot
 ggforce
 ggfortify
 ggimage
@@ -128,6 +132,7 @@ mapmisc
 maps
 maptools
 mapview
+margins
 MASS
 Matrix
 mi
@@ -168,6 +173,7 @@ RcppQuantuccia
 RCurl
 RDocumentation
 readtext
+ReporteRs
 reprex
 reticulate
 revealjs
@@ -210,9 +216,12 @@ spatstat
 stringdist
 summarytools
 sweep
+tables
+tatoo
 tester
 textclean
 textreadr
+tictoc
 tidygraph
 tidyquant
 tidytext
