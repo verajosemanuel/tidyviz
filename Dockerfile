@@ -89,7 +89,7 @@ reprex \
 sp \
 sweep \
 tidygraph \
-timekit \
+timetk \
 tidyquant \
 tmap \
 tmaptools \
