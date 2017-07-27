@@ -63,7 +63,8 @@ df.git <-
 		"tarakc02/rmapzen",
 		"lchiffon/wordcloud2",
 		"bhaskarvk/leaflet.extras",
-		"gsimchoni/kandinsky"
+		"gsimchoni/kandinsky",
+"vqv/ggbiplot"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -110,7 +111,8 @@ df.git <-
 		"R client for the Mapzen API",
 		"R interface to wordcloud for data visualization.",
 		"Extra functionality for leaflet R package.",
-		"Turn any dataset into a Kandinsky painting"
+		"Turn any dataset into a Kandinsky painting",
+"An implementation of the biplot using ggplot2. "
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -161,7 +163,8 @@ df.git <-
 		"rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/.",
 		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package.",
 		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins.",
-		"To generate random Wassily Kandinsky paintings or even make any dataset into one."
+		"To generate random Wassily Kandinsky paintings or even make any dataset into one.",
+"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids."
 		),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -208,7 +211,8 @@ df.git <-
 		"https://github.com/tarakc02/rmapzen",
 		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
 		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
-		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/"
+		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
+"https://github.com/vqv/ggbiplot"
     )
   )
 
