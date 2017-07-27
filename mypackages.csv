@@ -66,6 +66,7 @@ foreign
 formatR
 formattable
 futile.logger
+fuzzyjoin
 gap
 gapminder
 gbm
@@ -99,7 +100,6 @@ gridExtra
 gsubfn
 gtable
 heatmaply
-here
 hexbin
 hexSticker
 highcharter
@@ -142,6 +142,7 @@ mime
 miniCRAN
 missForest
 munsell
+naturalsort
 neuralnet
 nloptr
 NMF
