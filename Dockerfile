@@ -7,6 +7,7 @@ RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE
 ggimage \
 arules \
 arulesViz \
+bayesboot \
 bigrquery \
 bookdown \
 Boruta \
@@ -41,6 +42,7 @@ heatmaply \
 hexSticker \
 kernlab \
 lintr \
+liquidSVM \
 listviewer \
 mapdata \
 mapedit \
