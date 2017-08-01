@@ -46,15 +46,6 @@
    <td style="text-align:left;"> http://gking.harvard.edu/amelia </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> anim.plots </td>
-   <td style="text-align:left;"> Simple Animated Plots for R </td>
-   <td style="text-align:left;"> Simple animated versions of basic R plots, using the 'animation'
-    package. Includes animated versions of plot, barplot, persp, contour,
-    filled.contour, hist, curve, points, lines, text, symbols, segments, and
-    arrows. </td>
-   <td style="text-align:left;"> http://github.com/hughjonesd/anim.plots </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> animation </td>
    <td style="text-align:left;"> A Gallery of Animations in Statistics and Utilities to Create
 Animations </td>
@@ -67,6 +58,15 @@ Animations </td>
     e.g. Flash, 'GIF', HTML pages, 'PDF' and videos. 'PDF' animations can be
     inserted into 'Sweave' / 'knitr' easily. </td>
    <td style="text-align:left;"> https://yihui.name/animation </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> anim.plots </td>
+   <td style="text-align:left;"> Simple Animated Plots for R </td>
+   <td style="text-align:left;"> Simple animated versions of basic R plots, using the 'animation'
+    package. Includes animated versions of plot, barplot, persp, contour,
+    filled.contour, hist, curve, points, lines, text, symbols, segments, and
+    arrows. </td>
+   <td style="text-align:left;"> http://github.com/hughjonesd/anim.plots </td>
   </tr>
   <tr>
    <td style="text-align:left;"> antiword </td>
@@ -102,6 +102,14 @@ http://www.winfield.demon.nl (upstream) </td>
    <td style="text-align:left;"> http://lyle.smu.edu/IDA/arules/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> ascii </td>
+   <td style="text-align:left;"> Export R objects to several markup languages </td>
+   <td style="text-align:left;"> Coerce R object to asciidoc, txt2tags, restructuredText,
+        org, textile or pandoc syntax.  Package comes with a set of
+        drivers for Sweave. </td>
+   <td style="text-align:left;"> http://eusebe.github.com/ascii/, http://github.com/eusebe/ascii/ </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> assertive </td>
    <td style="text-align:left;"> Readable Check Functions to Ensure Code Integrity </td>
    <td style="text-align:left;"> Lots of predicates (is_* functions) to check the state of your
@@ -126,6 +134,25 @@ http://www.winfield.demon.nl (upstream) </td>
     easy to declare the pre and post conditions that you code should
     satisfy, while also producing friendly error messages so that your
     users know what they've done wrong. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bayesboot </td>
+   <td style="text-align:left;"> An Implementation of Rubin's (1981) Bayesian Bootstrap </td>
+   <td style="text-align:left;"> Functions for performing the Bayesian bootstrap as introduced by
+    Rubin (1981) &lt;doi:10.1214/aos/1176345338&gt; and for summarizing the result.
+    The implementation can handle both summary statistics that works on a
+    weighted version of the data and summary statistics that works on a
+    resampled data set. </td>
+   <td style="text-align:left;"> https://github.com/rasmusab/bayesboot </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> beepr </td>
+   <td style="text-align:left;"> Easily Play Notification Sounds on any Platform </td>
+   <td style="text-align:left;"> The sole function of this package is beep(), with the purpose to
+    make it easy to play notification sounds on whatever platform you are on.
+    It is intended to be useful, for example, if you are running a long analysis
+    in the background and want to know when it is ready. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
@@ -169,6 +196,12 @@ Base </td>
    <td style="text-align:left;"> https://github.com/mplatzer/BTYDplus#readme </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> C50 </td>
+   <td style="text-align:left;"> C5.0 Decision Trees and Rule-Based Models </td>
+   <td style="text-align:left;"> C5.0 decision trees and rule-based models for pattern recognition. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> car </td>
    <td style="text-align:left;"> Companion to Applied Regression </td>
    <td style="text-align:left;"> Functions and Datasets to Accompany J. Fox and S. Weisberg, 
@@ -183,6 +216,23 @@ http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html </td>
    <td style="text-align:left;"> Misc functions for training and plotting classification and
     regression models. </td>
    <td style="text-align:left;"> https://github.com/topepo/caret/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> charlatan </td>
+   <td style="text-align:left;"> Make Fake Data </td>
+   <td style="text-align:left;"> Make fake data, supporting addresses, person names, dates,
+    times, colors, coordinates, currencies, digital object identifiers
+    ('DOIs'), jobs, phone numbers, 'DNA' sequences, doubles and integers
+    from distributions and within a range. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/charlatan </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> checkmate </td>
+   <td style="text-align:left;"> Fast and Versatile Argument Checks </td>
+   <td style="text-align:left;"> Tests and assertions to perform frequent argument checks. A
+    substantial part of the package was written in C to minimize any worries
+    about execution time overhead. </td>
+   <td style="text-align:left;"> https://github.com/mllg/checkmate </td>
   </tr>
   <tr>
    <td style="text-align:left;"> choroplethr </td>
@@ -243,6 +293,19 @@ https://github.com/cld2owners/cld2 (upstream) </td>
 https://github.com/google/cld3 (upstream) </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> cleanNLP </td>
+   <td style="text-align:left;"> A Tidy Data Model for Natural Language Processing </td>
+   <td style="text-align:left;"> Provides a set of fast tools for converting a textual corpus into a set of normalized
+  tables. Users may make use of a Python back end with 'spaCy' &lt;https://spacy.io&gt;
+  or the Java back end 'CoreNLP' &lt;http://stanfordnlp.github.io/CoreNLP/&gt;. A minimal back
+  end with no external dependencies is also provided. Exposed annotation tasks include
+  tokenization, part of speech tagging, named entity recognition, entity linking, sentiment
+  analysis, dependency parsing, coreference resolution, and word embeddings. Summary
+  statistics regarding token unigram, part of speech tag, and dependency type frequencies
+  are also included to assist with analyses. </td>
+   <td style="text-align:left;"> https://statsmaths.github.io/cleanNLP/ </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> clickR </td>
    <td style="text-align:left;"> Fix Data and Create Report Tables from Different Objects </td>
    <td style="text-align:left;"> Fixes data errors in numerical, factor and date variables, checks data quality and performs report tables from models and summaries. </td>
@@ -258,6 +321,18 @@ al. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> CodeDepends </td>
+   <td style="text-align:left;"> Analysis of R Code for Reproducible Research and Code
+Comprehension </td>
+   <td style="text-align:left;"> Tools for analyzing R expressions
+  or blocks of code and determining the dependencies between them.
+  It focuses on R scripts, but can be used on the bodies of functions.
+  There are many facilities including the ability to summarize  or get a high-level
+  view of code, determining dependencies between variables,  code improvement
+  suggestions. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> colorspace </td>
    <td style="text-align:left;"> Color Space Manipulation </td>
    <td style="text-align:left;"> Carries out mapping between assorted color spaces including
@@ -269,6 +344,19 @@ al. </td>
    <td style="text-align:left;"> https://hclwizard.org/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> condformat </td>
+   <td style="text-align:left;"> Conditional Formatting in Data Frames </td>
+   <td style="text-align:left;"> Apply and visualize conditional formatting to data frames in R.
+    It renders a data frame with cells formatted according to
+    criteria defined by rules, using a syntax similar to 'ggplot2'. The table is
+    printed either opening a web browser or within the 'RStudio' viewer if
+    available. The conditional formatting rules allow to highlight cells
+    matching a condition or add a gradient background to a given column. This
+    package supports both 'HTML' and 'LaTeX' outputs in 'knitr' reports, and
+    exporting to an 'xlsx' file. </td>
+   <td style="text-align:left;"> http://github.com/zeehio/condformat </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> confinterpret </td>
    <td style="text-align:left;"> Descriptive Interpretations of Confidence Intervals </td>
    <td style="text-align:left;"> Produces descriptive interpretations of confidence intervals.
@@ -278,11 +366,37 @@ al. </td>
    <td style="text-align:left;"> https://github.com/jimvine/confinterpret </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> constants </td>
+   <td style="text-align:left;"> Reference on Constants, Units and Uncertainty </td>
+   <td style="text-align:left;"> CODATA internationally recommended values of the fundamental physical 
+    constants, provided as symbols for direct use within the R language. Optionally, 
+    the values with errors and/or the values with units are also provided if the 
+    'errors' and/or the 'units' packages are installed. The Committee on Data
+    for Science and Technology (CODATA) is an interdisciplinary committee of the
+    International Council for Science which periodically provides the internationally 
+    accepted set of values of the fundamental physical constants. This package 
+    contains the &quot;2014 CODATA&quot; version, published on 25 June 2015:
+    Mohr, P. J., Newell, D. B. and Taylor, B. N. (2016)
+    &lt;DOI:10.1103/RevModPhys.88.035009&gt;, &lt;DOI:10.1063/1.4954402&gt;. </td>
+   <td style="text-align:left;"> https://github.com/Enchufa2/constants </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> corrplot </td>
    <td style="text-align:left;"> Visualization of a Correlation Matrix </td>
    <td style="text-align:left;"> A graphical display of a correlation matrix or general matrix.
     It also contains some algorithms to do matrix reordering. </td>
    <td style="text-align:left;"> https://github.com/taiyun/corrplot </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> corrr </td>
+   <td style="text-align:left;"> Correlations in R </td>
+   <td style="text-align:left;"> A tool for exploring correlations.
+    It makes it possible to easily perform routine tasks when
+    exploring correlation matrices such as ignoring the diagonal,
+    focusing on the correlations of certain variables against others,
+    or rearranging and visualising the matrix in terms of the
+    strength of the correlations. </td>
+   <td style="text-align:left;"> https://github.com/drsimonj/corrr </td>
   </tr>
   <tr>
    <td style="text-align:left;"> countrycode </td>
@@ -301,11 +415,26 @@ al. </td>
    <td style="text-align:left;"> https://github.com/metacran/cranlogs </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> cronR </td>
+   <td style="text-align:left;"> Schedule R Scripts and Processes with the 'cron' Job Scheduler </td>
+   <td style="text-align:left;"> Create, edit, and remove 'cron' jobs on your unix-alike system. The package provides a set of easy-to-use wrappers
+    to 'crontab'. It also provides an RStudio add-in to easily launch and schedule your scripts. </td>
+   <td style="text-align:left;"> https://github.com/bnosac/cronR </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> cshapes </td>
    <td style="text-align:left;"> The CShapes Dataset and Utilities </td>
    <td style="text-align:left;"> Package for CShapes, a GIS dataset of country boundaries (1946-today). Includes functions for data extraction and the computation of distance matrices and -lists. </td>
    <td style="text-align:left;"> http://nils.weidmann.ws/projects/cshapes,
 https://r-forge.r-project.org/scm/viewvc.php/*checkout*/pkg/inst/shp/cshapes_shapefile_documentation.txt?root=cshapes </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ctv </td>
+   <td style="text-align:left;"> CRAN Task Views </td>
+   <td style="text-align:left;"> Infrastructure for task views to CRAN-style repositories: Querying task views and installing the associated
+             packages (client-side tools), generating HTML pages and storing task view information in the repository
+	     (server-side tools). </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> d3Tree </td>
@@ -341,6 +470,12 @@ Library </td>
     Tables are produced as data frames/lists of data frames for easy manipulation after creation,
     and ready to be saved as csv, or piped to DT::datatable() or pander::pander() to integrate into reports. </td>
    <td style="text-align:left;"> https://github.com/maximewack/desctable </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DescTools </td>
+   <td style="text-align:left;"> Tools for Descriptive Statistics </td>
+   <td style="text-align:left;"> A collection of miscellaneous basic statistic functions and convenience wrappers for efficiently describing data. The author's intention was to create a toolbox, which facilitates the (notoriously time consuming) first descriptive tasks in data analysis, consisting of calculating descriptive statistics, drawing graphical summaries and reporting the results. The package contains furthermore functions to produce documents using MS Word (or PowerPoint) and functions to import data from Excel. Many of the included functions can be found scattered in other packages and other sources written partly by Titans of R. The reason for collecting them here, was primarily to have them consolidated in ONE instead of dozens of packages (which themselves might depend on other packages which are not needed at all), and to provide a common and consistent interface as far as function and arguments naming, NA handling, recycling rules etc. are concerned. Google style guides were used as naming rules (in absence of convincing alternatives). The 'camel style' was consequently applied to functions borrowed from contributed R packages as well. </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> DiagrammeR </td>
@@ -407,6 +542,19 @@ Theory Group (Formerly: E1071), TU Wien </td>
    <td style="text-align:left;"> https://github.com/Enchufa2/errors </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> expss </td>
+   <td style="text-align:left;"> Tables with Labels and Some Useful Functions from Spreadsheets
+and 'SPSS' Statistics </td>
+   <td style="text-align:left;"> Package provides tabulation functions with support of 'SPSS'-style labels, 
+    multiple / nested banners, weights and multiple-response variables. 
+    Additionally it offers useful functions for data processing in the social / 
+    marketing research surveys - popular data transformation functions from 'SPSS' Statistics
+    ('RECODE', 'COUNT', 'COMPUTE', 'DO IF', etc.) and 'Excel' ('COUNTIF', 'VLOOKUP', etc.).
+    Proper methods for labelled variables add value labels support to base R and other packages.
+    Package aimed to help people to move data processing from 'Excel'/'SPSS' to R. </td>
+   <td style="text-align:left;"> https://gdemin.github.io/expss/ </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> extrafont </td>
    <td style="text-align:left;"> Tools for using fonts </td>
    <td style="text-align:left;"> Tools to using fonts other than the standard PostScript fonts.
@@ -455,6 +603,15 @@ Theory Group (Formerly: E1071), TU Wien </td>
    <td style="text-align:left;"> http://rmarkdown.rstudio.com/flexdashboard </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> foreign </td>
+   <td style="text-align:left;"> Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata',
+'Systat', 'Weka', 'dBase', ... </td>
+   <td style="text-align:left;"> Reading and writing data stored by some versions of
+	'Epi Info', 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka',
+	and for reading and writing some 'dBase' files. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> formatR </td>
    <td style="text-align:left;"> Format R Code Automatically </td>
    <td style="text-align:left;"> Provides a function tidy_source() to format R source code. Spaces
@@ -481,6 +638,15 @@ https://github.com/renkun-ken/formattable </td>
    <td style="text-align:left;"> Provides a simple yet powerful logging utility. Based loosely on
     log4j, futile.logger takes advantage of R idioms to make logging a
     convenient and easy to use replacement for cat and print statements. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> fuzzyjoin </td>
+   <td style="text-align:left;"> Join Tables Together on Inexact Matching </td>
+   <td style="text-align:left;"> Join tables together based not on whether columns
+  match exactly, but whether they are similar by some comparison.
+  Implementations include string distance and regular expression
+  matching. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
@@ -519,6 +685,14 @@ http://www.gapminder.org/data/ </td>
    <td style="text-align:left;"> http://code.google.com/p/gradientboostedmodels/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> gdalUtils </td>
+   <td style="text-align:left;"> Wrappers for the Geospatial Data Abstraction Library (GDAL)
+Utilities </td>
+   <td style="text-align:left;"> Wrappers for the Geospatial Data Abstraction Library (GDAL)
+    Utilities. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> geonames </td>
    <td style="text-align:left;"> Interface to www.geonames.org web service </td>
    <td style="text-align:left;"> Code for querying the web service at www.geonames.org </td>
@@ -537,6 +711,26 @@ http://www.gapminder.org/data/ </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> GeoXp </td>
+   <td style="text-align:left;"> Interactive exploratory spatial data analysis </td>
+   <td style="text-align:left;"> GeoXp is a tool for researchers in spatial statistics,
+        spatial econometrics, geography, ecology etc allowing to link
+        dynamically statistical plots with elementary maps. This
+        coupling consists in the fact that the selection of a zone on
+        the map results in the automatic highlighting of the
+        corresponding points on the statistical graph or reversely the
+        selection of a portion of the graph results in the automatic
+        highlighting of the corresponding points on the map. GeoXp
+        includes tools from different areas of spatial statistics
+        including geostatistics as well as spatial econometrics and
+        point processes. Besides elementary plots like boxplots,
+        histograms or simple scatterplot, GeoXp also couples with maps
+        Moran scatterplots, variogram cloud, Lorentz Curves,...In order
+        to make the most of the multidimensionality of the data, GeoXp
+        includes some dimension reduction techniques such as PCA. </td>
+   <td style="text-align:left;"> http://www.jstatsoft.org/v47/i02/paper </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> GGally </td>
    <td style="text-align:left;"> Extension to 'ggplot2' </td>
    <td style="text-align:left;"> The R package 'ggplot2' is a plotting system based on the grammar of graphics.
@@ -546,6 +740,20 @@ http://www.gapminder.org/data/ </td>
     matrix, a parallel coordinates plot, a survival plot, and several functions to
     plot networks. </td>
    <td style="text-align:left;"> https://ggobi.github.io/ggally, https://github.com/ggobi/ggally </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ggalt </td>
+   <td style="text-align:left;"> Extra Coordinate Systems, 'Geoms', Statistical Transformations,
+Scales and Fonts for 'ggplot2' </td>
+   <td style="text-align:left;"> A compendium of new geometries, coordinate systems, statistical 
+    transformations, scales and fonts for 'ggplot2', including splines, 1d and 2d densities, 
+    univariate average shifted histograms, a new map coordinate system based on the 
+    'PROJ.4'-library along with geom_cartogram() that mimics the original functionality of 
+    geom_map(), formatters for &quot;bytes&quot;, a stat_stepribbon() function, increased 'plotly'
+    compatibility and the 'StateFace' open source font 'ProPublica'. Further new 
+    functionality includes lollipop charts, dumbbell charts, the ability to encircle
+    points and coordinate-system-based text annotations. </td>
+   <td style="text-align:left;"> https://github.com/hrbrmstr/ggalt </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ggbeeswarm </td>
@@ -597,6 +805,17 @@ http://www.gapminder.org/data/ </td>
    <td style="text-align:left;"> https://github.com/dkahle/ggmap </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> ggpubr </td>
+   <td style="text-align:left;"> 'ggplot2' Based Publication Ready Plots </td>
+   <td style="text-align:left;"> 'ggplot2' is an excellent and flexible package for elegant data
+    visualization in R. However the default generated plots requires some formatting
+    before we can send them for publication. Furthermore, to customize a 'ggplot',
+    the syntax is opaque and this raises the level of difficulty for researchers
+    with no advanced R programming skills. 'ggpubr' provides some easy-to-use
+    functions for creating and customizing 'ggplot2'- based publication ready plots. </td>
+   <td style="text-align:left;"> http://www.sthda.com/english/rpkgs/ggpubr </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> ggraph </td>
    <td style="text-align:left;"> An Implementation of Grammar of Graphics for Graphs and Networks </td>
    <td style="text-align:left;"> The grammar of graphics as implemented in ggplot2 is a poor fit for
@@ -621,6 +840,16 @@ http://www.gapminder.org/data/ </td>
     plots in scientific journals, data visualization libraries,
     science fiction movies, and TV shows. </td>
    <td style="text-align:left;"> https://ggsci.net, https://github.com/road2stat/ggsci </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ggtern </td>
+   <td style="text-align:left;"> An Extension to 'ggplot2', for the Creation of Ternary Diagrams </td>
+   <td style="text-align:left;"> Extends the functionality of 'ggplot2', providing the capability
+    to plot ternary diagrams for (subset of) the 'ggplot2' geometries. Additionally,
+    'ggtern' has implemented several NEW geometries which are unavailable to the
+    standard 'ggplot2' release. For further examples and documentation, please
+    proceed to the 'ggtern' website. </td>
+   <td style="text-align:left;"> http://www.ggtern.com </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ggThemeAssist </td>
@@ -731,16 +960,6 @@ http://github.com/rdpeng/gpclib </td>
    <td style="text-align:left;"> https://cran.r-project.org/package=heatmaply,
 https://github.com/talgalili/heatmaply/,
 https://www.r-statistics.com/tag/heatmaply/ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> here </td>
-   <td style="text-align:left;"> A Simpler Way to Find Your Files </td>
-   <td style="text-align:left;"> Constructs paths to your project's files.
-    The 'here()' function uses a reasonable heuristics to find your project's
-    files, based on the current working directory at the time when the package
-    is loaded. Use it as a drop-in replacement for 'file.path()', it will always
-    locate the files relative to your project root. </td>
-   <td style="text-align:left;"> https://github.com/krlmlr/here, http://krlmlr.github.io/here </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hexbin </td>
@@ -907,6 +1126,21 @@ Library </td>
    <td style="text-align:left;"> https://github.com/jimhester/lintr </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> liquidSVM </td>
+   <td style="text-align:left;"> A Fast and Versatile SVM Package </td>
+   <td style="text-align:left;"> Support vector machines (SVMs) and related kernel-based learning
+    algorithms are a well-known class of machine learning algorithms, for
+    non-parametric classification and regression.
+    liquidSVM is an implementation of SVMs whose key features are:
+    fully integrated hyper-parameter selection,
+    extreme speed on both small and large data sets,
+    full flexibility for experts, and
+    inclusion of a variety of different learning scenarios:
+    multi-class classification, ROC, and Neyman-Pearson learning, and
+    least-squares, quantile, and expectile regression. </td>
+   <td style="text-align:left;"> http://www.isa.uni-stuttgart.de/software/ </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> listviewer </td>
    <td style="text-align:left;"> 'htmlwidget' for Interactive Views of R Lists </td>
    <td style="text-align:left;"> R lists, especially nested lists, can be very difficult to
@@ -930,6 +1164,13 @@ Library </td>
    <td style="text-align:left;"> logging is a pure R package that implements the ubiquitous
         log4j package. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> lumberjack </td>
+   <td style="text-align:left;"> Track Changes in Data the Tidy Way </td>
+   <td style="text-align:left;"> A function composition ('pipe') operator and extensible 
+    framework that allows for easy logging of changes in data. </td>
+   <td style="text-align:left;"> https://github.com/markvanderloo/lumberjack </td>
   </tr>
   <tr>
    <td style="text-align:left;"> magick </td>
@@ -980,6 +1221,13 @@ Library </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> mapedit </td>
+   <td style="text-align:left;"> Interactive Editing of Spatial Data in R </td>
+   <td style="text-align:left;"> Suite of interactive functions and helpers for selecting and editing
+    geospatial data. </td>
+   <td style="text-align:left;"> https://github.com/r-spatial/mapedit </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> mapmisc </td>
    <td style="text-align:left;"> Utilities for Producing Maps </td>
    <td style="text-align:left;"> A minimal, light-weight set of tools for producing nice looking maps in R, with support for map projections. </td>
@@ -1003,6 +1251,13 @@ Library </td>
    <td style="text-align:left;"> Interactive Viewing of Spatial Objects in R </td>
    <td style="text-align:left;"> Methods to view spatial objects interactively. </td>
    <td style="text-align:left;"> https://github.com/r-spatial/mapview </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> margins </td>
+   <td style="text-align:left;"> Marginal Effects for Model Objects </td>
+   <td style="text-align:left;"> An R port of Stata's 'margins' command, which can be used to
+    calculate marginal (or partial) effects from model objects. </td>
+   <td style="text-align:left;"> https://github.com/leeper/margins </td>
   </tr>
   <tr>
    <td style="text-align:left;"> MASS </td>
@@ -1089,6 +1344,32 @@ Library </td>
     for use directly in R graphics. Also provides utilities 
     to explore slices through the Munsell colour tree, to transform 
     Munsell colours and display colour palettes. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> naturalsort </td>
+   <td style="text-align:left;"> Natural Ordering </td>
+   <td style="text-align:left;"> Provides functions related to human natural ordering.
+    It handles adjacent digits in a character sequence as a number so that
+    natural sort function arranges a character vector by their numbers, not digit
+    characters. It is typically seen when operating systems lists file names. For
+    example, a sequence a-1.png, a-2.png, a-10.png looks naturally ordered because 1
+    &lt; 2 &lt; 10 and natural sort algorithm arranges so whereas general sort algorithms
+    arrange it into a-1.png, a-10.png, a-2.png owing to their third and fourth
+    characters. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> neuralnet </td>
+   <td style="text-align:left;"> Training of Neural Networks </td>
+   <td style="text-align:left;"> Training of neural networks using backpropagation,
+    resilient backpropagation with (Riedmiller, 1994) or without
+    weight backtracking (Riedmiller and Braun, 1993) or the
+    modified globally convergent version by Anastasiadis et al.
+    (2005). The package allows flexible settings through
+    custom-choice of error and activation function. Furthermore,
+    the calculation of generalized weights (Intrator O &amp; Intrator
+    N, 1993) is implemented. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
@@ -1186,6 +1467,14 @@ https://poppler.freedesktop.org (upstream) </td>
    <td style="text-align:left;"> https://github.com/nutterb/pixiedust </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> pkggraph </td>
+   <td style="text-align:left;"> A Consistent and Intuitive Platform to Explore the Dependencies
+of Packages on the Comprehensive R Archive Network Like
+Repositories </td>
+   <td style="text-align:left;"> Interactively explore various dependencies of a package(s) (on the Comprehensive R Archive Network Like repositories) and perform analysis using tidy philosophy. Most of the functions return a 'tibble' object (enhancement of 'dataframe') which can be used for further analysis. The package offers functions to produce 'network' and 'igraph' dependency graphs. The 'plot' method produces a static plot based on 'ggnetwork' and 'plotd3' function produces an interactive D3 plot based on 'networkD3'. </td>
+   <td style="text-align:left;"> https://github.com/talegari/pkggraph </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> plotKML </td>
    <td style="text-align:left;"> Visualization of Spatial and Spatio-Temporal Objects in Google
 Earth </td>
@@ -1204,6 +1493,14 @@ https://github.com/ropensci/plotly </td>
    <td style="text-align:left;"> Making Visual Exploratory Data Analysis Easier </td>
    <td style="text-align:left;"> Functions for making visual exploratory data analysis easier. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> postGIStools </td>
+   <td style="text-align:left;"> Tools for Interacting with 'PostgreSQL' / 'PostGIS' Databases </td>
+   <td style="text-align:left;"> Functions to convert geometry and 'hstore' data types from
+    'PostgreSQL' into standard R objects, as well as to simplify
+    the import of R data frames (including spatial data frames) into 'PostgreSQL'. </td>
+   <td style="text-align:left;"> https://github.com/SESYNC-ci/postGIStools </td>
   </tr>
   <tr>
    <td style="text-align:left;"> prettydoc </td>
@@ -1251,12 +1548,6 @@ http://personality-project.org/r/psych-manual.pdf </td>
    <td style="text-align:left;"> http://trinker.github.com/qdapRegex/ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> R.utils </td>
-   <td style="text-align:left;"> Various Programming Utilities </td>
-   <td style="text-align:left;"> Utility functions useful when programming and developing R packages. </td>
-   <td style="text-align:left;"> https://github.com/HenrikBengtsson/R.utils </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> RandomFields </td>
    <td style="text-align:left;"> Simulation and Analysis of Random Fields </td>
    <td style="text-align:left;"> Methods for the inference on and the simulation of Gaussian fields are provided, as well as methods for the simulation of extreme value random fields. </td>
@@ -1269,6 +1560,13 @@ Regression </td>
    <td style="text-align:left;"> Classification and regression based on a forest of trees
         using random inputs. </td>
    <td style="text-align:left;"> https://www.stat.berkeley.edu/~breiman/RandomForests/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> randomForestExplainer </td>
+   <td style="text-align:left;"> Explaining and Visualizing Random Forests in Terms of Variable
+Importance </td>
+   <td style="text-align:left;"> A set of tools to help explain which variables are most important in a random forests. Various variable importance measures are calculated and visualized in different settings in order to get an idea on how their importance changes depending on our criteria (Hemant Ishwaran and Udaya B. Kogalur and Eiran Z. Gorodeski and Andy J. Minn and Michael S. Lauer (2010) &lt;doi:10.1198/jasa.2009.tm08622&gt;, Leo Breiman (2001) &lt;doi:10.1023/A:1010933404324&gt;). </td>
+   <td style="text-align:left;"> https://github.com/MI2DataLab/randomForestExplainer </td>
   </tr>
   <tr>
    <td style="text-align:left;"> raster </td>
@@ -1363,6 +1661,19 @@ Library </td>
    <td style="text-align:left;"> http://github.com/kbenoit/readtext </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> ReporteRs </td>
+   <td style="text-align:left;"> Microsoft Word and PowerPoint Documents Generation </td>
+   <td style="text-align:left;"> Create 'Microsoft Word' document (&gt;=2007) and 
+    'Microsoft PowerPoint' document (&gt;=2007) from R. There are
+    several features to let you format and present R outputs ; e.g. Editable
+    Vector Graphics, functions for complex tables reporting, reuse of corporate
+    template document. You can use the package as a tool for fast reporting
+    and as a tool for reporting automation. The package does not require
+    any installation of Microsoft product to be able to write Microsoft files. </td>
+   <td style="text-align:left;"> http://davidgohel.github.io/ReporteRs/index.html,
+http://groups.google.com/group/reporters-package </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> reprex </td>
    <td style="text-align:left;"> Prepare Reproducible Example Code for Sharing </td>
    <td style="text-align:left;"> Convenience wrapper that uses the 'rmarkdown' package to render
@@ -1372,6 +1683,15 @@ Library </td>
   &lt;https://github.com&gt;, or in email. 'reprex' also extracts clean, runnable R
   code from various common formats, such as copy/paste from an R session. </td>
    <td style="text-align:left;"> https://github.com/jennybc/reprex </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> reticulate </td>
+   <td style="text-align:left;"> R Interface to Python </td>
+   <td style="text-align:left;"> R interface to Python modules, classes, and functions. When calling
+    into Python R data types are automatically converted to their equivalent Python
+    types. When values are returned from Python to R they are converted back to R
+    types. Compatible with all versions of Python &gt;= 2.7. </td>
+   <td style="text-align:left;"> https://github.com/rstudio/reticulate </td>
   </tr>
   <tr>
    <td style="text-align:left;"> revealjs </td>
@@ -1473,6 +1793,17 @@ http://trac.osgeo.org/geos/ </td>
    <td style="text-align:left;"> http://github.com/thk686/rpg, http://www.keittlab.org/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> rpostgis </td>
+   <td style="text-align:left;"> R Interface to a 'PostGIS' Database </td>
+   <td style="text-align:left;"> Provides an interface between R and
+    'PostGIS'-enabled 'PostgreSQL' databases to transparently transfer
+    spatial data. Both vector (points, lines, polygons) and raster
+    data are supported in read and write modes. Also provides
+    convenience functions to execute common procedures in
+    'PostgreSQL/PostGIS'. </td>
+   <td style="text-align:left;"> https://github.com/mablab/rpostgis </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> rprojroot </td>
    <td style="text-align:left;"> Finding Files in Project Subdirectories </td>
    <td style="text-align:left;"> Robust, reliable and flexible paths to files below a
@@ -1510,6 +1841,12 @@ https://krlmlr.github.io/rprojroot </td>
    <td style="text-align:left;"> http://r-gis.net </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> R.utils </td>
+   <td style="text-align:left;"> Various Programming Utilities </td>
+   <td style="text-align:left;"> Utility functions useful when programming and developing R packages. </td>
+   <td style="text-align:left;"> https://github.com/HenrikBengtsson/R.utils </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> rworldmap </td>
    <td style="text-align:left;"> Mapping Global Data </td>
    <td style="text-align:left;"> Enables mapping of country level and gridded user datasets. </td>
@@ -1528,6 +1865,14 @@ http://andysouth.co.uk/ </td>
    <td style="text-align:left;"> 3D Scatter Plot </td>
    <td style="text-align:left;"> Plots a three dimensional (3D) point cloud. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sessioninfo </td>
+   <td style="text-align:left;"> R Session Information </td>
+   <td style="text-align:left;"> Query and print information about the current R session.
+    It is similar to 'utils::sessionInfo()', but includes more information
+    about packages, and where they were installed from. </td>
+   <td style="text-align:left;"> https://github.com/r-lib/sessioninfo#readme </td>
   </tr>
   <tr>
    <td style="text-align:left;"> shapefiles </td>
@@ -1653,6 +1998,23 @@ Computations </td>
    <td style="text-align:left;"> https://github.com/strengejacke/sjstats </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> SnowballC </td>
+   <td style="text-align:left;"> Snowball stemmers based on the C libstemmer UTF-8 library </td>
+   <td style="text-align:left;"> An R interface to the C libstemmer library that implements
+  Porter's word stemming algorithm for collapsing words to a common
+  root to aid comparison of vocabulary. Currently supported languages are
+  Danish, Dutch, English, Finnish, French, German, Hungarian, Italian,
+  Norwegian, Portuguese, Romanian, Russian, Spanish, Swedish
+  and Turkish. </td>
+   <td style="text-align:left;"> https://r-forge.r-project.org/projects/r-temis/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos </td>
+   <td style="text-align:left;"> Search Contributed R Packages, Sort by Package </td>
+   <td style="text-align:left;"> Search contributed R packages, sort by package. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> sp </td>
    <td style="text-align:left;"> Classes and Methods for Spatial Data </td>
    <td style="text-align:left;"> Classes and methods for spatial
@@ -1712,6 +2074,35 @@ Various Output Formats </td>
    <td style="text-align:left;"> https://github.com/dcomtois/summarytools </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> sweep </td>
+   <td style="text-align:left;"> Tidy Tools for Forecasting </td>
+   <td style="text-align:left;"> Tidies up the forecasting modeling and prediction work flow, 
+    extends the 'broom' package 
+    with 'sw_tidy', 'sw_glance', 'sw_augment', and 'sw_tidy_decomp' functions 
+    for various forecasting models,
+    and enables converting 'forecast' objects to 
+    &quot;tidy&quot; data frames with 'sw_sweep'. </td>
+   <td style="text-align:left;"> https://github.com/business-science/sweep </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tables </td>
+   <td style="text-align:left;"> Formula-Driven Table Generation </td>
+   <td style="text-align:left;"> Computes and displays complex tables of summary statistics.
+  Output may be in LaTeX, HTML, plain text, or an R
+  matrix for further processing. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tatoo </td>
+   <td style="text-align:left;"> Combine and Export Data Frames </td>
+   <td style="text-align:left;"> Functions to combine data.frames in ways that require additional effort in 
+  base R, and to add metadata (id, title, ...) that can be used for printing and 
+  xlsx export. The 'Tatoo_report' class is provided as a 
+  convenient helper to write several such tables to a workbook, one table per 
+  worksheet. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> tester </td>
    <td style="text-align:left;"> Tests and checks characteristics of R objects </td>
    <td style="text-align:left;"> tester allows you to test characteristics of common R objects. </td>
@@ -1735,6 +2126,29 @@ Various Output Formats </td>
    <td style="text-align:left;"> A small collection of convenience tools for reading text documents
     into R. </td>
    <td style="text-align:left;"> https://github.com/trinker/textreadr </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tictoc </td>
+   <td style="text-align:left;"> Functions for timing R scripts, as well as implementations of
+Stack and List structures </td>
+   <td style="text-align:left;"> This package provides the timing functions 'tic' and 'toc' that
+    can be nested. One can record all timings while a complex script is
+    running, and examine the values later. It is also possible to instrument
+    the timing calls with custom callbacks. In addition, this package provides
+    class 'Stack', implemented as a vector, and class 'List', implemented as a
+    list, both of which support operations 'push', 'pop', 'first', 'last' and
+    'clear'. </td>
+   <td style="text-align:left;"> http://github.com/collectivemedia/tictoc </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tidygraph </td>
+   <td style="text-align:left;"> A Tidy API for Graph Manipulation </td>
+   <td style="text-align:left;"> A graph, while not &quot;tidy&quot; in itself, can be thought of as two tidy
+    data frames describing node and edge data respectively. 'tidygraph'
+    provides an approach to manipulate these two virtual data frames using the
+    API defined in the 'dplyr' package, as well as provides tidy interfaces to 
+    a lot of common graph algorithms. </td>
+   <td style="text-align:left;"> https://github.com/thomasp85/tidygraph </td>
   </tr>
   <tr>
    <td style="text-align:left;"> tidyquant </td>
@@ -1778,6 +2192,12 @@ Various Output Formats </td>
    <td style="text-align:left;"> Text Mining Package </td>
    <td style="text-align:left;"> A framework for text mining applications within R. </td>
    <td style="text-align:left;"> http://tm.r-forge.r-project.org/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tmap </td>
+   <td style="text-align:left;"> Thematic Maps </td>
+   <td style="text-align:left;"> Thematic maps are geographical maps in which spatial data distributions are visualized. This package offers a flexible, layer-based, and easy to use approach to create thematic maps, such as choropleths and bubble maps. </td>
+   <td style="text-align:left;"> https://github.com/mtennekes/tmap </td>
   </tr>
   <tr>
    <td style="text-align:left;"> tmaptools </td>
@@ -1857,6 +2277,12 @@ https://www.gnu.org/software/unrtf/ (upstream) </td>
     also designed to be perceived by readers with the most common form of color
     blindness. </td>
    <td style="text-align:left;"> https://github.com/sjmgarnier/viridis </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> webglobe </td>
+   <td style="text-align:left;"> 3D Interactive Globes </td>
+   <td style="text-align:left;"> Displays geospatial data on an interactive 3D globe in the web browser. </td>
+   <td style="text-align:left;"> https://github.com/r-barnes/webglobe/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> wesanderson </td>
@@ -2172,6 +2598,12 @@ Ordered Observations) </td>
    <td style="text-align:left;"> Turn any dataset into a Kandinsky painting </td>
    <td style="text-align:left;"> To generate random Wassily Kandinsky paintings or even make any dataset into one. </td>
    <td style="text-align:left;"> http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> vqv/ggbiplot </td>
+   <td style="text-align:left;"> An implementation of the biplot using ggplot2. </td>
+   <td style="text-align:left;"> The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids. </td>
+   <td style="text-align:left;"> https://github.com/vqv/ggbiplot </td>
   </tr>
 </tbody>
 </table>
