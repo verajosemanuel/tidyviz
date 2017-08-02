@@ -998,6 +998,21 @@ https://www.r-statistics.com/tag/heatmaply/ </td>
 https://github.com/harrelfe/Hmisc </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> htmltab </td>
+   <td style="text-align:left;"> Assemble Data Frames from HTML Tables </td>
+   <td style="text-align:left;"> HTML tables are a valuable data source but extracting and recasting
+    these data into a useful format can be tedious. This package allows to collect
+    structured information from HTML tables. It is similar to readHTMLTable()
+    of the XML package but provides three major advantages. First, the function
+    automatically expands row and column spans in the header and body cells.
+    Second, users are given more control over the identification of header and body
+    rows which will end up in the R table, including semantic header information
+    that appear throughout the body. Third, the function preprocesses table code,
+    corrects common types of malformations, removes unneeded parts and so helps to
+    alleviate the need for tedious post-processing. </td>
+   <td style="text-align:left;"> https://github.com/crubba/htmltab </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> htmlwidgets </td>
    <td style="text-align:left;"> HTML Widgets for R </td>
    <td style="text-align:left;"> A framework for creating HTML widgets that render in various
@@ -1395,6 +1410,14 @@ Library </td>
     in C++, and the main interface function provides an easy way of performing
     parallel computations on multicore machines. </td>
    <td style="text-align:left;"> http://renozao.github.io/NMF </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> numform </td>
+   <td style="text-align:left;"> Tools to Format Numbers for Publication </td>
+   <td style="text-align:left;"> Format numbers for publication; includes the removal of leading zeros, standardization of number of digits, addition of affixes, and a p-value
+                  formatter. These tools combine the functionality of several 'base' functions such as paste(), format(), and sprintf() into specific use case
+                  functions that are named in a way that is consistent with usage, making their names easy to remember and easy to deploy. </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> optparse </td>
