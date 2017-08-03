@@ -10,7 +10,7 @@ cran <- cran[, -65]
 # make it a tibble
 cran <- tbl_df(cran)
 
-mycran <- rio::import("mypackages.csv")
+mycran <- rio::import("D:/tidyviz/mypackages.csv")
 
 cran <- cran[, c("Package", "Title", "Description", "URL")]
 paketes.instalados <- inner_join(cran, mycran)

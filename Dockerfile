@@ -29,6 +29,7 @@ e1071 \
 effects \
 expss \
 FFTrees \
+forecast \
 gap \
 gapminder \
 gdalUtils \
