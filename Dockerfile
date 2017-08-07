@@ -30,6 +30,7 @@ effects \
 expss \
 FFTrees \
 forecast \
+forecTheta \
 gap \
 gapminder \
 gdalUtils \
