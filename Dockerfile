@@ -41,6 +41,7 @@ glmnet \
 googlesheets \
 heatmaply \
 hexSticker \
+imputeTS \
 kernlab \
 lintr \
 liquidSVM \

@@ -112,6 +112,7 @@ httpuv
 hunspell
 huxtable
 igraph
+imputeTS
 janitor
 kableExtra
 kernlab
