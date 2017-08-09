@@ -74,6 +74,7 @@ RcppEigen \
 RcppQuantuccia \
 RDocumentation \
 reticulate \
+robets \
 rgdal \
 rgeos \
 RgoogleMaps \

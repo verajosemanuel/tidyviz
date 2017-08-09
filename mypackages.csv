@@ -148,6 +148,7 @@ microbenchmark
 mime
 miniCRAN
 missForest
+missMDA
 munsell
 naturalsort
 neuralnet
@@ -195,6 +196,7 @@ riverplot
 rmarkdown
 rmdformats
 rms
+robets
 rpart
 rpostgis
 rpg
