@@ -64,6 +64,7 @@ df.git <-
 		"lchiffon/wordcloud2",
 		"bhaskarvk/leaflet.extras",
 		"gsimchoni/kandinsky",
+		"business-science/sweep"
 "vqv/ggbiplot"
     ),
     "Title" = c(
@@ -112,7 +113,8 @@ df.git <-
 		"R interface to wordcloud for data visualization.",
 		"Extra functionality for leaflet R package.",
 		"Turn any dataset into a Kandinsky painting",
-"An implementation of the biplot using ggplot2. "
+"An implementation of the biplot using ggplot2.",
+"Extending broom to time series forecasting"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -164,7 +166,8 @@ df.git <-
 		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package.",
 		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins.",
 		"To generate random Wassily Kandinsky paintings or even make any dataset into one.",
-"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids."
+"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
+"The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package"
 		),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -212,7 +215,8 @@ df.git <-
 		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
 		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
 		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
-"https://github.com/vqv/ggbiplot"
+"https://github.com/vqv/ggbiplot",
+"https://github.com/business-science/sweep"
     )
   )
 
