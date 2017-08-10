@@ -72,7 +72,6 @@ raster \
 rasterVis \
 RcppEigen \
 RcppQuantuccia \
-RDocumentation \
 reticulate \
 robets \
 rgdal \
