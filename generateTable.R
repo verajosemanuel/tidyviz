@@ -64,7 +64,8 @@ df.git <-
 		"lchiffon/wordcloud2",
 		"bhaskarvk/leaflet.extras",
 		"gsimchoni/kandinsky",
-		"business-science/sweep"
+		"business-science/sweep",
+		"edgararuiz/dbplot"
 "vqv/ggbiplot"
     ),
     "Title" = c(
@@ -114,7 +115,8 @@ df.git <-
 		"Extra functionality for leaflet R package.",
 		"Turn any dataset into a Kandinsky painting",
 "An implementation of the biplot using ggplot2.",
-"Extending broom to time series forecasting"
+"Extending broom to time series forecasting",
+"Collect multiple functions for in-database visualization code."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -167,7 +169,8 @@ df.git <-
 		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins.",
 		"To generate random Wassily Kandinsky paintings or even make any dataset into one.",
 "The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
-"The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package"
+"The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package",
+"It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster"
 		),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -216,7 +219,8 @@ df.git <-
 		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
 		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
 "https://github.com/vqv/ggbiplot",
-"https://github.com/business-science/sweep"
+"https://github.com/business-science/sweep",
+"https://github.com/edgararuiz/dbplot"
     )
   )
 
