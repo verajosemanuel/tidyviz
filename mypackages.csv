@@ -1,4 +1,4 @@
-﻿Package
+Package
 afex
 Amelia
 anim.plots
@@ -46,6 +46,7 @@ cronR
 cshapes
 ctv
 d3Tree
+datapasta
 data.table
 dbplyr
 desctable

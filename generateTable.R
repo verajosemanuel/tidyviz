@@ -10,15 +10,13 @@ cran <- cran[, -65]
 # make it a tibble
 cran <- tbl_df(cran)
 
-mycran <- rio::import("D:/tidyviz/mypackages.csv")
+mycran <- rio::import("mypackages.csv")
 
 cran <- cran[, c("Package", "Title", "Description", "URL")]
 paketes.instalados <- inner_join(cran, mycran)
 
 
-df.git <-
-  data.frame(
-    "Package" = c(
+df.git <- data.frame("Package" = c(
       "hadley/colformat",
       "hadley/precis",
       "ropenscilabs/skimr",
@@ -65,7 +63,8 @@ df.git <-
 		"bhaskarvk/leaflet.extras",
 		"gsimchoni/kandinsky",
 		"business-science/sweep",
-		"edgararuiz/dbplot"
+		"edgararuiz/dbplot",
+		"MilesMcBain/gistfo",
 "vqv/ggbiplot"
     ),
     "Title" = c(
@@ -116,7 +115,8 @@ df.git <-
 		"Turn any dataset into a Kandinsky painting",
 "An implementation of the biplot using ggplot2.",
 "Extending broom to time series forecasting",
-"Collect multiple functions for in-database visualization code."
+"Collect multiple functions for in-database visualization code.",
+"Turn your RStudio untitled tabs into gists."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -168,10 +168,11 @@ df.git <-
 		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package.",
 		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins.",
 		"To generate random Wassily Kandinsky paintings or even make any dataset into one.",
-"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
 "The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package",
-"It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster"
-		),
+"It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster",
+"Turn your RStudio untitled tabs into gists.",
+"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids."
+    ),
     "URL" = c(
       "https://github.com/hadley/colformat",
       "https://github.com/hadley/precis",
@@ -218,19 +219,23 @@ df.git <-
 		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
 		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
 		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
-"https://github.com/vqv/ggbiplot",
 "https://github.com/business-science/sweep",
-"https://github.com/edgararuiz/dbplot"
-    )
-  )
+"https://github.com/edgararuiz/dbplot",
+"https://github.com/MilesMcBain/gistfo",
+"https://github.com/vqv/ggbiplot"
+    ))
+  
 
 
-paquetes <- rbind(paketes.instalados, df.git)
+write paquetes <- rbind(paketes.instalados, df.git)
 
-
-kk <- knitr::kable(paquetes, format = "html")
+knitr::kable(paquetes, format = "html")
 
 writeClipboard(kk)
+dmdclip(kk)
+clip <- pipe("pbcopy", "w")                       
+write_file(kk,"teibol")                               
+close(clip)
 
 Sys.setenv("R_ZIPCMD" = "C:/Rtools/bin/zip.exe")
 rio::export(paquetes, file = "paquetes.xlsx", format = "xlsx")

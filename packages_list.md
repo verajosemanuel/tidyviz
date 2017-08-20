@@ -177,6 +177,18 @@ http://www.winfield.demon.nl (upstream) </td>
    <td style="text-align:left;"> https://m2.icm.edu.pl/boruta/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> broom </td>
+   <td style="text-align:left;"> Convert Statistical Analysis Objects into Tidy Data Frames </td>
+   <td style="text-align:left;"> Convert statistical analysis objects from R into tidy data frames,
+    so that they can more easily be combined, reshaped and otherwise processed
+    with tools like 'dplyr', 'tidyr' and 'ggplot2'. The package provides three
+    S3 generics: tidy, which summarizes a model's statistical findings such as
+    coefficients of a regression; augment, which adds columns to the original
+    data such as predictions, residuals and cluster assignments; and glance, which
+    provides a one-row summary of model-level statistics. </td>
+   <td style="text-align:left;"> http://github.com/tidyverse/broom </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> BTYD </td>
    <td style="text-align:left;"> Implementing Buy 'Til You Die Models </td>
    <td style="text-align:left;"> This package contains functions for data preparation, parameter estimation, scoring, and plotting for the BG/BB, BG/NBD and Pareto/NBD models. </td>
@@ -448,6 +460,12 @@ Library </td>
    <td style="text-align:left;"> https://github.com/metrumresearchgroup/d3Tree </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> datapasta </td>
+   <td style="text-align:left;"> R Tools for Data Copy-Pasta </td>
+   <td style="text-align:left;"> RStudio addins and R functions that make copy-pasting vectors and tables to text painless. </td>
+   <td style="text-align:left;"> https://github.com/milesmcbain/datapasta </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> data.table </td>
    <td style="text-align:left;"> Extension of `data.frame` </td>
    <td style="text-align:left;"> Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns, a fast friendly file reader and parallel file writer. Offers a natural and flexible syntax, for faster development. </td>
@@ -545,13 +563,17 @@ Theory Group (Formerly: E1071), TU Wien </td>
    <td style="text-align:left;"> expss </td>
    <td style="text-align:left;"> Tables with Labels and Some Useful Functions from Spreadsheets
 and 'SPSS' Statistics </td>
-   <td style="text-align:left;"> Package provides tabulation functions with support of 'SPSS'-style labels, 
-    multiple / nested banners, weights and multiple-response variables. 
-    Additionally it offers useful functions for data processing in the social / 
-    marketing research surveys - popular data transformation functions from 'SPSS' Statistics
-    ('RECODE', 'COUNT', 'COMPUTE', 'DO IF', etc.) and 'Excel' ('COUNTIF', 'VLOOKUP', etc.).
-    Proper methods for labelled variables add value labels support to base R and other packages.
-    Package aimed to help people to move data processing from 'Excel'/'SPSS' to R. </td>
+   <td style="text-align:left;"> Package provides tabulation functions with support for 'SPSS'-style 
+        labels, multiple / nested banners, weights, multiple-response variables 
+        and significance testing. There are facilities for nice output of tables 
+        in 'knitr', R notebooks, 'Shiny' and 'Jupyter' notebooks. Proper methods 
+        for labelled variables add value labels support to base R functions and to 
+        some functions from other packages. Additionally, the package offers 
+        useful functions for data processing in marketing research / social 
+        surveys - popular data transformation functions from 'SPSS' Statistics 
+        ('RECODE', 'COUNT', 'COMPUTE', 'DO IF', etc.) and 'Excel' ('COUNTIF', 
+        'VLOOKUP', etc.). Package is intended to help people to move data 
+        processing from 'Excel'/'SPSS' to R. </td>
    <td style="text-align:left;"> https://gdemin.github.io/expss/ </td>
   </tr>
   <tr>
@@ -603,6 +625,20 @@ and 'SPSS' Statistics </td>
    <td style="text-align:left;"> http://rmarkdown.rstudio.com/flexdashboard </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> forecast </td>
+   <td style="text-align:left;"> Forecasting Functions for Time Series and Linear Models </td>
+   <td style="text-align:left;"> Methods and tools for displaying and analysing
+             univariate time series forecasts including exponential smoothing
+             via state space models and automatic ARIMA modelling. </td>
+   <td style="text-align:left;"> http://github.com/robjhyndman/forecast </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> forecTheta </td>
+   <td style="text-align:left;"> Forecasting Time Series by Theta Models </td>
+   <td style="text-align:left;"> Routines for forecasting univariate time series using Theta Models. Contains several cross-validation routines. </td>
+   <td style="text-align:left;"> http://arxiv.org/abs/1503.03529 </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> foreign </td>
    <td style="text-align:left;"> Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata',
 'Systat', 'Weka', 'dBase', ... </td>
@@ -631,6 +667,12 @@ and 'SPSS' Statistics </td>
     web pages. </td>
    <td style="text-align:left;"> https://renkun.me/formattable,
 https://github.com/renkun-ken/formattable </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> fst </td>
+   <td style="text-align:left;"> Lightning Fast Serialization of Data Frames for R </td>
+   <td style="text-align:left;"> Read and write data frames at high speed. Compress your data with fast and efficient type-optimized algorithms that allow for random access of stored data frames (columns and rows). </td>
+   <td style="text-align:left;"> https://fstpackage.github.io </td>
   </tr>
   <tr>
    <td style="text-align:left;"> futile.logger </td>
@@ -1059,6 +1101,20 @@ https://hunspell.github.io (upstream) </td>
    <td style="text-align:left;"> http://igraph.org </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> imputeTS </td>
+   <td style="text-align:left;"> Time Series Missing Value Imputation </td>
+   <td style="text-align:left;"> Imputation (replacement) of missing values 
+             in univariate time series. 
+             Offers several imputation functions
+             and missing data plots. 
+             Available imputation algorithms include: 
+            'Mean', 'LOCF', 'Interpolation', 
+            'Moving Average', 'Seasonal Decomposition', 
+            'Kalman Smoothing on Structural Time Series models',
+            'Kalman Smoothing on ARIMA models'. </td>
+   <td style="text-align:left;"> https://github.com/SteffenMoritz/imputeTS </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> janitor </td>
    <td style="text-align:left;"> Simple Tools for Examining and Cleaning Dirty Data </td>
    <td style="text-align:left;"> The main janitor functions can: perfectly format data.frame column
@@ -1100,7 +1156,7 @@ https://github.com/haozhu233/kableExtra </td>
    <td style="text-align:left;"> A General-Purpose Package for Dynamic Report Generation in R </td>
    <td style="text-align:left;"> Provides a general-purpose tool for dynamic report generation in R
     using Literate Programming techniques. </td>
-   <td style="text-align:left;"> http://yihui.name/knitr/ </td>
+   <td style="text-align:left;"> https://yihui.name/knitr/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> leaflet </td>
@@ -1129,15 +1185,15 @@ Library </td>
   <tr>
    <td style="text-align:left;"> lessR </td>
    <td style="text-align:left;"> Less Code, More Results </td>
-   <td style="text-align:left;"> Each function accomplishes the work of several or more standard R functions. For example, two function calls, Read() and CountAll(), read the data and generate summary statistics for all variables in the data frame, plus histograms and bar charts as appropriate.  Other functions provide for descriptive statistics, a comprehensive regression analysis, analysis of variance and t-test, plotting, bar chart, histogram, box plot, density curves, calibrated power curve, reading multiple data formats with the same function call, variable labels, color themes, Trellis graphics and a built-in help system. A confirmatory factor analysis of multiple indicator measurement models is available, as are pedagogical routines for data simulation such as for the Central Limit Theorem. Compatible with 'RStudio' and 'knitr' including generation of R markdown instructions for interpretative output. </td>
+   <td style="text-align:left;"> Each function accomplishes the work of several or more standard R functions. For example, two function calls, Read() and CountAll(), read the data and generate summary statistics for all variables in the data frame, plus histograms and bar charts as appropriate.  Other functions provide for descriptive statistics, a comprehensive regression analysis, analysis of variance and t-test, plotting including the introduced here Violin/Box/Scatter plot for a numerical variable, bar chart, histogram, box plot, density curves, calibrated power curve, reading multiple data formats with the same function call, variable labels, color themes, Trellis graphics and a built-in help system. A confirmatory factor analysis of multiple indicator measurement models is available, as are pedagogical routines for data simulation such as for the Central Limit Theorem. Compatible with 'RStudio' and 'knitr' including generation of R markdown instructions for interpretative output. </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> lintr </td>
-   <td style="text-align:left;"> Static R Code Analysis </td>
+   <td style="text-align:left;"> A 'Linter' for R Code </td>
    <td style="text-align:left;"> Checks adherence to a given style, syntax errors and possible
-    semantic issues.  Supports on the fly checking of R code edited with Emacs,
-    Vim and Sublime Text. </td>
+    semantic issues.  Supports on the fly checking of R code edited with 'RStudio IDE', 'Emacs',
+    'Vim', 'Sublime Text' and 'Atom'. </td>
    <td style="text-align:left;"> https://github.com/jimhester/lintr </td>
   </tr>
   <tr>
@@ -1182,7 +1238,7 @@ Library </td>
   </tr>
   <tr>
    <td style="text-align:left;"> lumberjack </td>
-   <td style="text-align:left;"> Track Changes in Data the Tidy Way </td>
+   <td style="text-align:left;"> Track Changes in Data </td>
    <td style="text-align:left;"> A function composition ('pipe') operator and extensible 
     framework that allows for easy logging of changes in data. </td>
    <td style="text-align:left;"> https://github.com/markvanderloo/lumberjack </td>
@@ -1196,7 +1252,9 @@ Library </td>
     All operations are vectorized via the Magick++ STL meaning they operate either
     on a single frame or a series of frames for working with layers, collages,
     or animation. In RStudio images are automatically previewed when printed to
-    the console, resulting in an interactive editing environment. </td>
+    the console, resulting in an interactive editing environment. The latest 
+    version of the package includes a native graphics device for creating 
+    in-memory graphics or drawing onto images using pixel coordinates. </td>
    <td style="text-align:left;"> https://github.com/ropensci/magick#readme </td>
   </tr>
   <tr>
@@ -1349,6 +1407,12 @@ Library </td>
         or elaborate cross-validation. It can be run in parallel to 
         save computation time. </td>
    <td style="text-align:left;"> http://www.r-project.org, https://github.com/stekhoven/missForest </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> missMDA </td>
+   <td style="text-align:left;"> Handling Missing Values with Multivariate Data Analysis </td>
+   <td style="text-align:left;"> Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA. </td>
+   <td style="text-align:left;"> http://www.agrocampus-ouest.fr/math/husson, http://juliejosse.com/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> munsell </td>
@@ -1670,12 +1734,6 @@ Library </td>
    <td style="text-align:left;"> http://www.omegahat.net/RCurl </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> RDocumentation </td>
-   <td style="text-align:left;"> Integrate R with 'RDocumentation.org' </td>
-   <td style="text-align:left;"> Wraps around the default help functionality in R. Instead of plain documentation files, documentation will now show up as it does on 'RDocumentation.org', a platform that shows R documentation from CRAN, GitHub and Bioconductor, together with informative stats to assess the package quality and possibilities to discuss packages. </td>
-   <td style="text-align:left;"> https://www.rdocumentation.org, https://www.datacamp.com </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> readtext </td>
    <td style="text-align:left;"> Import and Handling for Plain and Formatted Text Files </td>
    <td style="text-align:left;"> Functions for importing and handling text files and formatted text
@@ -1799,6 +1857,12 @@ http://trac.osgeo.org/geos/ </td>
 	squares for serially or spatially correlated observations, generalized
 	linear models, and quantile regression. </td>
    <td style="text-align:left;"> http://biostat.mc.vanderbilt.edu/rms </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> robets </td>
+   <td style="text-align:left;"> Forecasting Time Series with Robust Exponential Smoothing </td>
+   <td style="text-align:left;"> We provide an outlier robust alternative of the function ets() in the 'forecast' package of Hyndman and Khandakar (2008)&lt;DOI:10.18637/jss.v027.i03&gt;. For each method of a class of exponential smoothing variants we made a robust alternative. The class includes methods with a damped trend and/or seasonal components. The robust method is developed by robustifying every aspect of the original exponential smoothing variant. We provide robust forecasting equations, robust initial values, robust smoothing parameter estimation and a robust information criterion. The method is described in more detail in Crevits and Croux (2016)&lt;DOI:10.13140/RG.2.2.11791.18080&gt;. </td>
+   <td style="text-align:left;"> http://github.com/RubenCrevits/robets </td>
   </tr>
   <tr>
    <td style="text-align:left;"> rpart </td>
@@ -1994,10 +2058,11 @@ http://andysouth.co.uk/ </td>
     visualization. Results of various statistical analyses (that are commonly used
     in social sciences) can be visualized using this package, including simple and
     cross tabulated frequencies, histograms, box plots, (generalized) linear models,
-    mixed effects models, PCA and correlation matrices, cluster analyses, scatter
-    plots, Likert scales, effects plots of regression models (including interaction
-    terms) and much more. This package supports labelled data. </td>
-   <td style="text-align:left;"> https://github.com/sjPlot/devel </td>
+    mixed effects models, principal component analysis and correlation matrices, 
+    cluster analyses, scatter plots, stacked scales, effects plots of regression 
+    models (including interaction terms) and much more. This package supports
+    labelled data. </td>
+   <td style="text-align:left;"> https://github.com/strengejacke/sjPlot </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sjstats </td>
@@ -2097,17 +2162,6 @@ Various Output Formats </td>
    <td style="text-align:left;"> https://github.com/dcomtois/summarytools </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> sweep </td>
-   <td style="text-align:left;"> Tidy Tools for Forecasting </td>
-   <td style="text-align:left;"> Tidies up the forecasting modeling and prediction work flow, 
-    extends the 'broom' package 
-    with 'sw_tidy', 'sw_glance', 'sw_augment', and 'sw_tidy_decomp' functions 
-    for various forecasting models,
-    and enables converting 'forecast' objects to 
-    &quot;tidy&quot; data frames with 'sw_sweep'. </td>
-   <td style="text-align:left;"> https://github.com/business-science/sweep </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> tables </td>
    <td style="text-align:left;"> Formula-Driven Table Generation </td>
    <td style="text-align:left;"> Computes and displays complex tables of summary statistics.
@@ -2205,6 +2259,15 @@ Stack and List structures </td>
    <td style="text-align:left;"> https://github.com/nacnudus/tidyxl </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> timetk </td>
+   <td style="text-align:left;"> A Tool Kit for Working with Time Series in R </td>
+   <td style="text-align:left;"> Get the time series index, signature, and summary from time series objects and
+    time-based tibbles. Create future time series based on properties of 
+    existing time series index.  
+    Coerce between time-based tibbles ('tbl') and 'xts', 'zoo', and 'ts'. </td>
+   <td style="text-align:left;"> https://github.com/business-science/timetk </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> tint </td>
    <td style="text-align:left;"> Tint is not Tufte </td>
    <td style="text-align:left;"> A 'tufte'-alike style for 'rmarkdown'. </td>
@@ -2243,6 +2306,12 @@ Stack and List structures </td>
    <td style="text-align:left;"> Time Series Analysis and Computational Finance </td>
    <td style="text-align:left;"> Time series analysis and computational finance. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> TTR </td>
+   <td style="text-align:left;"> Technical Trading Rules </td>
+   <td style="text-align:left;"> Functions and data to construct technical trading rules with R. </td>
+   <td style="text-align:left;"> https://github.com/joshuaulrich/TTR </td>
   </tr>
   <tr>
    <td style="text-align:left;"> tufte </td>
@@ -2623,8 +2692,26 @@ Ordered Observations) </td>
    <td style="text-align:left;"> http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> vqv/ggbiplot </td>
+   <td style="text-align:left;"> business-science/sweep </td>
    <td style="text-align:left;"> An implementation of the biplot using ggplot2. </td>
+   <td style="text-align:left;"> The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package </td>
+   <td style="text-align:left;"> https://github.com/business-science/sweep </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> edgararuiz/dbplot </td>
+   <td style="text-align:left;"> Extending broom to time series forecasting </td>
+   <td style="text-align:left;"> It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster </td>
+   <td style="text-align:left;"> https://github.com/edgararuiz/dbplot </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> MilesMcBain/gistfo </td>
+   <td style="text-align:left;"> Collect multiple functions for in-database visualization code. </td>
+   <td style="text-align:left;"> Turn your RStudio untitled tabs into gists. </td>
+   <td style="text-align:left;"> https://github.com/MilesMcBain/gistfo </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> vqv/ggbiplot </td>
+   <td style="text-align:left;"> Turn your RStudio untitled tabs into gists. </td>
    <td style="text-align:left;"> The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids. </td>
    <td style="text-align:left;"> https://github.com/vqv/ggbiplot </td>
   </tr>
