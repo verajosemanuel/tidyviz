@@ -94,6 +94,7 @@ lessR \
 reprex \
 sp \
 sweep \
+tadaatoolbox \
 tidygraph \
 timetk \
 tidyquant \
