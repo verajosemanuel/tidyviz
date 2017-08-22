@@ -7,6 +7,7 @@ RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE
 ggimage \
 arules \
 arulesViz \
+bayesAB \
 bayesboot \
 bigrquery \
 bookdown \
