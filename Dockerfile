@@ -61,6 +61,7 @@ mi \
 mice \
 miniCRAN \
 missForest \
+naniar \
 nloptr \
 osmdata \
 party \
