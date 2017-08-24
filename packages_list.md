@@ -137,6 +137,14 @@ http://www.winfield.demon.nl (upstream) </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> bayesAB </td>
+   <td style="text-align:left;"> Fast Bayesian Methods for AB Testing </td>
+   <td style="text-align:left;"> A suite of functions that allow the user to analyze A/B test
+    data in a Bayesian framework. Intended to be a drop-in replacement for
+    common frequentist hypothesis test such as the t-test and chi-sq test. </td>
+   <td style="text-align:left;"> https://github.com/FrankPortman/bayesAB </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> bayesboot </td>
    <td style="text-align:left;"> An Implementation of Rubin's (1981) Bayesian Bootstrap </td>
    <td style="text-align:left;"> Functions for performing the Bayesian bootstrap as introduced by
@@ -419,6 +427,17 @@ Comprehension </td>
    <td style="text-align:left;"> https://github.com/vincentarelbundock/countrycode </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> cowplot </td>
+   <td style="text-align:left;"> Streamlined Plot Theme and Plot Annotations for 'ggplot2' </td>
+   <td style="text-align:left;"> Some helpful extensions and modifications to the 'ggplot2'
+    package. In particular, this package makes it easy to combine multiple
+    'ggplot2' plots into one and label them with letters, e.g. A, B, C, etc.,
+    as is often required for scientific publications. The package also provides
+    a streamlined and clean theme that is used in the Wilke lab, hence the
+    package name, which stands for Claus O. Wilke's plot package. </td>
+   <td style="text-align:left;"> https://github.com/wilkelab/cowplot </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> cranlogs </td>
    <td style="text-align:left;"> Download Logs from the 'RStudio' 'CRAN' Mirror </td>
    <td style="text-align:left;"> 'API' to the database of 'CRAN' package downloads from the
@@ -460,6 +479,23 @@ Library </td>
    <td style="text-align:left;"> https://github.com/metrumresearchgroup/d3Tree </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> DataCombine </td>
+   <td style="text-align:left;"> Tools for Easily Combining and Cleaning Data Sets </td>
+   <td style="text-align:left;"> Tools for combining and cleaning data sets, particularly
+    with grouped and time series data. </td>
+   <td style="text-align:left;"> http://CRAN.R-project.org/package=DataCombine </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dataMaid </td>
+   <td style="text-align:left;"> A Suite of Checks for Identification of Potential Errors in a
+Data Frame as Part of the Data Cleaning Process </td>
+   <td style="text-align:left;"> Data cleaning is an important first step of any statistical
+    analysis. dataMaid provides an extendable suite of test for common potential
+    errors in a dataset. It produces a document with a thorough summary of the
+    checks and the results that a human can use to identify possible errors. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> datapasta </td>
    <td style="text-align:left;"> R Tools for Data Copy-Pasta </td>
    <td style="text-align:left;"> RStudio addins and R functions that make copy-pasting vectors and tables to text painless. </td>
@@ -497,8 +533,8 @@ Library </td>
   </tr>
   <tr>
    <td style="text-align:left;"> DiagrammeR </td>
-   <td style="text-align:left;"> Create Graph Diagrams and Flowcharts Using R </td>
-   <td style="text-align:left;"> Create graph diagrams and flowcharts using R. </td>
+   <td style="text-align:left;"> Graph/Network Visualization </td>
+   <td style="text-align:left;"> Graph and network visualization using tabular data. </td>
    <td style="text-align:left;"> https://github.com/rich-iannone/DiagrammeR </td>
   </tr>
   <tr>
@@ -804,6 +840,13 @@ Scales and Fonts for 'ggplot2' </td>
     that the arrangement of points within a category reflects the density of
     data at that region, and avoids over-plotting. </td>
    <td style="text-align:left;"> https://github.com/eclarke/ggbeeswarm </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ggfittext </td>
+   <td style="text-align:left;"> Fit Text Inside a Box in 'ggplot2' </td>
+   <td style="text-align:left;"> Provides 'ggplot2' geoms to fit text into a box by growing, shrinking
+    or wrapping the text. </td>
+   <td style="text-align:left;"> https://github.com/wilkox/ggfittext </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ggforce </td>
@@ -1245,7 +1288,7 @@ Library </td>
   </tr>
   <tr>
    <td style="text-align:left;"> magick </td>
-   <td style="text-align:left;"> Advanced Image-Processing in R </td>
+   <td style="text-align:left;"> Advanced Graphics and Image-Processing in R </td>
    <td style="text-align:left;"> Bindings to 'ImageMagick': the most comprehensive open-source image
     processing library available. Supports many common formats (png, jpeg, tiff,
     pdf, etc) and manipulations (rotate, scale, crop, trim, flip, blur, etc).
@@ -1415,6 +1458,14 @@ Library </td>
    <td style="text-align:left;"> http://www.agrocampus-ouest.fr/math/husson, http://juliejosse.com/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> mlDNA </td>
+   <td style="text-align:left;"> Machine Learning-based Differential Network Analysis of
+Transcriptome Data </td>
+   <td style="text-align:left;"> Functions necessary to perform the machine learning-based
+        differential network analysis of transcriptome data. </td>
+   <td style="text-align:left;"> http://www.cmbb.arizona.edu/mlDNA </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> munsell </td>
    <td style="text-align:left;"> Utilities for Using Munsell Colours </td>
    <td style="text-align:left;"> Provides easy access to, and manipulation of, the Munsell 
@@ -1424,6 +1475,16 @@ Library </td>
     to explore slices through the Munsell colour tree, to transform 
     Munsell colours and display colour palettes. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> naniar </td>
+   <td style="text-align:left;"> Data Structures, Summaries, and Visualisations for Missing Data </td>
+   <td style="text-align:left;"> Missing values are ubiquitous in data and need to be explored and
+    handled in the initial stages of analysis. 'naniar' provides data structures 
+    and functions that facilitate the plotting of missing values and examination 
+    of imputations. This allows missing data dependencies to be explored with 
+    minimal deviation from the common work patterns of 'ggplot2' and tidy data. </td>
+   <td style="text-align:left;"> https://github.com/njtierney/naniar </td>
   </tr>
   <tr>
    <td style="text-align:left;"> naturalsort </td>
@@ -2170,6 +2231,17 @@ Various Output Formats </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> tadaatoolbox </td>
+   <td style="text-align:left;"> Helpers for Data Analysis and Presentation Focused on Undergrad
+Psychology </td>
+   <td style="text-align:left;"> Contains functions for the easy display of statistical tests as well as
+    some convenience functions for data cleanup. It is meant to ease existing workflows
+    with packages like 'sjPlot', 'dplyr', and 'ggplot2'. The primary components are the functions
+    prefixed with 'tadaa_', which are built to work in an interactive environment, but also print
+    tidy markdown tables powered by 'pixiedust' for the creation of 'RMarkdown' reports. </td>
+   <td style="text-align:left;"> https://github.com/tadaadata/tadaatoolbox </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> tatoo </td>
    <td style="text-align:left;"> Combine and Export Data Frames </td>
    <td style="text-align:left;"> Functions to combine data.frames in ways that require additional effort in 
@@ -2477,12 +2549,6 @@ Ordered Observations) </td>
    <td style="text-align:left;"> R package for geographical faceting with ggplot2 </td>
    <td style="text-align:left;"> Geofaceting arranges a sequence of plots of data for different geographical entities into a grid that strives to preserve some of the original geographical orientation of the entities </td>
    <td style="text-align:left;"> https://github.com/hafen/geofacet </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> njtierney/narnia </td>
-   <td style="text-align:left;"> Tools for numerical and visual summaries of NAs </td>
-   <td style="text-align:left;"> narnia aims to make it easy to summarise, visualise, and manipulate missing data in a tidy fashion. Provides data structures for missing data, visualisation methods and numerical summaries </td>
-   <td style="text-align:left;"> https://github.com/njtierney/narnia </td>
   </tr>
   <tr>
    <td style="text-align:left;"> drsimonj/twidlr </td>
