@@ -17,6 +17,7 @@ Boruta \
 broom \
 BTYD \
 BTYDplus \
+changepoint \
 choroplethr \
 choroplethrMaps \
 class \
@@ -26,6 +27,7 @@ confinterpret \
 cranlogs \
 CRANsearcher \
 cshapes \
+ctv \
 DiagrammeR \
 dummies \
 d3Tree \
