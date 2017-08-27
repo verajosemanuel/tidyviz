@@ -18,6 +18,7 @@ broom \
 BTYD \
 BTYDplus \
 changepoint \
+checkpoint \
 choroplethr \
 choroplethrMaps \
 class \
