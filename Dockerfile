@@ -112,7 +112,7 @@ tseries \
 XML \
 xts \
 zoo \
-&& Rscript github_installs.R \
+&& Rscript /tmp/github_installs.R \
 && echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
 && R CMD javareconf \
 && install2.r --error mallet \
