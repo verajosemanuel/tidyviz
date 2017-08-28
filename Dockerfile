@@ -70,6 +70,7 @@ naniar \
 nloptr \
 osmdata \
 party \
+PerformanceAnalytics \
 plotKML \
 postGIStools \
 progress \
