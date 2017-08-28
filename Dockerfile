@@ -74,6 +74,7 @@ PerformanceAnalytics \
 plotKML \
 postGIStools \
 progress \
+quantmod \
 RandomFields \
 randomForest \
 raster \
