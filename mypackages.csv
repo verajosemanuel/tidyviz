@@ -133,6 +133,7 @@ imputeTS
 janitor
 kableExtra
 kernlab
+Kmisc
 knitr
 leaflet
 leaflet.minicharts
