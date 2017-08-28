@@ -88,6 +88,7 @@ rgeos \
 RgoogleMaps \
 rms \
 rpart \
+rpart.plot \
 rpg \
 rpostgis \
 rts \

@@ -218,6 +218,7 @@ rmdformats
 rms
 robets
 rpart
+rpart.plot
 rpg
 rpostgis
 rprojroot
