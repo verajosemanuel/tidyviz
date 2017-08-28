@@ -223,9 +223,9 @@ df.git <- data.frame("Package" = c(
   
 
 
-write paquetes <- rbind(paketes.instalados, df.git)
+paquetes <- rbind(paketes.instalados, df.git)
 
-knitr::kable(paquetes, format = "html")
+kk <- knitr::kable(paquetes, format = "html")
 
 writeClipboard(kk)
 dmdclip(kk)

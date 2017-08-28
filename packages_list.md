@@ -1,4 +1,5 @@
 <table style="font-size:10px">
+ <table>
  <thead>
   <tr>
    <th style="text-align:left;"> Package </th>
@@ -238,6 +239,12 @@ http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html </td>
    <td style="text-align:left;"> https://github.com/topepo/caret/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> changepoint </td>
+   <td style="text-align:left;"> Methods for Changepoint Detection </td>
+   <td style="text-align:left;"> Implements various mainstream and specialised changepoint methods for finding single and multiple changepoints within data.  Many popular non-parametric and frequentist methods are included.  The cpt.mean(), cpt.var(), cpt.meanvar() functions should be your first point of call. </td>
+   <td style="text-align:left;"> https://github.com/rkillick/changepoint/ </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> charlatan </td>
    <td style="text-align:left;"> Make Fake Data </td>
    <td style="text-align:left;"> Make fake data, supporting addresses, person names, dates,
@@ -253,6 +260,26 @@ http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html </td>
     substantial part of the package was written in C to minimize any worries
     about execution time overhead. </td>
    <td style="text-align:left;"> https://github.com/mllg/checkmate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> checkpoint </td>
+   <td style="text-align:left;"> Install Packages from Snapshots on the Checkpoint Server for
+Reproducibility </td>
+   <td style="text-align:left;"> The goal of checkpoint is to solve the problem of package
+    reproducibility in R. Specifically, checkpoint allows you to install packages
+    as they existed on CRAN on a specific snapshot date as if you had a CRAN time
+    machine. To achieve reproducibility, the checkpoint() function installs the
+    packages required or called by your project and scripts to a local library
+    exactly as they existed at the specified point in time. Only those packages
+    are available to your project, thereby avoiding any package updates that came
+    later and may have altered your results. In this way, anyone using checkpoint's
+    checkpoint() can ensure the reproducibility of your scripts or projects at any
+    time. To create the snapshot archives, once a day (at midnight UTC) Microsoft
+    refreshes the Austria CRAN mirror on the &quot;Microsoft R Archived Network&quot;
+    server (&lt;https://mran.microsoft.com/&gt;). Immediately after completion
+    of the rsync mirror process, the process takes a snapshot, thus creating the
+    archive. Snapshot archives exist starting from 2014-09-17. </td>
+   <td style="text-align:left;"> https://github.com/RevolutionAnalytics/checkpoint </td>
   </tr>
   <tr>
    <td style="text-align:left;"> choroplethr </td>
@@ -446,6 +473,13 @@ Comprehension </td>
    <td style="text-align:left;"> https://github.com/metacran/cranlogs </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> CRANsearcher </td>
+   <td style="text-align:left;"> RStudio Addin for Searching Packages in CRAN Database Based on
+Keywords </td>
+   <td style="text-align:left;"> One of the strengths of R is its vast package ecosystem. Indeed, R packages extend from visualization to Bayesian inference and from spatial analyses to pharmacokinetics (&lt;https://cran.r-project.org/web/views/&gt;). There is probably not an area of quantitative research that isn't represented by at least one R package. At the time of this writing, there are more than 10,000 active CRAN packages. Because of this massive ecosystem, it is important to have tools to search and learn about packages related to your personal R needs. For this reason, we developed an RStudio addin capable of searching available CRAN packages directly within RStudio. </td>
+   <td style="text-align:left;"> https://github.com/RhoInc/CRANsearcher </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> cronR </td>
    <td style="text-align:left;"> Schedule R Scripts and Processes with the 'cron' Job Scheduler </td>
    <td style="text-align:left;"> Create, edit, and remove 'cron' jobs on your unix-alike system. The package provides a set of easy-to-use wrappers
@@ -458,6 +492,14 @@ Comprehension </td>
    <td style="text-align:left;"> Package for CShapes, a GIS dataset of country boundaries (1946-today). Includes functions for data extraction and the computation of distance matrices and -lists. </td>
    <td style="text-align:left;"> http://nils.weidmann.ws/projects/cshapes,
 https://r-forge.r-project.org/scm/viewvc.php/*checkout*/pkg/inst/shp/cshapes_shapefile_documentation.txt?root=cshapes </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ctv </td>
+   <td style="text-align:left;"> CRAN Task Views </td>
+   <td style="text-align:left;"> Infrastructure for task views to CRAN-style repositories: Querying task views and installing the associated
+             packages (client-side tools), generating HTML pages and storing task view information in the repository
+	     (server-side tools). </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ctv </td>
@@ -635,6 +677,12 @@ and 'SPSS' Statistics </td>
     for simplifying some clustering analysis steps and provides 'ggplot2' - based
     elegant data visualization. </td>
    <td style="text-align:left;"> http://www.sthda.com/english/rpkgs/factoextra </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> FactoMineR </td>
+   <td style="text-align:left;"> Multivariate Exploratory Data Analysis and Data Mining </td>
+   <td style="text-align:left;"> Exploratory data analysis methods to summarize, visualize and describe datasets. The main principal component methods are available, those with the largest potential in terms of applications: principal component analysis (PCA) when variables are quantitative, correspondence analysis (CA) and multiple correspondence analysis (MCA) when variables are categorical, Multiple Factor Analysis when variables are structured in groups, etc. and hierarchical cluster analysis. </td>
+   <td style="text-align:left;"> http://factominer.free.fr </td>
   </tr>
   <tr>
    <td style="text-align:left;"> FFTrees </td>
@@ -842,13 +890,6 @@ Scales and Fonts for 'ggplot2' </td>
    <td style="text-align:left;"> https://github.com/eclarke/ggbeeswarm </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> ggfittext </td>
-   <td style="text-align:left;"> Fit Text Inside a Box in 'ggplot2' </td>
-   <td style="text-align:left;"> Provides 'ggplot2' geoms to fit text into a box by growing, shrinking
-    or wrapping the text. </td>
-   <td style="text-align:left;"> https://github.com/wilkox/ggfittext </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> ggforce </td>
    <td style="text-align:left;"> Accelerating 'ggplot2' </td>
    <td style="text-align:left;"> The aim of 'ggplot2' is to aid in visual data investigations. This
@@ -961,6 +1002,27 @@ Scales and Fonts for 'ggplot2' </td>
    <td style="text-align:left;"> http://ggvis.rstudio.com/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> ghibli </td>
+   <td style="text-align:left;"> Studio Ghibli Palette Generator </td>
+   <td style="text-align:left;"> Colour palettes inspired by Studio Ghibli films, ported to R for your enjoyment. </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> gistr </td>
+   <td style="text-align:left;"> Work with 'GitHub' 'Gists' </td>
+   <td style="text-align:left;"> Work with 'GitHub' 'gists' from 'R' (e.g., 
+    &lt;http://en.wikipedia.org/wiki/GitHub#Gist&gt;, 
+    &lt;https://help.github.com/articles/about-gists/&gt;). A 'gist'
+    is simply one or more files with code/text/images/etc. This package allows
+    the user to create new 'gists', update 'gists' with new files, rename files,
+    delete files, get and delete 'gists', star and 'un-star' 'gists', fork 'gists',
+    open a 'gist' in your default browser, get embed code for a 'gist', list
+    'gist' 'commits', and get rate limit information when 'authenticated'. Some
+    requests require authentication and some do not. 'Gists' website: 
+    &lt;https://gist.github.com/&gt;. </td>
+   <td style="text-align:left;"> https://github.com/ropensci/gistr </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> glmnet </td>
    <td style="text-align:left;"> Lasso and Elastic-Net Regularized Generalized Linear Models </td>
    <td style="text-align:left;"> Extremely efficient procedures for fitting the entire lasso or elastic-net regularization path for linear regression, logistic and multinomial regression models, Poisson regression and the Cox model. Two recent additions are the multiple-response Gaussian, and the grouped multinomial regression. The algorithm uses cyclical coordinate descent in a path-wise fashion, as described in the paper linked to via the URL below. </td>
@@ -1047,6 +1109,16 @@ https://github.com/talgalili/heatmaply/,
 https://www.r-statistics.com/tag/heatmaply/ </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> here </td>
+   <td style="text-align:left;"> A Simpler Way to Find Your Files </td>
+   <td style="text-align:left;"> Constructs paths to your project's files.
+    The 'here()' function uses a reasonable heuristics to find your project's
+    files, based on the current working directory at the time when the package
+    is loaded. Use it as a drop-in replacement for 'file.path()', it will always
+    locate the files relative to your project root. </td>
+   <td style="text-align:left;"> https://github.com/krlmlr/here, http://krlmlr.github.io/here </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> hexbin </td>
    <td style="text-align:left;"> Hexagonal Binning Routines </td>
    <td style="text-align:left;"> Binning and plotting functions for hexagonal bins. Now
@@ -1116,6 +1188,12 @@ https://github.com/harrelfe/Hmisc </td>
     which were developed by Joyent, Inc. (See LICENSE file for libuv and
     http-parser license information.) </td>
    <td style="text-align:left;"> https://github.com/rstudio/httpuv </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> humanFormat </td>
+   <td style="text-align:left;"> Human-friendly formatting functions </td>
+   <td style="text-align:left;"> Format quantities of time or bytes into human-friendly strings. </td>
+   <td style="text-align:left;"> https://github.com/dustin/humanFormat </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hunspell </td>
@@ -1313,12 +1391,6 @@ Library </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> mallet </td>
-   <td style="text-align:left;"> A wrapper around the Java machine learning tool MALLET </td>
-   <td style="text-align:left;"> This package allows you to train topic models in mallet and load results directly into R. </td>
-   <td style="text-align:left;"> NA </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> manipulate </td>
    <td style="text-align:left;"> Interactive Plots for RStudio </td>
    <td style="text-align:left;"> Interactive plotting functions for use within RStudio.
@@ -1458,14 +1530,6 @@ Library </td>
    <td style="text-align:left;"> http://www.agrocampus-ouest.fr/math/husson, http://juliejosse.com/ </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> mlDNA </td>
-   <td style="text-align:left;"> Machine Learning-based Differential Network Analysis of
-Transcriptome Data </td>
-   <td style="text-align:left;"> Functions necessary to perform the machine learning-based
-        differential network analysis of transcriptome data. </td>
-   <td style="text-align:left;"> http://www.cmbb.arizona.edu/mlDNA </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> munsell </td>
    <td style="text-align:left;"> Utilities for Using Munsell Colours </td>
    <td style="text-align:left;"> Provides easy access to, and manipulation of, the Munsell 
@@ -1562,6 +1626,13 @@ Objects </td>
    <td style="text-align:left;"> https://github.com/osmdatar/osmdata </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> papeR </td>
+   <td style="text-align:left;"> A Toolbox for Writing Pretty Papers and Reports </td>
+   <td style="text-align:left;"> A toolbox for writing 'knitr', 'Sweave' or other 'LaTeX'- or 'markdown'-based
+	     reports and to prettify the output of various estimated models. </td>
+   <td style="text-align:left;"> http://github.com/hofnerb/papeR </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> party </td>
    <td style="text-align:left;"> A Laboratory for Recursive Partytioning </td>
    <td style="text-align:left;"> A computational toolbox for recursive partitioning.
@@ -1599,6 +1670,20 @@ Objects </td>
    <td style="text-align:left;"> https://ropensci.org/blog/2016/03/01/pdftools-and-jeroen (blog)
 https://github.com/ropensci/pdftools#readme (devel)
 https://poppler.freedesktop.org (upstream) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> PerformanceAnalytics </td>
+   <td style="text-align:left;"> Econometric tools for performance and risk analysis </td>
+   <td style="text-align:left;"> Collection of econometric functions for
+    performance and risk analysis. This package aims to aid
+    practitioners and researchers in utilizing the latest
+    research in analysis of non-normal return streams.  In
+    general, it is most tested on return (rather than
+    price) data on a regular scale, but most functions will
+    work with irregular return data as well, and increasing
+    numbers of functions will work with P&amp;L or price data
+    where possible. </td>
+   <td style="text-align:left;"> http://r-forge.r-project.org/projects/returnanalytics/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> pixiedust </td>
@@ -1661,6 +1746,15 @@ https://github.com/ropensci/plotly </td>
    <td style="text-align:left;"> https://github.com/yixuan/prettydoc </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> prettyunits </td>
+   <td style="text-align:left;"> Pretty, Human Readable Formatting of Quantities </td>
+   <td style="text-align:left;"> Pretty, human readable formatting of quantities.
+    Time intervals: 1337000 -&gt; 15d 11h 23m 20s.
+    Vague time intervals: 2674000 -&gt; about a month ago.
+    Bytes: 1337 -&gt; 1.34 kB. </td>
+   <td style="text-align:left;"> https://github.com/gaborcsardi/prettyunits </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> profvis </td>
    <td style="text-align:left;"> Interactive Visualizations for Profiling R Code </td>
    <td style="text-align:left;"> Interactive visualizations for profiling R code. </td>
@@ -1694,6 +1788,12 @@ http://personality-project.org/r/psych-manual.pdf </td>
         amounts, email addresses, hash tags, numbers, percentages,
         citations, person tags, phone numbers, times, and zip codes. </td>
    <td style="text-align:left;"> http://trinker.github.com/qdapRegex/ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quantmod </td>
+   <td style="text-align:left;"> Quantitative Financial Modelling Framework </td>
+   <td style="text-align:left;"> Specify, build, trade, and analyse quantitative financial trading strategies. </td>
+   <td style="text-align:left;"> http://www.quantmod.com https://github.com/joshuaulrich/quantmod </td>
   </tr>
   <tr>
    <td style="text-align:left;"> RandomFields </td>
@@ -1863,6 +1963,13 @@ http://trac.osgeo.org/geos/ </td>
         maps, and (ii) Use the map as a background image to overlay
         plots within R. This requires proper coordinate scaling. </td>
    <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> rhandsontable </td>
+   <td style="text-align:left;"> Interface to the 'Handsontable.js' Library </td>
+   <td style="text-align:left;"> An R interface to the 'Handsontable' JavaScript library, which is a
+    minimalist Excel-like data grid editor.  See &lt;https://handsontable.com/&gt; for details. </td>
+   <td style="text-align:left;"> http://jrowen.github.io/rhandsontable/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> rio </td>
@@ -2223,6 +2330,17 @@ Various Output Formats </td>
    <td style="text-align:left;"> https://github.com/dcomtois/summarytools </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> sweep </td>
+   <td style="text-align:left;"> Tidy Tools for Forecasting </td>
+   <td style="text-align:left;"> Tidies up the forecasting modeling and prediction work flow, 
+    extends the 'broom' package 
+    with 'sw_tidy', 'sw_glance', 'sw_augment', and 'sw_tidy_decomp' functions 
+    for various forecasting models,
+    and enables converting 'forecast' objects to 
+    &quot;tidy&quot; data frames with 'sw_sweep'. </td>
+   <td style="text-align:left;"> https://github.com/business-science/sweep </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> tables </td>
    <td style="text-align:left;"> Formula-Driven Table Generation </td>
    <td style="text-align:left;"> Computes and displays complex tables of summary statistics.
@@ -2441,12 +2559,6 @@ https://www.gnu.org/software/unrtf/ (upstream) </td>
     also designed to be perceived by readers with the most common form of color
     blindness. </td>
    <td style="text-align:left;"> https://github.com/sjmgarnier/viridis </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> webglobe </td>
-   <td style="text-align:left;"> 3D Interactive Globes </td>
-   <td style="text-align:left;"> Displays geospatial data on an interactive 3D globe in the web browser. </td>
-   <td style="text-align:left;"> https://github.com/r-barnes/webglobe/ </td>
   </tr>
   <tr>
    <td style="text-align:left;"> wesanderson </td>

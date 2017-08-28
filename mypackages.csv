@@ -1,4 +1,4 @@
-Package
+﻿Package
 afex
 Amelia
 anim.plots
@@ -23,8 +23,10 @@ BTYDplus
 C50
 car
 caret
+changepoint
 charlatan
 checkmate
+checkpoint
 choroplethr
 choroplethrMaps
 chunked
@@ -39,19 +41,21 @@ colorspace
 condformat
 confinterpret
 constants
-corrr
 corrplot
+corrr
 countrycode
 cowplot
 cranlogs
+CRANsearcher
 cronR
 cshapes
 ctv
+ctv
 d3Tree
+data.table
 DataCombine
 dataMaid
 datapasta
-data.table
 dbplyr
 desctable
 DescTools
@@ -66,6 +70,7 @@ errors
 expss
 extrafont
 factoextra
+FactoMineR
 FFTrees
 filesstrings
 flexdashboard
@@ -88,7 +93,6 @@ GeoXp
 GGally
 ggalt
 ggbeeswarm
-ggfittext 
 ggforce
 ggfortify
 ggimage
@@ -98,10 +102,9 @@ ggpubr
 ggraph
 ggrepel
 ggsci
-ggThemeAssist
 ggtern
+ggThemeAssist
 ggthemes
-ggtree
 ggvis
 ghibli
 gistr
@@ -114,6 +117,7 @@ gridExtra
 gsubfn
 gtable
 heatmaply
+here
 hexbin
 hexSticker
 highcharter
@@ -121,6 +125,7 @@ Hmisc
 htmltab
 htmlwidgets
 httpuv
+humanFormat
 hunspell
 huxtable
 igraph
@@ -141,7 +146,6 @@ logging
 lumberjack
 magick
 magrittr
-mallet
 manipulate
 mapdata
 mapedit
@@ -159,7 +163,6 @@ mime
 miniCRAN
 missForest
 missMDA
-mlDNA
 munsell
 naniar
 naturalsort
@@ -169,9 +172,11 @@ NMF
 numform
 optparse
 osmdata
+papeR
 party
 pathological
 pdftools
+PerformanceAnalytics
 pixiedust
 pkggraph
 plotKML
@@ -179,10 +184,12 @@ plotly
 plotrr
 postGIStools
 prettydoc
+prettyunits
 profvis
 progress
 psych
 qdapRegex
+quantmod
 R.utils
 RandomFields
 randomForest
@@ -194,7 +201,6 @@ Rcpp
 RcppEigen
 RcppQuantuccia
 RCurl
-RDocumentation
 readtext
 ReporteRs
 reprex
@@ -203,6 +209,7 @@ revealjs
 rgdal
 rgeos
 RgoogleMaps
+rhandsontable
 rio
 riverplot
 rmarkdown
@@ -210,8 +217,8 @@ rmdformats
 rms
 robets
 rpart
-rpostgis
 rpg
+rpostgis
 rprojroot
 RTextTools
 rticles
@@ -239,6 +246,7 @@ sparklyr
 spatstat
 stringdist
 summarytools
+sweep
 tables
 tadaatoolbox
 tatoo
@@ -264,7 +272,6 @@ unrtf
 validate
 VIM
 viridis
-webglobe
 wesanderson
 wordcloud 
 XML
