@@ -92,6 +92,7 @@ rpart \
 rpart.plot \
 rpg \
 rpostgis \
+rsample \
 rts \
 rworldmap \
 sas7bdat \

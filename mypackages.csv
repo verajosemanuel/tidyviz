@@ -53,6 +53,7 @@ ctv
 ctv
 d3Tree
 data.table
+dataCompareR
 DataCombine
 dataMaid
 datapasta
@@ -223,6 +224,7 @@ rpart.plot
 rpg
 rpostgis
 rprojroot
+rsample
 RTextTools
 rticles
 rts
