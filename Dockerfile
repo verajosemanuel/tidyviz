@@ -66,6 +66,7 @@ mi \
 mice \
 miniCRAN \
 missForest \
+Modeler \
 naniar \
 nloptr \
 osmdata \
