@@ -64,7 +64,8 @@ df.git <- data.frame("Package" = c(
 		"business-science/sweep",
 		"edgararuiz/dbplot",
 		"MilesMcBain/gistfo",
-"vqv/ggbiplot"
+"vqv/ggbiplot",
+"EmilHvitfeldt/ggpage"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -114,7 +115,8 @@ df.git <- data.frame("Package" = c(
 "An implementation of the biplot using ggplot2.",
 "Extending broom to time series forecasting",
 "Collect multiple functions for in-database visualization code.",
-"Turn your RStudio untitled tabs into gists."
+"Turn your RStudio untitled tabs into gists.",
+"ggpage is a package to create pagestyled visualizations of text based data. It uses ggplot2 and final returns are ggplot2 objects."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -168,7 +170,8 @@ df.git <- data.frame("Package" = c(
 "The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package",
 "It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster",
 "Turn your RStudio untitled tabs into gists.",
-"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids."
+"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
+"The basic workflow with ggpage is using either ggpage_quick for a quick one function call plot or, combining ggpage_build and ggpage_plot to do analysis (NLP for example) before the final plot is produced. For a simple demontration we apply ggpage_quick to our tinderbox object."
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -218,7 +221,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/business-science/sweep",
 "https://github.com/edgararuiz/dbplot",
 "https://github.com/MilesMcBain/gistfo",
-"https://github.com/vqv/ggbiplot"
+"https://github.com/vqv/ggbiplot",
+"https://github.com/EmilHvitfeldt/ggpage"
     ))
   
 
