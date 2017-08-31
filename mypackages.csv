@@ -94,6 +94,7 @@ GeoXp
 GGally
 ggalt
 ggbeeswarm
+ggcorrplot
 ggforce
 ggfortify
 ggimage
@@ -252,6 +253,7 @@ sp
 sparklyr
 spatstat
 stringdist
+sugrrants
 summarytools
 sweep
 tables
