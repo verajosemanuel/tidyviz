@@ -65,7 +65,8 @@ df.git <- data.frame("Package" = c(
 		"edgararuiz/dbplot",
 		"MilesMcBain/gistfo",
 "vqv/ggbiplot",
-"EmilHvitfeldt/ggpage"
+"EmilHvitfeldt/ggpage",
+"hrbrmstr/msgxtractr"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -116,7 +117,8 @@ df.git <- data.frame("Package" = c(
 "Extending broom to time series forecasting",
 "Collect multiple functions for in-database visualization code.",
 "Turn your RStudio untitled tabs into gists.",
-"ggpage is a package to create pagestyled visualizations of text based data. It uses ggplot2 and final returns are ggplot2 objects."
+"ggpage is a package to create pagestyled visualizations of text based data. It uses ggplot2 and final returns are ggplot2 objects.",
+"Read Outlook .msg Files"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -171,7 +173,8 @@ df.git <- data.frame("Package" = c(
 "It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster",
 "Turn your RStudio untitled tabs into gists.",
 "The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
-"The basic workflow with ggpage is using either ggpage_quick for a quick one function call plot or, combining ggpage_build and ggpage_plot to do analysis (NLP for example) before the final plot is produced. For a simple demontration we apply ggpage_quick to our tinderbox object."
+"The basic workflow with ggpage is using either ggpage_quick for a quick one function call plot or, combining ggpage_build and ggpage_plot to do analysis (NLP for example) before the final plot is produced. For a simple demontration we apply ggpage_quick to our tinderbox object.",
+"Microsoft Outlook messages can be saved in .msg files. Tools are provided that enable extraction of metadata, envelope, headers, body and attachments from these files."	    
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -222,7 +225,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/edgararuiz/dbplot",
 "https://github.com/MilesMcBain/gistfo",
 "https://github.com/vqv/ggbiplot",
-"https://github.com/EmilHvitfeldt/ggpage"
+"https://github.com/EmilHvitfeldt/ggpage",
+"https://github.com/hrbrmstr/msgxtractr"
     ))
   
 
