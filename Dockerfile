@@ -69,8 +69,8 @@ missForest \
 Modeler \
 naniar \
 nloptr \
-osmdata \
-party \
+osmdata 
+RUN install2.r --error party \
 PerformanceAnalytics \
 plotKML \
 postGIStools \
