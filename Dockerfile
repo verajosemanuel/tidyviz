@@ -45,6 +45,7 @@ geonames \
 geoR \
 geosphere \
 GeoXp \
+ggedit \
 glmnet \
 googlesheets \
 heatmaply \
