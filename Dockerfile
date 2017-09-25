@@ -75,6 +75,7 @@ osmdata
 RUN install2.r --error party \
 PerformanceAnalytics \
 plotKML \
+plumber \
 postGIStools \
 progress \
 quantmod \
