@@ -109,6 +109,7 @@ leaflet.minicharts \
 lessR \
 reprex \
 sp \
+stlplus \
 sweep \
 tadaatoolbox \
 tidygraph \
