@@ -70,7 +70,8 @@ df.git <- data.frame("Package" = c(
 "krlmlr/styler",
 "AntoineGuillot2/D3partitionR",
 "hafen/trelliscopejs",
-"ThinkR-open/remedy"
+"ThinkR-open/remedy",
+"ropensci/writexl"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -126,7 +127,8 @@ df.git <- data.frame("Package" = c(
 "A source code formatter for the R language",
 "D3 partition R is an R package to build interactive visualisation of nested data",
 "Trellis Display",
-"Provides addins to facilitate writing in markdown with RStudio"
+"Provides addins to facilitate writing in markdown with RStudio",
+"Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -186,7 +188,8 @@ df.git <- data.frame("Package" = c(
 "It’s possible to use different levels of invasiveness, as described in the help file for the only style guide implemented so far, which is the tidyverse style guide. The style guide in use is passed to the styling function via the style argument, which defaults to tidyverse_style. In addition to this argument, there are further customization options. For example, we can limit ourselves to styling just spacing information by indicating this with the scope argument",
 "Through easy to-use R functions in a ggplot-like syntax you will be able to plot and customise sunburst, treemap, circle treemap, icicle and partition chart. All the visualisations are interactive, zoom-able and based on the latest version of d3.js V4",
 "Trelliscope is a visualization approach based on the idea of small multiples or Trellis Display, where data are split into groups and a plot is made for each group, with the resulting plots arranged in a grid",
-"All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text"	    
+"All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text",
+"Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx."  
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -242,7 +245,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/krlmlr/styler",
 "https://github.com/AntoineGuillot2/D3partitionR",
 "https://hafen.github.io/trelliscopejs/",
-"https://github.com/ThinkR-open/remedy"
+"https://github.com/ThinkR-open/remedy",
+"https://github.com/ropensci/writexl#readme"
     ))
   
 
