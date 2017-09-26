@@ -53,6 +53,7 @@ heatmaply \
 hexSticker \
 imputeTS \
 kernlab \
+lime \
 lintr \
 liquidSVM \
 listviewer \
