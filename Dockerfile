@@ -53,6 +53,7 @@ heatmaply \
 hexSticker \
 imputeTS \
 kernlab \
+lambda.tools \
 lime \
 lintr \
 liquidSVM \
