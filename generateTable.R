@@ -69,7 +69,8 @@ df.git <- data.frame("Package" = c(
 "hrbrmstr/msgxtractr",
 "krlmlr/styler",
 "AntoineGuillot2/D3partitionR",
-"hafen/trelliscopejs"
+"hafen/trelliscopejs",
+"ThinkR-open/remedy"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -124,7 +125,8 @@ df.git <- data.frame("Package" = c(
 "Read Outlook .msg Files",
 "A source code formatter for the R language",
 "D3 partition R is an R package to build interactive visualisation of nested data",
-"Trellis Display"
+"Trellis Display",
+"Provides addins to facilitate writing in markdown with RStudio"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -183,7 +185,8 @@ df.git <- data.frame("Package" = c(
 "Microsoft Outlook messages can be saved in .msg files. Tools are provided that enable extraction of metadata, envelope, headers, body and attachments from these files.",
 "It’s possible to use different levels of invasiveness, as described in the help file for the only style guide implemented so far, which is the tidyverse style guide. The style guide in use is passed to the styling function via the style argument, which defaults to tidyverse_style. In addition to this argument, there are further customization options. For example, we can limit ourselves to styling just spacing information by indicating this with the scope argument",
 "Through easy to-use R functions in a ggplot-like syntax you will be able to plot and customise sunburst, treemap, circle treemap, icicle and partition chart. All the visualisations are interactive, zoom-able and based on the latest version of d3.js V4",
-"Trelliscope is a visualization approach based on the idea of small multiples or Trellis Display, where data are split into groups and a plot is made for each group, with the resulting plots arranged in a grid" 
+"Trelliscope is a visualization approach based on the idea of small multiples or Trellis Display, where data are split into groups and a plot is made for each group, with the resulting plots arranged in a grid",
+"All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text"	    
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -223,13 +226,13 @@ df.git <- data.frame("Package" = c(
       "https://github.com/hadley/pkgdown",
       "https://github.com/stefanedwards/lemon",
       "https://github.com/hadley/strict",
-	    "https://github.com/clauswilke/ggjoy",
-	    "https://github.com/ropenscilabs/available",
-	    "https://github.com/Stan125/GREA",
-		"https://github.com/tarakc02/rmapzen",
-		"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
-		"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
-		"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
+	 "https://github.com/clauswilke/ggjoy",
+	 "https://github.com/ropenscilabs/available",
+	 "https://github.com/Stan125/GREA",
+	"https://github.com/tarakc02/rmapzen",
+	"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
+	"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
+	"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
 "https://github.com/business-science/sweep",
 "https://github.com/edgararuiz/dbplot",
 "https://github.com/MilesMcBain/gistfo",
@@ -238,7 +241,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/hrbrmstr/msgxtractr",
 "https://github.com/krlmlr/styler",
 "https://github.com/AntoineGuillot2/D3partitionR",
-"https://hafen.github.io/trelliscopejs/"
+"https://hafen.github.io/trelliscopejs/",
+"https://github.com/ThinkR-open/remedy"
     ))
   
 
