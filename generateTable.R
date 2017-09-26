@@ -67,7 +67,8 @@ df.git <- data.frame("Package" = c(
 "vqv/ggbiplot",
 "EmilHvitfeldt/ggpage",
 "hrbrmstr/msgxtractr",
-"krlmlr/styler"
+"krlmlr/styler",
+"AntoineGuillot2/D3partitionR"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -120,7 +121,8 @@ df.git <- data.frame("Package" = c(
 "Turn your RStudio untitled tabs into gists.",
 "ggpage is a package to create pagestyled visualizations of text based data. It uses ggplot2 and final returns are ggplot2 objects.",
 "Read Outlook .msg Files",
-"A source code formatter for the R language."
+"A source code formatter for the R language",
+"D3 partition R is an R package to build interactive visualisation of nested data"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -177,7 +179,8 @@ df.git <- data.frame("Package" = c(
 "The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
 "The basic workflow with ggpage is using either ggpage_quick for a quick one function call plot or, combining ggpage_build and ggpage_plot to do analysis (NLP for example) before the final plot is produced. For a simple demontration we apply ggpage_quick to our tinderbox object.",
 "Microsoft Outlook messages can be saved in .msg files. Tools are provided that enable extraction of metadata, envelope, headers, body and attachments from these files.",
-"It’s possible to use different levels of invasiveness, as described in the help file for the only style guide implemented so far, which is the tidyverse style guide. The style guide in use is passed to the styling function via the style argument, which defaults to tidyverse_style. In addition to this argument, there are further customization options. For example, we can limit ourselves to styling just spacing information by indicating this with the scope argument"	    
+"It’s possible to use different levels of invasiveness, as described in the help file for the only style guide implemented so far, which is the tidyverse style guide. The style guide in use is passed to the styling function via the style argument, which defaults to tidyverse_style. In addition to this argument, there are further customization options. For example, we can limit ourselves to styling just spacing information by indicating this with the scope argument",
+"Through easy to-use R functions in a ggplot-like syntax you will be able to plot and customise sunburst, treemap, circle treemap, icicle and partition chart. All the visualisations are interactive, zoom-able and based on the latest version of d3.js V4"	    
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -230,7 +233,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/vqv/ggbiplot",
 "https://github.com/EmilHvitfeldt/ggpage",
 "https://github.com/hrbrmstr/msgxtractr",
-"https://github.com/krlmlr/styler"
+"https://github.com/krlmlr/styler",
+"https://github.com/AntoineGuillot2/D3partitionR"	    
     ))
   
 
