@@ -71,7 +71,8 @@ df.git <- data.frame("Package" = c(
 "AntoineGuillot2/D3partitionR",
 "hafen/trelliscopejs",
 "ThinkR-open/remedy",
-"ropensci/writexl"
+"ropensci/writexl",
+"edgararuiz/dbplot"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -128,7 +129,8 @@ df.git <- data.frame("Package" = c(
 "D3 partition R is an R package to build interactive visualisation of nested data",
 "Trellis Display",
 "Provides addins to facilitate writing in markdown with RStudio",
-"Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required."
+"Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required.",
+"Simplifies plotting of database and sparklyr data"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -189,7 +191,8 @@ df.git <- data.frame("Package" = c(
 "Through easy to-use R functions in a ggplot-like syntax you will be able to plot and customise sunburst, treemap, circle treemap, icicle and partition chart. All the visualisations are interactive, zoom-able and based on the latest version of d3.js V4",
 "Trelliscope is a visualization approach based on the idea of small multiples or Trellis Display, where data are split into groups and a plot is made for each group, with the resulting plots arranged in a grid",
 "All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text",
-"Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx."  
+"Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx.",
+"Leverages dplyr to process the calculations of a plot inside a database."
     ),
     "URL" = c(
       "https://github.com/hadley/colformat",
@@ -246,7 +249,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/AntoineGuillot2/D3partitionR",
 "https://hafen.github.io/trelliscopejs/",
 "https://github.com/ThinkR-open/remedy",
-"https://github.com/ropensci/writexl#readme"
+"https://github.com/ropensci/writexl#readme",
+"https://github.com/edgararuiz/dbplot"
     ))
   
 
