@@ -93,6 +93,7 @@ robets \
 rgdal \
 rgeos \
 RgoogleMaps \
+rmapzen \
 rms \
 rpart \
 rpart.plot \
