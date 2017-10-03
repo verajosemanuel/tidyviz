@@ -17,6 +17,7 @@ Boruta \
 broom \
 BTYD \
 BTYDplus \
+cartography \
 changepoint \
 checkpoint \
 choroplethr \
