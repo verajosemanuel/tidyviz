@@ -74,6 +74,7 @@ missForest \
 Modeler \
 naniar \
 nloptr \
+officer \
 osmdata 
 RUN install2.r --error party \
 PerformanceAnalytics \
