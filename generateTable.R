@@ -73,7 +73,8 @@ df.git <- data.frame("Package" = c(
 "ThinkR-open/remedy",
 "ropensci/writexl",
 "edgararuiz/dbplot",
-"michaeldorman/mapsapi"
+"michaeldorman/mapsapi",
+"AppliedDataSciencePartners/xgboostExplainer"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -132,7 +133,8 @@ df.git <- data.frame("Package" = c(
 "Provides addins to facilitate writing in markdown with RStudio",
 "Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required.",
 "Simplifies plotting of database and sparklyr data",
-"The mapsapi package provides an interface to the Google Maps APIs"
+"The mapsapi package provides an interface to the Google Maps APIs",
+"Explain the XGBoost results"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -195,8 +197,8 @@ df.git <- data.frame("Package" = c(
 "All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text",
 "Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx.",
 "Leverages dplyr to process the calculations of a plot inside a database.",
-"Functions google_directions and google_matrix are used to access the API. They return an xml_2_document object with the response contents. Given a directions response, functions extract_routes and extract_segments can be used to process the response document into a spatial layer. Function extract_routes gives each alternative as a separate line, while function extract_segments gives each segment -that is, a portion of the route associated with specific driving instructions- as a separate line."
-    ),
+"Functions google_directions and google_matrix are used to access the API. They return an xml_2_document object with the response contents. Given a directions response, functions extract_routes and extract_segments can be used to process the response document into a spatial layer. Function extract_routes gives each alternative as a separate line, while function extract_segments gives each segment -that is, a portion of the route associated with specific driving instructions- as a separate line.",
+"A package for explained XGBoost results"),
     "URL" = c(
       "https://github.com/hadley/colformat",
       "https://github.com/hadley/precis",
@@ -254,7 +256,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/ThinkR-open/remedy",
 "https://github.com/ropensci/writexl#readme",
 "https://github.com/edgararuiz/dbplot",
-"https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html"
+"https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html",
+"https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211"
     ))
   
 
