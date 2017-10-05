@@ -112,6 +112,7 @@ sjstats \
 leaflet.minicharts \
 lessR \
 reprex \
+smpic \
 sp \
 stlplus \
 sweep \
