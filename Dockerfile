@@ -123,6 +123,7 @@ tidyquant \
 tmap \
 tmaptools \
 tseries \
+WordR \
 XML \
 xts \
 zoo \
