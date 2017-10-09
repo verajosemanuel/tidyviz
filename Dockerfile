@@ -117,6 +117,7 @@ sp \
 stlplus \
 sweep \
 tadaatoolbox \
+tibbletime \
 tidygraph \
 timetk \
 tidyquant \
