@@ -55,6 +55,7 @@ hexSticker \
 imputeTS \
 kernlab \
 lambda.tools \
+liftr \
 lime \
 lintr \
 liquidSVM \
