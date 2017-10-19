@@ -24,6 +24,7 @@ choroplethr \
 choroplethrMaps \
 class \
 cleanNLP \
+colourpicker \
 condformat \
 confinterpret \
 cranlogs \
