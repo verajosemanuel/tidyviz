@@ -79,6 +79,7 @@ officer \
 osmdata 
 RUN install2.r --error party \
 PerformanceAnalytics \
+placement \
 plotKML \
 plumber \
 postGIStools \
