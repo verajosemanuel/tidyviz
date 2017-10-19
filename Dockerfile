@@ -33,7 +33,9 @@ cshapes \
 ctv \
 DiagrammeR \
 dummies \
+d3heatmap \
 d3Tree \
+dygraphs \
 e1071 \
 effects \
 expss \
@@ -53,6 +55,7 @@ glmnet \
 googlesheets \
 heatmaply \
 hexSticker \
+htmltools \
 imputeTS \
 kernlab \
 lambda.tools \
@@ -69,12 +72,14 @@ maptools \
 mapview \
 MASS \
 Matrix \
+metricsgraphics \
 mi \
 mice \
 miniCRAN \
 missForest \
 Modeler \
 naniar \
+networkD3 \
 nloptr \
 officer \
 osmdata 
@@ -95,6 +100,7 @@ RcppQuantuccia \
 reticulate \
 robets \
 rgdal \
+rgl \
 rgeos \
 RgoogleMaps \
 rmapzen \
@@ -120,6 +126,7 @@ sp \
 stlplus \
 sweep \
 tadaatoolbox \
+threejs \
 tibbletime \
 tidygraph \
 timetk \
@@ -127,6 +134,7 @@ tidyquant \
 tmap \
 tmaptools \
 tseries \
+visNetwork \
 WordR \
 XML \
 xts \

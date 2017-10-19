@@ -53,6 +53,7 @@ cronR
 cshapes
 ctv
 ctv
+d3heatmap
 d3Tree
 data.table
 dataCompareR
@@ -67,6 +68,7 @@ diffobj
 directlabels
 DT
 dummies
+dygraphs
 e1071
 effects
 errors
@@ -132,6 +134,7 @@ hexSticker
 highcharter
 Hmisc
 htmltab
+htmltools
 htmlwidgets
 httpuv
 humanFormat
@@ -169,6 +172,7 @@ mapview
 margins
 MASS
 Matrix
+metricsgraphics
 mi
 mice
 microbenchmark
@@ -180,6 +184,7 @@ Modeler
 munsell
 naniar
 naturalsort
+networkD3
 neuralnet
 nloptr
 NMF
@@ -225,6 +230,7 @@ ReporteRs
 reprex
 reticulate
 revealjs
+rgl
 rgdal
 rgeos
 RgoogleMaps
@@ -279,6 +285,7 @@ tatoo
 tester
 textclean
 textreadr
+threejs
 tibbletime
 tictoc
 tidygraph
@@ -299,6 +306,7 @@ unrtf
 validate
 VIM
 viridis
+visNetwork
 vtreat
 wesanderson
 wordcloud 
