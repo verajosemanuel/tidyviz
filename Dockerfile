@@ -50,6 +50,7 @@ geoR \
 geosphere \
 GeoXp \
 ggedit \
+gghighlight \
 ggseas \
 glmnet \
 googlesheets \
@@ -61,6 +62,7 @@ kernlab \
 lambda.tools \
 liftr \
 lime \
+linemap \
 lintr \
 liquidSVM \
 listviewer \
@@ -88,6 +90,7 @@ PerformanceAnalytics \
 placement \
 plotKML \
 plumber \
+pool \
 postGIStools \
 progress \
 quantmod \
@@ -113,6 +116,7 @@ rsample \
 rts \
 rworldmap \
 sas7bdat \
+scanstatistics \
 shapefiles \
 spatstat \
 sjmisc \

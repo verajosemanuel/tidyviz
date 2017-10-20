@@ -74,7 +74,8 @@ df.git <- data.frame("Package" = c(
 "ropensci/writexl",
 "edgararuiz/dbplot",
 "michaeldorman/mapsapi",
-"AppliedDataSciencePartners/xgboostExplainer"
+"AppliedDataSciencePartners/xgboostExplainer",
+"ColinFay/tidystringdist"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -134,7 +135,8 @@ df.git <- data.frame("Package" = c(
 "Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required.",
 "Simplifies plotting of database and sparklyr data",
 "The mapsapi package provides an interface to the Google Maps APIs",
-"Explain the XGBoost results"
+"Explain the XGBoost results",
+"Compute string distance the tidy way. A package built on top of the {stringdist} package"
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -198,7 +200,8 @@ df.git <- data.frame("Package" = c(
 "Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx.",
 "Leverages dplyr to process the calculations of a plot inside a database.",
 "Functions google_directions and google_matrix are used to access the API. They return an xml_2_document object with the response contents. Given a directions response, functions extract_routes and extract_segments can be used to process the response document into a spatial layer. Function extract_routes gives each alternative as a separate line, while function extract_segments gives each segment -that is, a portion of the route associated with specific driving instructions- as a separate line.",
-"A package for explained XGBoost results"),
+"A package for explained XGBoost results",
+"First, you need to create a tibble with the combinations of words you want to compare. You can do this with the tidy_comb and tidy_comb_all functions"),
     "URL" = c(
       "https://github.com/hadley/colformat",
       "https://github.com/hadley/precis",
@@ -257,7 +260,8 @@ df.git <- data.frame("Package" = c(
 "https://github.com/ropensci/writexl#readme",
 "https://github.com/edgararuiz/dbplot",
 "https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html",
-"https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211"
+"https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211",
+"http://colinfay.me/tidystringdist/"
     ))
   
 

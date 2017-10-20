@@ -103,6 +103,7 @@ ggcorrplot
 ggedit
 ggforce
 ggfortify
+gghighlight
 ggimage
 ggiraph
 ggmap
@@ -154,6 +155,7 @@ leaps
 lessR
 liftr
 lime
+linemap
 lintr
 liquidSVM
 listviewer
@@ -206,6 +208,7 @@ plotly
 plotrr
 plumber
 pointblank
+pool
 postGIStools
 prettydoc
 prettyunits
@@ -253,6 +256,7 @@ rticles
 rts
 rworldmap
 sas7bdat
+scanstatistics
 scatterplot3d
 sessioninfo
 shapefiles
