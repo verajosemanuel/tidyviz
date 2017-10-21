@@ -85,6 +85,7 @@ networkD3 \
 nloptr \
 officer \
 osmdata 
+
 RUN install2.r --error party \
 PerformanceAnalytics \
 placement \
@@ -113,8 +114,9 @@ rpart.plot \
 rpg \
 rpostgis \
 rsample \
-rts \
-rworldmap \
+rts 
+
+RUN install2.r --error rworldmap \
 sas7bdat \
 scanstatistics \
 shapefiles \
