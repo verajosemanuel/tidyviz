@@ -6,7 +6,6 @@ ADD github_installs.R /tmp/github_installs.R
 
 RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)'  > /tmp/packages_bioc.R \
 && install2.r --error ascii \
-ggimage \
 arules \
 arulesViz \
 bayesAB \
@@ -24,7 +23,6 @@ choroplethr \
 choroplethrMaps \
 class \
 cleanNLP \
-colourpicker \
 condformat \
 confinterpret \
 cranlogs \
@@ -49,9 +47,6 @@ geonames \
 geoR \
 geosphere \
 GeoXp \
-ggedit \
-gghighlight \
-ggseas \
 glmnet \
 googlesheets \
 heatmaply \
@@ -75,12 +70,8 @@ mapview \
 MASS \
 Matrix \
 metricsgraphics \
-mi \
-mice \
 miniCRAN \
-missForest \
 Modeler \
-naniar \
 networkD3 \
 nloptr \
 officer \
@@ -114,9 +105,8 @@ rpart.plot \
 rpg \
 rpostgis \
 rsample \
-rts 
-
-RUN install2.r --error rworldmap \
+rts \
+rworldmap \
 sas7bdat \
 scanstatistics \
 shapefiles \
