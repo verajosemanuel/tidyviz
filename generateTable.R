@@ -25,7 +25,6 @@ df.git <- data.frame("Package" = c(
       "smach/rmiscutils",
       "yihui/printr",
       "hrbrmstr/hrbrthemes",
-      "thomasp85/tweenr",
       "hafen/geofacet",
       "drsimonj/twidlr",
       "dyerlab/popgraph",
@@ -75,7 +74,8 @@ df.git <- data.frame("Package" = c(
 "edgararuiz/dbplot",
 "michaeldorman/mapsapi",
 "AppliedDataSciencePartners/xgboostExplainer",
-"ColinFay/tidystringdist"
+"ColinFay/tidystringdist",
+"ColinFay/aside"
     ),
     "Title" = c(
       "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
@@ -86,7 +86,6 @@ df.git <- data.frame("Package" = c(
       "miscellaneous R functions",
       "Some (magical) printing methods for knitr",
       "Opinionated, typographic-centric ggplot2 themes and theme components",
-      "Interpolate your data",
       "R package for geographical faceting with ggplot2",
       "data.frame-based API for model and predict functions",
       "An R package for creating and manipulating population graph objects useful for spatial landscape and population genetic analyses of genetic marker data.",
@@ -136,7 +135,8 @@ df.git <- data.frame("Package" = c(
 "Simplifies plotting of database and sparklyr data",
 "The mapsapi package provides an interface to the Google Maps APIs",
 "Explain the XGBoost results",
-"Compute string distance the tidy way. A package built on top of the {stringdist} package"
+"Compute string distance the tidy way. A package built on top of the {stringdist} package",
+"An RStudio addin to run long R commands aside your current session."
     ),
     "Description" = c(
       "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
@@ -149,7 +149,6 @@ df.git <- data.frame("Package" = c(
       "-",
       "just library(printr) in a code chunk (in the beginning) of your knitr document. Then some objects will be printed differently with what you would have seen in a normal R console. For example matrices, data frames, and contingency tables are printed as tables (LaTeX, HTML, or Markdown, depending on your output format). The help page (from ?foo or help(foo)) can be rendered as HTML, LaTeX, or plain text, and you can also specify which section(s) of the help page to include in the output. and the results from browseVignettes(), help.search(), data(), and vignette() are rendered as tables. The package information from library(help = 'foo') is rendered as plain text",
       "This is a very focused package that provides typography-centric themes and theme components for ggplot2. It's a an extract/riff of hrbrmisc created by request.",
-      "tweenr is a small package that makes it easy to interpolate your data between different states, specifying the length of each change, the easing of the transition and how many intermediary steps should be generated. tweenr works particularly well with gganimate but can be used for any case where interpolation of data is needed.",
       "Geofaceting arranges a sequence of plots of data for different geographical entities into a grid that strives to preserve some of the original geographical orientation of the entities",
       "twidlr is an R package that exposes a consistent API for model functions and their corresponding predict methods",
       "This is an R package for creating and manipulating population graph objects useful for spatial landscape and population genetic analyses of genetic marker data. This statistical method is based conditional genetic covariance and has been applied primarily to genetic marker data. Routines in this package integrate the popgraph network objects into spatial objects using the igraph and sp packages.",
@@ -201,7 +200,8 @@ df.git <- data.frame("Package" = c(
 "Leverages dplyr to process the calculations of a plot inside a database.",
 "Functions google_directions and google_matrix are used to access the API. They return an xml_2_document object with the response contents. Given a directions response, functions extract_routes and extract_segments can be used to process the response document into a spatial layer. Function extract_routes gives each alternative as a separate line, while function extract_segments gives each segment -that is, a portion of the route associated with specific driving instructions- as a separate line.",
 "A package for explained XGBoost results",
-"First, you need to create a tibble with the combinations of words you want to compare. You can do this with the tidy_comb and tidy_comb_all functions"),
+"First, you need to create a tibble with the combinations of words you want to compare. You can do this with the tidy_comb and tidy_comb_all functions",
+"Have you ever been waiting in front of you R session from a command to finish? Say goodbye to wasted time with {aside}, an RStudio addin running commands aside and sending you the result in a temp file."),
     "URL" = c(
       "https://github.com/hadley/colformat",
       "https://github.com/hadley/precis",
@@ -211,7 +211,6 @@ df.git <- data.frame("Package" = c(
       "https://github.com/smach/rmiscutils",
       "https://github.com/yihui/printr",
       "https://github.com/hrbrmstr/hrbrthemes",
-      "https://github.com/thomasp85/tweenr",
       "https://github.com/hafen/geofacet",
       "https://github.com/drsimonj/twidlr",
       "https://github.com/dyerlab/popgraph",
@@ -262,6 +261,7 @@ df.git <- data.frame("Package" = c(
 "https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html",
 "https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211",
 "http://colinfay.me/tidystringdist/"
+"https://github.com/ColinFay/aside"
     ))
   
 

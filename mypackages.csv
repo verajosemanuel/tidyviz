@@ -36,6 +36,7 @@ cld2
 cld3
 cleanNLP
 clickR
+clipr
 cluster
 CodeDepends
 colourpicker
@@ -149,6 +150,7 @@ kernlab
 Kmisc
 knitr
 lambda.tools
+later
 leaflet
 leaflet.minicharts
 leaps
@@ -183,6 +185,7 @@ miniCRAN
 missForest
 missMDA
 Modeler
+mschart
 munsell
 naniar
 naturalsort
@@ -254,6 +257,7 @@ rsample
 RTextTools
 rticles
 rts
+rvg
 rworldmap
 sas7bdat
 scanstatistics
@@ -269,6 +273,7 @@ showtext
 sigr
 SimDesign
 Simpsons
+sinew
 sjmisc
 sjPlot
 sjstats
@@ -305,6 +310,7 @@ topicmodels
 tseries
 TTR
 tufte
+tweenr
 udunits2
 unrtf
 validate

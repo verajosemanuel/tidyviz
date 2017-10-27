@@ -72,6 +72,7 @@ Matrix \
 metricsgraphics \
 miniCRAN \
 Modeler \
+mschart \
 networkD3 \
 nloptr \
 officer \
@@ -106,6 +107,7 @@ rpg \
 rpostgis \
 rsample \
 rts \
+rvg \
 rworldmap \
 sas7bdat \
 scanstatistics \
