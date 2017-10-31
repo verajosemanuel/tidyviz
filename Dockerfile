@@ -54,6 +54,7 @@ hexSticker \
 htmltools \
 imputeTS \
 kernlab \
+koRpus \
 lambda.tools \
 liftr \
 lime \
