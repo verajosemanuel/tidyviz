@@ -260,7 +260,7 @@ df.git <- data.frame("Package" = c(
 "https://github.com/edgararuiz/dbplot",
 "https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html",
 "https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211",
-"http://colinfay.me/tidystringdist/"
+"http://colinfay.me/tidystringdist/",
 "https://github.com/ColinFay/aside"
     ))
   
