@@ -1,36 +1,26 @@
-FROM jvera/tidyviz-base:latest
+FROM jvera/tidyviz-wrangler:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
 ADD github_installs.R /tmp/github_installs.R
 
-RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("EBImage", ask=FALSE); biocLite("ggtree", ask=FALSE)'  > /tmp/packages_bioc.R \
-&& install2.r --error ascii \
-arules \
+RUN install2.r --error arules \
 arulesViz \
 bayesAB \
 bayesboot \
 bigrquery \
 bookdown \
-Boruta \
+brms \
 broom \
 BTYD \
 BTYDplus \
 cartography \
 changepoint \
-checkpoint \
 choroplethr \
 choroplethrMaps \
-class \
-cleanNLP \
-condformat \
 confinterpret \
-cranlogs \
-CRANsearcher \
 cshapes \
-ctv \
 DiagrammeR \
-dummies \
 d3heatmap \
 d3Tree \
 dygraphs \
@@ -48,53 +38,32 @@ geoR \
 geosphere \
 GeoXp \
 glmnet \
-googlesheets \
 heatmaply \
 hexSticker \
-htmltools \
-imputeTS \
-kernlab \
-koRpus \
-lambda.tools \
 liftr \
 lime \
 linemap \
-lintr \
 liquidSVM \
-listviewer \
 mapdata \
 mapedit \
 mapmisc \
 maps \
 maptools \
 mapview \
-MASS \
-Matrix \
 metricsgraphics \
-miniCRAN \
 Modeler \
 mschart \
 networkD3 \
-nloptr \
-officer \
-osmdata 
-
-RUN install2.r --error party \
+party \
 PerformanceAnalytics \
+pipefittr \
 placement \
 plotKML \
-plumber \
-pool \
 postGIStools \
-progress \
 quantmod \
-RandomFields \
 randomForest \
 raster \
 rasterVis \
-RcppEigen \
-RcppQuantuccia \
-reticulate \
 robets \
 rgdal \
 rgl \
@@ -113,18 +82,15 @@ rworldmap \
 sas7bdat \
 scanstatistics \
 shapefiles \
+shiny \
+shinystan \
 spatstat \
-sjmisc \
-sjPlot \
-sjstats \
 leaflet.minicharts \
-lessR \
 reprex \
 smpic \
 sp \
 stlplus \
 sweep \
-tadaatoolbox \
 threejs \
 tibbletime \
 tidygraph \
@@ -135,13 +101,9 @@ tmaptools \
 tseries \
 visNetwork \
 WordR \
-XML \
 xts \
 zoo \
 && Rscript /tmp/github_installs.R \
-&& echo "install.packages('rJava', repos='http://www.rforge.net/', configure.args='--disable-Xrs')" | R --no-save \
-&& R CMD javareconf \
-&& install2.r --error mallet \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
