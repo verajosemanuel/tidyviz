@@ -1,0 +1,665 @@
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Wrangler </th>
+   <th style="text-align:left;"> Description </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Amelia </td>
+   <td style="text-align:left;"> A tool that &quot;multiply imputes&quot; missing data in a single cross-section
+  (such as a survey), from a time series (like variables collected for
+  each year in a country), or from a time-series-cross-sectional data
+  set (such as collected by years for each of several countries).
+  Amelia II implements our bootstrapping-based algorithm that gives
+  essentially the same answers as the standard IP or EMis approaches,
+  is usually considerably faster than existing approaches and can
+  handle many more variables.  Unlike Amelia I and other statistically
+  rigorous imputation software, it virtually never crashes (but please
+  let us know if you find to the contrary!).  The program also
+  generalizes existing approaches by allowing for trends in time series
+  across observations within a cross-sectional unit, as well as priors
+  that allow experts to incorporate beliefs they have about the values
+  of missing cells in their data.  Amelia II also includes useful
+  diagnostics of the fit of multiple imputation models.  The program
+  works from the R command line or via a graphical user interface that
+  does not require users to know R. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bigrquery </td>
+   <td style="text-align:left;"> Easily talk to Google's 'BigQuery' database from R. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Boruta </td>
+   <td style="text-align:left;"> An all relevant feature selection wrapper algorithm.
+    It finds relevant features by comparing original attributes'
+    importance with importance achievable at random, estimated
+    using their permuted copies. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> colorspace </td>
+   <td style="text-align:left;"> Carries out mapping between assorted color spaces including
+             RGB, HSV, HLS, CIEXYZ, CIELUV, HCL (polar CIELUV),
+	     CIELAB and polar CIELAB. Qualitative, sequential, and
+	     diverging color palettes based on HCL colors are provided
+	     along with an interactive palette picker (with either a Tcl/Tk
+	     or a shiny GUI). </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> colourpicker </td>
+   <td style="text-align:left;"> A colour picker that can be used as an input in Shiny apps
+    or Rmarkdown documents. The colour picker supports alpha opacity, custom
+    colour palettes, and many more options. A Plot Colour Helper tool is
+    available as an RStudio Addin, which helps you pick colours to use in your
+    plots. A more generic Colour Picker RStudio Addin is also provided to let 
+    you select colours to use in your R code. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> condformat </td>
+   <td style="text-align:left;"> Apply and visualize conditional formatting to data frames in R.
+    It renders a data frame with cells formatted according to
+    criteria defined by rules, using a tidy evaluation syntax. The table is
+    printed either opening a web browser or within the 'RStudio' viewer if
+    available. The conditional formatting rules allow to highlight cells
+    matching a condition or add a gradient background to a given column. This
+    package supports both 'HTML' and 'LaTeX' outputs in 'knitr' reports, and
+    exporting to an 'xlsx' file. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> countrycode </td>
+   <td style="text-align:left;"> Standardize country names, convert them into one of
+    eleven coding schemes, convert between coding schemes, and
+    assign region descriptors. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DataCombine </td>
+   <td style="text-align:left;"> Tools for combining and cleaning data sets, particularly
+    with grouped and time series data. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dataCompareR </td>
+   <td style="text-align:left;"> Easy comparison of two tabular data
+    objects in R. Specifically designed to show differences between two sets of
+    data in a useful way that should make it easier to understand the differences,
+    and if necessary, help you work out how to remedy them. Aims
+    to offer a more useful output than all.equal() when your two data sets do not
+    match, but isn't intended to replace all.equal() as a way to test for equality. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dataMaid </td>
+   <td style="text-align:left;"> Data cleaning is an important first step of any statistical
+    analysis. dataMaid provides an extendable suite of test for common potential
+    errors in a dataset. It produces a document with a thorough summary of the
+    checks and the results that a human can use to identify possible errors. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dataPreparation </td>
+   <td style="text-align:left;"> Do most of the painful data preparation for a data science project with a minimum amount of code; Take advantages of data.table efficiency and use some algorithmic trick in order to perform data preparation in a time and RAM efficient way. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dbplyr </td>
+   <td style="text-align:left;"> A 'dplyr' back end for databases that allows you to work with 
+    remote database tables as if they are in-memory data frames. Basic features
+    works with any database that has a 'DBI' back end; more advanced features 
+    require 'SQL' translation to be provided by the package author. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> desctable </td>
+   <td style="text-align:left;"> Easily create descriptive and comparative tables.
+    It makes use and integrates directly with the tidyverse family of packages, and pipes.
+    Tables are produced as data frames/lists of data frames for easy manipulation after creation,
+    and ready to be saved as csv, or piped to DT::datatable() or pander::pander() to integrate into reports. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DescTools </td>
+   <td style="text-align:left;"> A collection of miscellaneous basic statistic functions and convenience wrappers for efficiently describing data. The author's intention was to create a toolbox, which facilitates the (notoriously time consuming) first descriptive tasks in data analysis, consisting of calculating descriptive statistics, drawing graphical summaries and reporting the results. The package contains furthermore functions to produce documents using MS Word (or PowerPoint) and functions to import data from Excel. Many of the included functions can be found scattered in other packages and other sources written partly by Titans of R. The reason for collecting them here, was primarily to have them consolidated in ONE instead of dozens of packages (which themselves might depend on other packages which are not needed at all), and to provide a common and consistent interface as far as function and arguments naming, NA handling, recycling rules etc. are concerned. Google style guides were used as naming rules (in absence of convincing alternatives). The 'camel style' was consequently applied to functions borrowed from contributed R packages as well. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> diffobj </td>
+   <td style="text-align:left;"> Generate a colorized diff of two R objects for an intuitive
+    visualization of their differences. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DT </td>
+   <td style="text-align:left;"> Data objects in R can be rendered as HTML tables using the
+    JavaScript library 'DataTables' (typically via R Markdown or Shiny). The
+    'DataTables' library has been included in this R package. The package name
+    'DT' is an abbreviation of 'DataTables'. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> dummies </td>
+   <td style="text-align:left;"> Expands factors, characters and other eligible classes
+        into dummy/indicator variables. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> factoextra </td>
+   <td style="text-align:left;"> Provides some easy-to-use functions to extract and visualize the
+    output of multivariate data analyses, including 'PCA' (Principal Component
+    Analysis), 'CA' (Correspondence Analysis), 'MCA' (Multiple Correspondence
+    Analysis), 'FAMD' (Factor Analysis of Mixed Data), 'MFA' (Multiple Factor Analysis) and 'HMFA' (Hierarchical Multiple
+    Factor Analysis) functions from different R packages. It contains also functions
+    for simplifying some clustering analysis steps and provides 'ggplot2' - based
+    elegant data visualization. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> FactoMineR </td>
+   <td style="text-align:left;"> Exploratory data analysis methods to summarize, visualize and describe datasets. The main principal component methods are available, those with the largest potential in terms of applications: principal component analysis (PCA) when variables are quantitative, correspondence analysis (CA) and multiple correspondence analysis (MCA) when variables are categorical, Multiple Factor Analysis when variables are structured in groups, etc. and hierarchical cluster analysis. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> filesstrings </td>
+   <td style="text-align:left;"> Convenient functions for moving files, deleting directories, 
+    and a variety of string operations that facilitate manipulating file names 
+    and extracting information from strings. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> foreign </td>
+   <td style="text-align:left;"> Reading and writing data stored by some versions of
+	'Epi Info', 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka',
+	and for reading and writing some 'dBase' files. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> fuzzyjoin </td>
+   <td style="text-align:left;"> Join tables together based not on whether columns
+  match exactly, but whether they are similar by some comparison.
+  Implementations include string distance and regular expression
+  matching. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ghibli </td>
+   <td style="text-align:left;"> Colour palettes inspired by Studio Ghibli films, ported to R for your enjoyment. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> gsubfn </td>
+   <td style="text-align:left;"> gsubfn is like gsub but can take a replacement function
+   or certain other objects instead of the replacement string.
+   Matches and back references are input to the replacement function and 
+   replaced by the function output.   gsubfn can be used to split strings 
+   based on content rather than delimiters and for quasi-perl-style string 
+   interpolation. The package also has facilities for translating formulas 
+   to functions and allowing such formulas in function calls instead of 
+   functions.  This can be used with R functions such as apply, sapply,
+   lapply, optim, integrate, xyplot, Filter and any other function that 
+   expects another function as an input argument or functions like cat
+   or sql calls that may involve strings where substitution is desirable. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> imputeTS </td>
+   <td style="text-align:left;"> Imputation (replacement) of missing values 
+             in univariate time series. 
+             Offers several imputation functions
+             and missing data plots. 
+             Available imputation algorithms include: 
+            'Mean', 'LOCF', 'Interpolation', 
+            'Moving Average', 'Seasonal Decomposition', 
+            'Kalman Smoothing on Structural Time Series models',
+            'Kalman Smoothing on ARIMA models'. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> janitor </td>
+   <td style="text-align:left;"> The main janitor functions can: perfectly format data.frame column
+    names; provide quick one- and two-variable tabulations (i.e., frequency
+    tables and crosstabs); and isolate duplicate records. Other janitor functions
+    nicely format the tabulation results. These tabulate-and-report functions
+    approximate popular features of SPSS and Microsoft Excel. This package
+    follows the principles of the &quot;tidyverse&quot; and works well with the pipe function
+    %&gt;%. janitor was built with beginning-to-intermediate R users in mind and is
+    optimized for user-friendliness. Advanced R users can already do everything
+    covered here, but with janitor they can do it faster and save their thinking for
+    the fun stuff. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> likert </td>
+   <td style="text-align:left;"> An approach to analyzing Likert response items, with an emphasis on visualizations. 
+    The stacked bar plot is the preferred method for presenting Likert results. Tabular results
+    are also implemented along with density plots to assist researchers in determining whether 
+    Likert responses can be used quantitatively instead of qualitatively. See the likert(), 
+    summary.likert(), and plot.likert() functions to get started. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> lumberjack </td>
+   <td style="text-align:left;"> A function composition ('pipe') operator and extensible 
+    framework that allows for easy logging of changes in data. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mi </td>
+   <td style="text-align:left;"> The mi package provides functions for data manipulation, imputing missing values in an approximate Bayesian framework, diagnostics of the models used to generate the imputations, confidence-building mechanisms to validate some of the assumptions of the imputation algorithm, and functions to analyze multiply imputed data sets with the appropriate degree of sampling uncertainty. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mice </td>
+   <td style="text-align:left;"> Multiple imputation using Fully Conditional Specification (FCS)
+    implemented by the MICE algorithm as described in Van Buuren and
+    Groothuis-Oudshoorn (2011) &lt;doi:10.18637/jss.v045.i03&gt;. Each variable has
+    its own imputation model. Built-in imputation models are provided for
+    continuous data (predictive mean matching, normal), binary data (logistic
+    regression), unordered categorical data (polytomous logistic regression)
+    and ordered categorical data (proportional odds). MICE can also impute
+    continuous two-level data (normal model, pan, second-level variables).
+    Passive imputation can be used to maintain consistency between variables.
+    Various diagnostic plots are available to inspect the quality of the
+    imputations. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> missForest </td>
+   <td style="text-align:left;"> The function 'missForest' in this package is used to
+        impute missing values particularly in the case of mixed-type
+        data. It uses a random forest trained on the observed values of
+        a data matrix to predict the missing values. It can be used to
+        impute continuous and/or categorical data including complex
+        interactions and non-linear relations. It yields an out-of-bag
+        (OOB) imputation error estimate without the need of a test set
+        or elaborate cross-validation. It can be run in parallel to 
+        save computation time. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> missMDA </td>
+   <td style="text-align:left;"> Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> munsell </td>
+   <td style="text-align:left;"> Provides easy access to, and manipulation of, the Munsell 
+    colours. Provides a mapping between Munsell's 
+    original notation (e.g. &quot;5R 5/10&quot;) and hexadecimal strings suitable 
+    for use directly in R graphics. Also provides utilities 
+    to explore slices through the Munsell colour tree, to transform 
+    Munsell colours and display colour palettes. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> naniar </td>
+   <td style="text-align:left;"> Missing values are ubiquitous in data and need to be explored and
+    handled in the initial stages of analysis. 'naniar' provides data structures 
+    and functions that facilitate the plotting of missing values and examination 
+    of imputations. This allows missing data dependencies to be explored with 
+    minimal deviation from the common work patterns of 'ggplot2' and tidy data. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> psych </td>
+   <td style="text-align:left;"> A general purpose toolbox for personality, psychometric theory and experimental psychology.   Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.   Functions for simulating and testing particular item and test structures are included. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the &lt;http://personality-project.org/r&gt; web page. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> RandomFields </td>
+   <td style="text-align:left;"> Methods for the inference on and the simulation of Gaussian fields are provided, as well as methods for the simulation of extreme value random fields. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> RColorBrewer </td>
+   <td style="text-align:left;"> Provides color schemes for maps (and other graphics)
+        designed by Cynthia Brewer as described at http://colorbrewer2.org </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sigr </td>
+   <td style="text-align:left;"> Succinctly and correctly format statistical summaries of
+    various models and tests (F-test, Chi-Sq-test, Fisher-test, T-test, and rank-significance).  The main purpose is unified reporting and planning
+    of experimental results, working around issue such as the difficulty of
+    extracting model summary facts (such as with 'lm'/'glm').  This package also
+    includes empirical tests, such as bootstrap estimates. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sjmisc </td>
+   <td style="text-align:left;"> Collection of miscellaneous utility functions, supporting data 
+    transformation tasks like recoding, dichotomizing or grouping variables, 
+    setting and replacing missing values. The data transformation functions 
+    also support labelled data, and all integrate seamlessly into a 
+    'tidyverse'-workflow. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sjPlot </td>
+   <td style="text-align:left;"> Collection of plotting and table output functions for data
+    visualization. Results of various statistical analyses (that are commonly used
+    in social sciences) can be visualized using this package, including simple and
+    cross tabulated frequencies, histograms, box plots, (generalized) linear models,
+    mixed effects models, principal component analysis and correlation matrices, 
+    cluster analyses, scatter plots, stacked scales, effects plots of regression 
+    models (including interaction terms) and much more. This package supports
+    labelled data. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sjstats </td>
+   <td style="text-align:left;"> Collection of convenient functions for common statistical computations,
+             which are not directly provided by R's base or stats packages.
+             This package aims at providing, first, shortcuts for statistical
+             measures, which otherwise could only be calculated with additional
+             effort (like standard errors or root mean squared errors). Second,
+             these shortcut functions are generic (if appropriate), and can be
+             applied not only to vectors, but also to other objects as well
+             (e.g., the Coefficient of Variation can be computed for vectors,
+             linear models, or linear mixed models; the r2()-function returns
+             the r-squared value for 'lm', 'glm', 'merMod' or 'lme' objects).
+             The focus of most functions lies on summary statistics or fit
+             measures for regression models, including generalized linear
+             models and mixed effects models. However, some of the functions
+             also deal with other statistical measures, like Cronbach's Alpha,
+             Cramer's V, Phi etc. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Simpsons </td>
+   <td style="text-align:left;"> This package detects instances of Simpson's Paradox in
+        datasets. It examines subpopulations in the data, either
+        user-defined or by means of cluster analysis, to test whether a
+        regression at the level of the group is in the opposite
+        direction at the level of subpopulations. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> stringdist </td>
+   <td style="text-align:left;"> Implements an approximate string matching version of R's native
+    'match' function. Can calculate various string distances based on edits
+    (Damerau-Levenshtein, Hamming, Levenshtein, optimal sting alignment), qgrams (q-
+    gram, cosine, jaccard distance) or heuristic metrics (Jaro, Jaro-Winkler). An
+    implementation of soundex is provided as well. Distances can be computed between
+    character vectors while taking proper care of encoding or between integer
+    vectors representing generic sequences. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> summarytools </td>
+   <td style="text-align:left;"> Built around three key functions: 1) freq() generates
+    frequency tables reporting counts and proportions (including cumulative) for factors
+    and other discrete data; 2) descr() gives all common central tendency statistics and 
+    measures of dispersion for numerical data; 3) dfSummary() gives as much information
+    as possible on a dataframe's columns in a legible table. freq() and
+    descr() support weights, and all three functions support 'Hmisc' or 'pander' labels.  
+    A variety of output formats are available (plain text, 'rmarkdown' and HTML).
+    An additional misc function, what.is(), displays all common properties of an object
+    (its class, type, mode, attributes, etc.) and extends the base is() function, 
+    checking the object against most is.() functions. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tabplot </td>
+   <td style="text-align:left;"> A tableplot is a visualisation of a (large) dataset with a dozen of variables, both numeric and categorical. Each column represents a variable and each row bin is an aggregate of a certain number of records. Numeric variables are visualized as bar charts, and categorical variables as stacked bar charts. Missing values are taken into account. Also supports large 'ffdf' datasets from the 'ff' package. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tadaatoolbox </td>
+   <td style="text-align:left;"> Contains functions for the easy display of statistical tests as well as
+    some convenience functions for data cleanup. It is meant to ease existing workflows
+    with packages like 'sjPlot', 'dplyr', and 'ggplot2'. The primary components are the functions
+    prefixed with 'tadaa_', which are built to work in an interactive environment, but also print
+    tidy markdown tables powered by 'pixiedust' for the creation of 'RMarkdown' reports. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> tatoo </td>
+   <td style="text-align:left;"> Functions to combine data.frames in ways that require additional effort in 
+  base R, and to add metadata (id, title, ...) that can be used for printing and 
+  xlsx export. The 'Tatoo_report' class is provided as a 
+  convenient helper to write several such tables to a workbook, one table per 
+  worksheet. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> unpivotr </td>
+   <td style="text-align:left;"> Tools for converting data from complex or irregular layouts to a
+    columnar structure.  For example, tables with multilevel column or row
+    headers, or spreadsheets.  Header and data cells are selected by their
+    contents and position, as well as formatting and comments where available,
+    and are associated with one other by their proximity in given directions.
+    Functions for data frames and HTML tables are provided. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> VIM </td>
+   <td style="text-align:left;"> New tools for the visualization of missing and/or imputed values
+    are introduced, which can be used for exploring the data and the structure of
+    the missing and/or imputed values. Depending on this structure of the missing
+    values, the corresponding methods may help to identify the mechanism generating
+    the missing values and allows to explore the data including missing values.
+    In addition, the quality of imputation can be visually explored using various
+    univariate, bivariate, multiple and multivariate plot methods. A graphical user
+    interface available in the separate package VIMGUI allows an easy handling of
+    the implemented plot methods. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> viridis </td>
+   <td style="text-align:left;"> Port of the new 'matplotlib' color maps ('viridis' - the default
+    -, 'magma', 'plasma' and 'inferno') to 'R'. 'matplotlib' &lt;http://matplotlib.org/
+    &gt; is a popular plotting library for 'python'. These color maps are designed
+    in such a way that they will analytically be perfectly perceptually-uniform,
+    both in regular form and also when converted to black-and-white. They are
+    also designed to be perceived by readers with the most common form of color
+    blindness. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> visdat </td>
+   <td style="text-align:left;"> Create preliminary exploratory data visualisations of an entire 
+  dataset to identify problems or unexpected features using 'ggplot2'. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> vtreat </td>
+   <td style="text-align:left;"> A 'data.frame' processor/conditioner that prepares real-world data for predictive modeling in a statistically sound manner.
+    'vtreat' prepares variables so that data has fewer exceptional cases, making
+    it easier to safely use models in production. Common problems 'vtreat' defends
+    against: 'Inf', 'NA', too many categorical levels, rare categorical levels, and new
+    categorical levels (levels seen during application, but not during training).
+    'vtreat::prepare' should be used as you would use 'model.matrix'. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> wesanderson </td>
+   <td style="text-align:left;"> Palettes generated mostly from Wes Anderson movies </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> rstan </td>
+   <td style="text-align:left;"> User-facing R functions are provided to parse, compile, test, 
+    estimate, and analyze Stan models by accessing the header-only Stan library 
+    provided by the 'StanHeaders' package. The Stan project develops a
+    probabilistic programming language that implements full Bayesian statistical 
+    inference via Markov Chain Monte Carlo, rough Bayesian inference via 'variational'
+    approximation, and (optionally penalized) maximum likelihood estimation via 
+    optimization. In all three cases, automatic differentiation is used to quickly 
+    and accurately evaluate gradients without burdening the user with the need 
+    to derive the partial derivatives. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> loo </td>
+   <td style="text-align:left;"> Efficient approximate leave-one-out cross-validation (LOO)
+    using Pareto smoothed importance sampling (PSIS), a new procedure for
+    regularizing importance weights. As a byproduct of the calculations, we also
+    obtain approximate standard errors for estimated predictive errors and for
+    the comparison of predictive errors between models. We also compute the
+    widely applicable information criterion (WAIC). </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> bayesplot </td>
+   <td style="text-align:left;"> Plotting functions for posterior analysis, model checking,
+    and MCMC diagnostics. The package is designed not only to provide convenient
+    functionality for users, but also a common set of functions that can be
+    easily used by developers working on a variety of R packages for Bayesian
+    modeling, particularly (but not exclusively) packages interfacing with 'Stan'. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> rstanarm </td>
+   <td style="text-align:left;"> Estimates previously compiled regression models using the 'rstan' package,
+    which provides the R interface to the Stan C++ library for Bayesian estimation.
+    Users specify models via the customary R syntax with a formula and data.frame
+    plus some additional arguments for priors. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> rstantools </td>
+   <td style="text-align:left;"> Provides various tools for developers of R packages interfacing
+    with 'Stan' &lt;http://mc-stan.org&gt;, including functions to set up the required 
+    package structure, S3 generics and default methods to unify function naming 
+    across 'Stan'-based R packages, and a vignette with recommendations for 
+    developers. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shiny </td>
+   <td style="text-align:left;"> Makes it incredibly easy to build interactive web
+    applications with R. Automatic &quot;reactive&quot; binding between inputs and
+    outputs and extensive prebuilt widgets make it possible to build
+    beautiful, responsive, and powerful applications with minimal effort. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shinystan </td>
+   <td style="text-align:left;"> A graphical user interface for interactive Markov chain Monte
+    Carlo (MCMC) diagnostics and plots and tables helpful for analyzing a
+    posterior sample. The interface is powered by the 'Shiny' web
+    application framework from 'RStudio' and works with the output of MCMC 
+    programs written in any programming language (and has extended 
+    functionality for 'Stan' models fit using the 'rstan' and 'rstanarm' 
+    packages). </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ggmcm </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> brms </td>
+   <td style="text-align:left;"> Fit Bayesian generalized (non-)linear multilevel models 
+    using Stan for full Bayesian inference. A wide range of distributions 
+    and link functions are supported, allowing users to fit -- among others -- 
+    linear, robust linear, count data, survival, response times, ordinal, 
+    zero-inflated, hurdle, and even self-defined mixture models all in a 
+    multilevel context. Further modeling options include non-linear and 
+    smooth terms, auto-correlation structures, censored data, meta-analytic 
+    standard errors, and quite a few more. In addition, all parameters of the 
+    response distribution can be predicted in order to perform distributional 
+    regression. Prior specifications are flexible and explicitly encourage 
+    users to apply prior distributions that actually reflect their beliefs.
+    Model fit can easily be assessed and compared with posterior predictive 
+    checks and leave-one-out cross-validation. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> clickR </td>
+   <td style="text-align:left;"> Fixes data errors in numerical, factor and date variables, checks data quality, performs exploratory analysis and creates report tables from models and summaries. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shinyBS </td>
+   <td style="text-align:left;"> Adds additional Twitter Bootstrap components to Shiny. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shinydashboard </td>
+   <td style="text-align:left;"> Create dashboards with 'Shiny'. This package provides
+    a theme on top of 'Shiny', making it easy to create attractive dashboards. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shinyFiles </td>
+   <td style="text-align:left;"> Provides functionality for client-side navigation of
+    the server side file system in shiny apps. In case the app is running
+    locally this gives the user direct access to the file system without the
+    need to &quot;download&quot; files to a temporary location. Both file and folder
+    selection as well as file saving is available. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shinyjs </td>
+   <td style="text-align:left;"> Perform common useful JavaScript operations in Shiny apps that will
+    greatly improve your apps without having to know any JavaScript. Examples
+    include: hiding an element, disabling an input, resetting an input back to
+    its original value, delaying code execution by a few seconds, and many more
+    useful functions for both the end user and the developer. 'shinyjs' can also
+    be used to easily call your own custom JavaScript functions from R. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ColinFay/tidystringdist </td>
+   <td style="text-align:left;"> Compute string distance the tidy way. A package built on top of the {stringdist} package </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> drsimonj/twidlr </td>
+   <td style="text-align:left;"> data.frame-based API for model and predict functions </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
