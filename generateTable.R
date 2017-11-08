@@ -70,6 +70,11 @@ tidyviz <- right_join(cran, data.frame(Package = mycran$TIDYVIZ)) %>%
   select(Package,Description) %>%
   rename('TidyViz' = Package)
 
+kk <- knitr::kable(tidyviz, format = "html")
+write_file(kk,"tidyviz.html")
+
+
+
 all_packages <- cbind(base[1:97,], wrangler) %>%
   bind_cols(stats) %>%
   bind_cols(gis) %>%
@@ -78,7 +83,7 @@ all_packages <- cbind(base[1:97,], wrangler) %>%
 
 
 kk <- knitr::kable(all_packages, format = "html")
-write_file(kk,"tidyviz.html")
+write_file(kk,"all.html")
 
 
 
