@@ -10,260 +10,65 @@ cran <- cran[, -65]
 # make it a tibble
 cran <- tbl_df(cran)
 
-mycran <- rio::import("mypackages.csv")
+mycran <- rio::import("tidyviz-packages.xlsx")
+df.git <- rio::import("git_packages.xlsx")
 
-cran <- cran[, c("Package", "Title", "Description", "URL")]
+mycran <- janitor::remove_empty_cols(mycran)
+mycran <- janitor::remove_empty_rows(mycran)
+
+cran <- cran[, c("Package", "Title", "Description", "URL")] %>%
+        select(Package, Description)
+
+
+base <- right_join(cran, data.frame(Package = mycran$BASE )) %>%
+        left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
+        mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
+        select(Package,Description) %>%
+        rename('Base' = Package)
+
+
+wrangler <- right_join(cran, data.frame(Package = mycran$WRANGLER)) %>%
+  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
+  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
+  select(Package,Description) %>%
+  rename('Wrangler' = Package)
+
+
+stats <- right_join(cran, data.frame(Package = mycran$STATS)) %>%
+  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
+  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
+  select(Package,Description) %>%
+  rename('Stats' = Package)
+
+gis <- right_join(cran, data.frame(Package = mycran$GIS)) %>%
+  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
+  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
+  select(Package,Description) %>%
+  rename('Gis' = Package)
+
+
+tidyviz <- right_join(cran, data.frame(Package = mycran$TIDYVIZ)) %>%
+  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
+  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
+  select(Package,Description) %>%
+  rename('TidyViz' = Package)
+
+
+
+all_packages <- cbind(base[1:97,], wrangler) %>%
+  bind_cols(stats) %>%
+  bind_cols(gis) %>%
+  rbind(c(NA,NA,NA,NA,NA,NA,NA,NA)) %>%
+  bind_cols(tidyviz)
+
+
+rio::export(all_packages, file = "all_packages.xlsx", format = "xlsx" )
+
+
 paketes.instalados <- inner_join(cran, mycran)
 
 
-df.git <- data.frame("Package" = c(
-      "hadley/colformat",
-      "hadley/precis",
-      "ropenscilabs/skimr",
-      "dgrtwo/gganimate",
-      "rstats-db/RPostgres",
-      "smach/rmiscutils",
-      "yihui/printr",
-      "hrbrmstr/hrbrthemes",
-      "hafen/geofacet",
-      "drsimonj/twidlr",
-      "dyerlab/popgraph",
-      "houstonusers/pipefittr",
-      "swarm-lab/editR",
-      "trestletech/shinyAce",
-      "ropensci/tabulizerjars",
-      "ropensci/tabulizer",
-      "ThinkRstat/littleboxes",
-      "thomasp85/lime",
-      "gabrielrvsc/HDeconometrics",
-      "rstudio/blogdown",
-      "nacnudus/unpivotr",
-      "Bioclite/EBImage",
-      "r-hub/sysreqs",
-      "o2r-project/containerit",
-      "krlmlr/here",
-      "krlmlr/rprojroot",
-      "ropenscilabs/packagemetrics",
-      "jeremystan/aargh",
-      "r-lib/boxes",
-      "ropenscilabs/available",
-      "ropenscilabs/data-packages",
-      "hrbrmstr/waffle",
-      "MangoTheCat/goodpractice",
-      "hadley/pkgdown",
-      "stefanedwards/lemon",
-      "hadley/strict",
-	    "clauswilke/ggjoy",
-	    "ropenscilabs/available",
-	    "Stan125/GREA",
-		"tarakc02/rmapzen",
-		"lchiffon/wordcloud2",
-		"bhaskarvk/leaflet.extras",
-		"gsimchoni/kandinsky",
-		"business-science/sweep",
-		"edgararuiz/dbplot",
-		"MilesMcBain/gistfo",
-"vqv/ggbiplot",
-"EmilHvitfeldt/ggpage",
-"hrbrmstr/msgxtractr",
-"krlmlr/styler",
-"AntoineGuillot2/D3partitionR",
-"hafen/trelliscopejs",
-"ThinkR-open/remedy",
-"ropensci/writexl",
-"edgararuiz/dbplot",
-"michaeldorman/mapsapi",
-"AppliedDataSciencePartners/xgboostExplainer",
-"ColinFay/tidystringdist",
-"ColinFay/aside"
-    ),
-    "Title" = c(
-      "colformat provides tools for styling columns of data, artfully using colour and unicode characters.",
-      "Succintly Summarise Data Frames.",
-      "A frictionless, pipeable approach to dealing with summary statistics.",
-      "Create easy animations with ggplot2.",
-      "rstats-db/RPostgres",
-      "miscellaneous R functions",
-      "Some (magical) printing methods for knitr",
-      "Opinionated, typographic-centric ggplot2 themes and theme components",
-      "R package for geographical faceting with ggplot2",
-      "data.frame-based API for model and predict functions",
-      "An R package for creating and manipulating population graph objects useful for spatial landscape and population genetic analyses of genetic marker data.",
-      "To take nested function calls and convert them to a more readable form using magrittr's pipes.",
-      "A Rmarkdown editor with instant preview",
-      "Integrating the Ace editor with Shiny. Required for editR.",
-      "Java '.jar' Files for 'tabulizer'",
-      "Bindings for Tabula PDF Table Extractor Library",
-      "Rstudio Addin - create boxed title in an Rscript",
-      "Local Interpretable Model-Agnostic Explanations (R port of original Python package)",
-      "Set of R functions for high-dimensional econometrics",
-      "Create Blogs and Websites with R Markdown ",
-      "Unpivot complex and irregular data layouts in R",
-      "Image processing and analysis toolbox for R",
-      "Automatically download and install system requirements of R packages.",
-      "containeRit packages R script/session/workspace and all dependencies as a Docker container.",
-      "A simple interface to rprojroot.",
-      "Finding files in project subdirectories.",
-      "A Package for Helping You Choose Which Package to Use.",
-      "Easily Expose R Functions to Command Line Arguments.",
-      "Draw rules and boxes in the terminal.",
-      "Check if a package name is available to use.",
-      "The State Of Data On CRAN: Discovering Good Data Packages.",
-      "waffle is a package to make waffle charts (square pie charts)",
-      "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
-      "pkgdown is designed to make it quick and easy to build a website for your package.",
-      "Just another ggplot2 and knitr extension package.",
-      "The goal of strict to make R behave a little more strictly, making base functions more likely to throw an error rather than returning potentially ambiguous results.",
-	    "Geoms to make joy plots using ggplot2, written by Claus O. Wilke",
-	    "Check if a package name is available to use.",
-	    "Gotta Read Em All: RStudio Add-In to interactively read ALL the data into R using RIO.",
-		"R client for the Mapzen API",
-		"R interface to wordcloud for data visualization.",
-		"Extra functionality for leaflet R package.",
-		"Turn any dataset into a Kandinsky painting",
-"An implementation of the biplot using ggplot2.",
-"Extending broom to time series forecasting",
-"Collect multiple functions for in-database visualization code.",
-"Turn your RStudio untitled tabs into gists.",
-"ggpage is a package to create pagestyled visualizations of text based data. It uses ggplot2 and final returns are ggplot2 objects.",
-"Read Outlook .msg Files",
-"A source code formatter for the R language",
-"D3 partition R is an R package to build interactive visualisation of nested data",
-"Trellis Display",
-"Provides addins to facilitate writing in markdown with RStudio",
-"Portable, light-weight data frame to xlsx exporter based on libxlsxwriter. No Java or Excel required.",
-"Simplifies plotting of database and sparklyr data",
-"The mapsapi package provides an interface to the Google Maps APIs",
-"Explain the XGBoost results",
-"Compute string distance the tidy way. A package built on top of the {stringdist} package",
-"An RStudio addin to run long R commands aside your current session."
-    ),
-    "Description" = c(
-      "colformat is not designed for end-users but will eventually be incorporated in packages like tibble",
-      "The precis package is designed to replace base::summary()",
-      "The goal of skimr is to provide a frictionless approach to dealing with summary statistics iteratively and interactively as part of a pipeline, and that conforms to the principle of least surprise.
-      skimr provides summary statistics that you can skim quickly to understand and your data and see what may be missing. It handles different data types (numerics, factors, etc), and returns a skimr object that can be piped or displayed nicely for the human reader.",
-      "gganimate wraps the animation package to create animated ggplot2 plots. The core of the approach is to treat frame (as in, the time point within an animation) as another aesthetic, just like x, y, size, color, or so on. Thus, a variable in your data can be mapped to frame just as others are mapped to x or y.",
-      "It's a ground-up rewrite using C++ and Rcpp. Compared to PostgresSQL, has full support for parameterised queries via dbSendQuery(), and dbBind(). Automatically cleans up open connections and result sets, ensuring that you don't need to worry about leaking connections or memory.
-      Is a little faster, saving ~5 ms per query. (For refernce, it takes around 5ms to retrive a 1000 x 25 result set from a local database, so this is decent speed up for smaller queries.)",
-      "-",
-      "just library(printr) in a code chunk (in the beginning) of your knitr document. Then some objects will be printed differently with what you would have seen in a normal R console. For example matrices, data frames, and contingency tables are printed as tables (LaTeX, HTML, or Markdown, depending on your output format). The help page (from ?foo or help(foo)) can be rendered as HTML, LaTeX, or plain text, and you can also specify which section(s) of the help page to include in the output. and the results from browseVignettes(), help.search(), data(), and vignette() are rendered as tables. The package information from library(help = 'foo') is rendered as plain text",
-      "This is a very focused package that provides typography-centric themes and theme components for ggplot2. It's a an extract/riff of hrbrmisc created by request.",
-      "Geofaceting arranges a sequence of plots of data for different geographical entities into a grid that strives to preserve some of the original geographical orientation of the entities",
-      "twidlr is an R package that exposes a consistent API for model functions and their corresponding predict methods",
-      "This is an R package for creating and manipulating population graph objects useful for spatial landscape and population genetic analyses of genetic marker data. This statistical method is based conditional genetic covariance and has been applied primarily to genetic marker data. Routines in this package integrate the popgraph network objects into spatial objects using the igraph and sp packages.",
-      "Rstudio addin To take nested function calls and convert them to a more readable form using magrittr's pipes.",
-      "editR is a basic Rmarkdown editor with instant previewing of your document. It allows you to create and edit Rmarkdown documents while instantly previewing the result of your writing and coding. It also allows you to render your Rmarkdown file in any format permitted by the rmarkdown R package.",
-      "The shinyAce package enables Shiny application developers to use the Ace text editor in their applications. All current modes (languages) and themes are supported in this package. The mode, theme, and current text can be defined when the element is initialized in ui.R or afterwards using the updateAceEditor() function. The editor registers itself as a reactive Shiny input, so the current value of the editor can easily be pulled from server.R using input$yourEditorsName.",
-      "Java '.jar' Files for 'tabulizer'",
-      "tabulizer provides R bindings to the Tabula java library, which can be used to computationaly extract tables from PDF documents.",
-      "Rstudio Addin - create boxed title in an Rscript",
-      "This is an R port of the Python lime package (https://github.com/marcotcr/lime) developed by the authors of the lime (Local Interpretable Model-agnostic Explanations) approach for black-box model explanations. All credits goes to the original developers.
-      The purpose of lime is to explain the predictions of black box classifiers. What this means is that for any given prediction and any given classifier it is able to determine a small set of features in the original data that has driven the outcome of the prediction. To learn more about the methodology of lime read the paper and visit the repository of the original implementation.",
-      "-",
-      "A open-source (GPL-3) R package to generate static websites based on R Markdown and Hugo.",
-      "unpivotr provides tools for converting data from complex or irregular layouts to a columnar structure. For example, tables with multi-level column or row headers, or spreadsheets. Header and data cells are selected by their contents, position and formatting, and are associated with one other by their relative positions. Excel (.xlsx) files can be prepared for unpivotr via the tidyxl package.",
-      "-",
-      "Needed for cointaineRit package.",
-      "containeRit packages R script/session/workspace and all dependencies as a Docker container.",
-      "A simple interface to rprojroot.",
-      "This package helps accessing files relative to a project root to stop the working directory insanity.",
-      "a package to obtain a collection of metrics on R packages which are intended to inform the decision which package you choose for a certain task.",
-      "This package provides an easy wrapper for automagically converting any R function into a command line driven application. It is inspired by easyargs in Python, and uses the R argparse library to access the Python argparse parser.",
-      "Draw rules and boxes in the terminal.",
-      "The goal of available is to help you choose a good name for your R package. It helps you determine if the package name you are considering is available to use (on GitHub, CRAN and Bioconductor), checks Urban Dictionary to make sure you haven't unintentionally chosen a bad word, searches for the name on Wikipedia, checks the sentiment of your chosen name and lets you know about packages with similar names. It can also suggest a possible name for your package based on its title or a short description of what it does.",
-      "Most of us are involved in teaching R in some way, and it is always a struggle to find suitable datasets with which to teach, especially across domain expertise. There are many packages that have data, but finding them and knowing what is in them is a struggle due to inadequate documentation.
-      Make it easy to discover suitable data
-      Write some guidance on documenting data in packages",
-      "waffle is a package to make waffle charts (square pie charts). It uses ggplot2 and returns a ggplot2 object.",
-      "Give advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc.",
-      "You can see pkgdown in action at http://hadley.github.io/pkgdown/: this is the output of pkgdown applied to the latest version of pkgdown. Learn more in vignette(pkgdown) or ?build_site.",
-      "Axis lines, repeated axis lines on facets, legends, knitr...","library(strict) forces you to confront potential problems now, instead of in the future. This has both pros and cons: often you can most easily fix a potential ambiguity when your working on the code (rather than in six months time when you've forgotten how it works), but it also forces you to resolve ambiguities that might never occur with your code/data.",
-	    "Geoms to make joy plots using ggplot2.",
-	    "available helps you name your R package. Checks for validity. Checks not already available on GitHub, CRAN and Bioconductor. Searches Urban Dictionary, Wiktionary and Wikipedia for unintended meanings. Can suggest possible names based on text in the package title or description.",
-	    "GREA (Gotta Read 'Em All) is an RStudio Add-In assisting to read all popular file formats into R through R base functions and rio. In the beginning, the user selects a file on his/her computer. After some optional adjustments (which are done interactively), the proper function to read the file is pasted into the console, with an object name that can be specified by the user. Supported file formats include Stata (.dta), SPSS (.sav), Matlab (.mat), Excel (.xls, .xlsx) and various text/delimited-formats (.raw, .csv, .txt, .asc, .dat, etc.).",
-		"rmapzen is a client for the Mapzen API. For an introduction, detailed examples, and installation instructions, see: https://tarakc02.github.io/rmapzen/. For more information about the Mapzen API, see https://mapzen.com/documentation/.",
-		"This package provides an HTML5 interface to wordcloud for data visualization. Timdream’s wordcloud2.js is used in this package.",
-		"The goal of leaflet.extras package is to provide extra functionality to the leaflet R package using various leaflet plugins.",
-		"To generate random Wassily Kandinsky paintings or even make any dataset into one.",
-"The sweep package extends the broom tools (tidy, glance, and augment) for performing forecasts and time series analysis in the tidyverse. The package is geared towards tidying the forecast workflow used with Rob Hyndman's forecast package",
-"It implements the principles laid out in the Creating Visualizations page, and it provides three types of functions:Helper functions that return a ggplot2 visualization, Helper functions that return the results of the plot’s calculations,The db_bin() function introduced in the Creating Visualizations page.The package provides calculations or “base” ggplot2 visualizations for the following:Bar plot,Line plot,Histogram,Raster",
-"Turn your RStudio untitled tabs into gists.",
-"The package provides two functions: ggscreeplot() and ggbiplot(). ggbiplot aims to be a drop-in replacement for the built-in R function biplot.princomp() with extended functionality for labeling groups, drawing a correlation circle, and adding Normal probability ellipsoids.",
-"The basic workflow with ggpage is using either ggpage_quick for a quick one function call plot or, combining ggpage_build and ggpage_plot to do analysis (NLP for example) before the final plot is produced. For a simple demontration we apply ggpage_quick to our tinderbox object.",
-"Microsoft Outlook messages can be saved in .msg files. Tools are provided that enable extraction of metadata, envelope, headers, body and attachments from these files.",
-"It’s possible to use different levels of invasiveness, as described in the help file for the only style guide implemented so far, which is the tidyverse style guide. The style guide in use is passed to the styling function via the style argument, which defaults to tidyverse_style. In addition to this argument, there are further customization options. For example, we can limit ourselves to styling just spacing information by indicating this with the scope argument",
-"Through easy to-use R functions in a ggplot-like syntax you will be able to plot and customise sunburst, treemap, circle treemap, icicle and partition chart. All the visualisations are interactive, zoom-able and based on the latest version of d3.js V4",
-"Trelliscope is a visualization approach based on the idea of small multiples or Trellis Display, where data are split into groups and a plot is made for each group, with the resulting plots arranged in a grid",
-"All the functions are meant to be mapped to keyboard shortcuts. A list of suggested shortcuts is provided towards the end of README. Note that all the addins/shortcuts will also work without selecting any text",
-"Wraps the libxlsxwriter library to create files in Microsoft Excel xlsx format. Currently the package only has write_xlsx() to export a data frame to xlsx.",
-"Leverages dplyr to process the calculations of a plot inside a database.",
-"Functions google_directions and google_matrix are used to access the API. They return an xml_2_document object with the response contents. Given a directions response, functions extract_routes and extract_segments can be used to process the response document into a spatial layer. Function extract_routes gives each alternative as a separate line, while function extract_segments gives each segment -that is, a portion of the route associated with specific driving instructions- as a separate line.",
-"A package for explained XGBoost results",
-"First, you need to create a tibble with the combinations of words you want to compare. You can do this with the tidy_comb and tidy_comb_all functions",
-"Have you ever been waiting in front of you R session from a command to finish? Say goodbye to wasted time with {aside}, an RStudio addin running commands aside and sending you the result in a temp file."),
-    "URL" = c(
-      "https://github.com/hadley/colformat",
-      "https://github.com/hadley/precis",
-      "https://github.com/ropenscilabs/skimr",
-      "https://github.com/dgrtwo/gganimate",
-      "https://github.com/rstats-db/RPostgres",
-      "https://github.com/smach/rmiscutils",
-      "https://github.com/yihui/printr",
-      "https://github.com/hrbrmstr/hrbrthemes",
-      "https://github.com/hafen/geofacet",
-      "https://github.com/drsimonj/twidlr",
-      "https://github.com/dyerlab/popgraph",
-      "https://github.com/houstonusers/pipefittr",
-      "https://github.com/swarm-lab/editR",
-      "https://github.com/trestletech/shinyAce",
-      "https://github.com/ropensci/tabulizerjars",
-      "https://github.com/ropensci/tabulizer",
-      "https://github.com/ThinkRstat/littleboxes",
-      "https://github.com/thomasp85/lime",
-      "https://github.com/gabrielrvsc/HDeconometrics",
-      "https://github.com/rstudio/blogdown",
-      "https://github.com/nacnudus/unpivotr",
-      "https://www.bioconductor.org/packages/devel/bioc/vignettes/EBImage/inst/doc/EBImage-introduction.html",
-      "https://github.com/r-hub/sysreqs",
-      "http://o2r.info/2017/05/30/containerit-package/",
-      "https://krlmlr.github.io/here/",
-      "https://krlmlr.github.io/rprojroot",
-      "https://github.com/ropenscilabs/packagemetrics",
-      "https://github.com/jeremystan/aargh",
-      "https://github.com/r-lib/boxes",
-      "https://github.com/ropenscilabs/available",
-      "https://github.com/ropenscilabs/data-packages",
-      "https://github.com/hrbrmstr/waffle/tree/cran",
-      "https://github.com/MangoTheCat/goodpractice",
-      "https://github.com/hadley/pkgdown",
-      "https://github.com/stefanedwards/lemon",
-      "https://github.com/hadley/strict",
-	 "https://github.com/clauswilke/ggjoy",
-	 "https://github.com/ropenscilabs/available",
-	 "https://github.com/Stan125/GREA",
-	"https://github.com/tarakc02/rmapzen",
-	"https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html",
-	"http://r-spatial.org/r/2017/01/30/mapedit_intro.html",
-	"http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/",
-"https://github.com/business-science/sweep",
-"https://github.com/edgararuiz/dbplot",
-"https://github.com/MilesMcBain/gistfo",
-"https://github.com/vqv/ggbiplot",
-"https://github.com/EmilHvitfeldt/ggpage",
-"https://github.com/hrbrmstr/msgxtractr",
-"https://github.com/krlmlr/styler",
-"https://github.com/AntoineGuillot2/D3partitionR",
-"https://hafen.github.io/trelliscopejs/",
-"https://github.com/ThinkR-open/remedy",
-"https://github.com/ropensci/writexl#readme",
-"https://github.com/edgararuiz/dbplot",
-"https://cran.r-project.org/web/packages/mapsapi/vignettes/intro.html",
-"https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211",
-"http://colinfay.me/tidystringdist/",
-"https://github.com/ColinFay/aside"
-    ))
-  
+rio::export(df.git, "git_packages.xlsx", format = "xlsx")
 
 
 paquetes <- rbind(paketes.instalados, df.git)
@@ -272,8 +77,8 @@ kk <- knitr::kable(paquetes, format = "html")
 
 writeClipboard(kk)
 dmdclip(kk)
-clip <- pipe("pbcopy", "w")                       
-write_file(kk,"teibol")                               
+clip <- pipe("pbcopy", "w")
+write_file(kk,"teibol")
 close(clip)
 
 Sys.setenv("R_ZIPCMD" = "C:/Rtools/bin/zip.exe")
@@ -282,22 +87,6 @@ rio::export(paquetes, file = "paquetes.xlsx", format = "xlsx")
 
 writeClipboard(kk)
 
-library("Hmisc")
-
-gitters <-
-  subset(
-    paquetes,
-    subset = grepl("/", paquetes$Package) &
-      paquetes$Package %nin% "Bioclite/EBImage" ,
-    select = "Package"
-  )
-cranners <-
-  subset(paquetes,
-         subset = !grepl("/", paquetes$Package) ,
-         select = "Package")
-
-cgit <- paste0(gitters, collapse = ",")
-ccran <-  paste0(cranners, collapse = ",")
 
 
 library(pathological)
@@ -314,19 +103,19 @@ perfil <- pathological::r_profile()
 
 cat(
   "options(prompt='R> ', digits=4)
-  
+
   options(stringsAsFactors=FALSE)
-  
+
   if(interactive())
   try(fortunes::fortune(), silent=TRUE)
-  
+
   .Last = function() {
   cond = suppressWarnings(!require(fortunes, quietly=TRUE))
   if(cond)
   try(install.packages('fortunes'), silent=TRUE)
   message('Goodbye at ', date(), '\n')
   }
-  
+
   # aliases
   s <- base::summary
   h <- utils::head

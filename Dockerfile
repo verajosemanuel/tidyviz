@@ -4,7 +4,7 @@ LABEL maintainer "vera.josemanuel@gmail.com"
 
 ADD github_installs.R /tmp/github_installs.R
 
-RUN install2.r --error bigrquery \
+RUN install2.r --error --deps TRUE bigrquery \
 bookdown \
 hexSticker \
 liftr \
