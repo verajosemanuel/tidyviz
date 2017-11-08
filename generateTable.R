@@ -26,12 +26,20 @@ base <- right_join(cran, data.frame(Package = mycran$BASE )) %>%
         select(Package,Description) %>%
         rename('Base' = Package)
 
+kk <- knitr::kable(base, format = "html")
+write_file(kk,"base.html")
+
+
 
 wrangler <- right_join(cran, data.frame(Package = mycran$WRANGLER)) %>%
   left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
   mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
   select(Package,Description) %>%
   rename('Wrangler' = Package)
+
+kk <- knitr::kable(wrangler, format = "html")
+write_file(kk,"wrangler.html")
+
 
 
 stats <- right_join(cran, data.frame(Package = mycran$STATS)) %>%
@@ -40,11 +48,20 @@ stats <- right_join(cran, data.frame(Package = mycran$STATS)) %>%
   select(Package,Description) %>%
   rename('Stats' = Package)
 
+kk <- knitr::kable(stats, format = "html")
+write_file(kk,"stats.html")
+
+
+
 gis <- right_join(cran, data.frame(Package = mycran$GIS)) %>%
   left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
   mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
   select(Package,Description) %>%
   rename('Gis' = Package)
+
+kk <- knitr::kable(gis, format = "html")
+write_file(kk,"gis.html")
+
 
 
 tidyviz <- right_join(cran, data.frame(Package = mycran$TIDYVIZ)) %>%
@@ -53,8 +70,6 @@ tidyviz <- right_join(cran, data.frame(Package = mycran$TIDYVIZ)) %>%
   select(Package,Description) %>%
   rename('TidyViz' = Package)
 
-
-
 all_packages <- cbind(base[1:97,], wrangler) %>%
   bind_cols(stats) %>%
   bind_cols(gis) %>%
@@ -62,23 +77,22 @@ all_packages <- cbind(base[1:97,], wrangler) %>%
   bind_cols(tidyviz)
 
 
+kk <- knitr::kable(all_packages, format = "html")
+write_file(kk,"tidyviz.html")
+
+
+
 rio::export(all_packages, file = "all_packages.xlsx", format = "xlsx" )
 
 
-paketes.instalados <- inner_join(cran, mycran)
 
-
-rio::export(df.git, "git_packages.xlsx", format = "xlsx")
-
-
-paquetes <- rbind(paketes.instalados, df.git)
-
-kk <- knitr::kable(paquetes, format = "html")
+kk <- knitr::kable(base, format = "html")
+write_file(kk,"base")
 
 writeClipboard(kk)
-dmdclip(kk)
+
 clip <- pipe("pbcopy", "w")
-write_file(kk,"teibol")
+
 close(clip)
 
 Sys.setenv("R_ZIPCMD" = "C:/Rtools/bin/zip.exe")
