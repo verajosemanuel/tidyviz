@@ -18,6 +18,8 @@ shapefiles \
 spatstat \
 reprex \
 && Rscript /tmp/github_installs.R \
+&& Rscript -e 'devtools::install_github("gabrielrvsc/HDeconometrics")' \
+&& Rscript -e 'devtools::install_github("AppliedDataSciencePartners/xgboostExplainer")' \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
