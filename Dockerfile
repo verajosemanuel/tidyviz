@@ -1,4 +1,4 @@
-FROM jvera/tidyviz-gis:latest
+FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
