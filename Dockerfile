@@ -26,6 +26,9 @@ reprex \
 
 # STATS, ML, TIME SERIES & TEXT MINING
 
+
+RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget  
+
 RUN install2.r --error --deps TRUE afex \
 arules \
 bayesAB \
