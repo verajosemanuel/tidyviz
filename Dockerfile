@@ -12,7 +12,6 @@ mschart \
 pipefittr \
 printr \
 quantmod \
-shapefiles \
 spatstat \
 reprex \
 && Rscript /tmp/github_installs.R \
@@ -96,3 +95,4 @@ xgboost \
 
 # BTYD \
 # BTYDplus \
+# shapefiles \
