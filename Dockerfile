@@ -11,8 +11,6 @@ metricsgraphics \
 mschart \
 pipefittr \
 printr \
-quantmod \
-spatstat \
 reprex \
 && Rscript /tmp/github_installs.R \
 && Rscript -e 'devtools::install_github("gabrielrvsc/HDeconometrics")' \
@@ -26,7 +24,7 @@ reprex \
 # STATS, ML, TIME SERIES & TEXT MINING
 
 
-RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget  
+RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget
 
 RUN install2.r --error --deps TRUE afex \
 arules \
@@ -96,3 +94,5 @@ xgboost \
 # BTYD \
 # BTYDplus \
 # shapefiles \
+# quantmod \
+# spatstat \
