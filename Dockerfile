@@ -72,9 +72,6 @@ rsample \
 RTextTools \
 sas7bdat \
 scanstatistics \
-showtext \
-SimDesign \
-stlplus \
 sugrrants \
 sweep \
 textclean \
@@ -90,3 +87,7 @@ xgboost \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+
+# showtext \
+# SimDesign \
+# stlplus \
