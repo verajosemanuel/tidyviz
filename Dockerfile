@@ -2,7 +2,7 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget r-cran-rmpi imagemagick \
+RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget imagemagick \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
