@@ -2,7 +2,10 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-ADD github_installs.R /tmp/github_installs.R
+RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget r-cran-rmpi imagemagick \
+&& apt-get clean \
+&& rm -rf /var/lib/apt/lists/ \
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 
 RUN install2.r --error --deps TRUE bigrquery \
 bookdown \
@@ -14,15 +17,15 @@ mschart \
 pipefittr \
 printr \
 reprex \
-&& Rscript /tmp/github_installs.R \
+nloptr \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 
+# ADD github_installs.R /tmp/github_installs.R
+# && Rscript /tmp/github_installs.R \
+
 # STATS, ML, TIME SERIES & TEXT MINING
-
-
-RUN apt-get update -qq && apt-get -y --no-install-recommends install bwidget
 
 RUN install2.r --error --deps TRUE afex \
 arules \
@@ -51,12 +54,11 @@ lambda.tools \
 leaflet.minicharts \
 leaps \
 lime \
-liquidSVM \
-margins \
-Modeler \
-neuralnet \
-nloptr \
-NMF \
+liquidSVM 
+
+# RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(ask=FALSE); biocLite("Biobase", ask=FALSE)' > /tmp/packages_bioc.R 
+
+RUN install2.r --error --deps TRUE nloptr \
 party \
 PerformanceAnalytics \
 qdapRegex \
@@ -88,9 +90,3 @@ xgboost \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/ \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
-
-# BTYD \
-# BTYDplus \
-# shapefiles \
-# quantmod \
-# spatstat \
