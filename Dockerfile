@@ -52,11 +52,7 @@ leaflet.minicharts \
 leaps \
 lime \
 liquidSVM \
-&& apt-get clean \
-&& rm -rf /var/lib/apt/lists/ \
-&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
-
-RUN install2.r --error --deps TRUE nloptr \
+nloptr \
 party \
 PerformanceAnalytics \
 qdapRegex \
