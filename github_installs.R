@@ -47,3 +47,4 @@ install_github("trestletech/shinyAce")
 install_github("swarm-lab/editR") # requires devtools::shinyAce shiny shinyFiles shinyBS rmarkdown knitr
 install_github("MilesMcBain/deplearning")
 install_github("MilesMcBain/packup")
+install_github("ropenscilabs/icon")
