@@ -75,6 +75,7 @@ tidygraph \
 timetk \
 tidyquant \
 topicmodels \
+withr \
 WordR \
 wordcloud2 \
 xgboost \
