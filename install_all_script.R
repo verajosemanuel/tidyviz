@@ -6,13 +6,13 @@ stats <- c("stlplus", "arules", "arulesViz", "bayesAB", "bayesboot", "broom", "B
 
 gis <- c("anim.plots", "animation", "cartography", "choroplethr", "choroplethrMaps", "cowplot", "d3heatmap", "d3Tree", "DiagrammeR", "directlabels", "dygraphs", "gdalUtils", "geofacet", "geonames", "geoR", "geosphere", "GeoXp", "GGally", "ggalt", "ggbeeswarm", "ggcorrplot", "ggedit", "ggforce", "ggfortify", "gghighlight", "ggimage", "ggiraph", "ggmap", "ggplotgui", "ggpubr", "ggraph", "ggrepel", "ggridges", "ggsci", "ggseas", "ggtern", "ggThemeAssist", "ggthemes", "ggvis", "gmodels", "gpclib", "gridExtra", "gtable", "gtrendsR", "heatmaply", "hexbin", "hexSticker", "highcharter", "hrbrthemes", "htmlwidgets", "igraph", "knitr", "leaflet", "lemon", "linemap", "magick", "mapdata", "mapedit", "mapmisc", "maps", "mapsapi", "maptools", "mapview", "metricsgraphics", "mschart", "networkD3", "pipefittr", "placement", "plotKML", "plotly", "plotrr", "postGIStools", "raster", "rasterVis", "revealjs", "rgdal", "rgeos", "rgl", "RgoogleMaps", "riverplot", "rmapzen", "rmarkdown", "rpostgis", "rts", "rvg", "rworldmap", "scatterplot3d", "shapefiles", "sinew", "smpic", "sp", "sparklyr", "spatstat", "threejs", "tmap", "tmaptools", "visNetwork")
 
-full <- c("bigrquery", "bookdown", "hexSticker", "liftr", "manipulate", "pipefittr", "printr", "quantmod", "reprex", "smpic","rlang","waterfalls")
+extras <- c("bigrquery", "bookdown", "hexSticker", "liftr", "manipulate", "pipefittr", "printr", "quantmod", "reprex", "smpic","rlang","waterfalls","linemap","basictabler","OutliersO3","cr17","udpipe","ggplotAssist","ggpubr","egg","stow","questionr")
 
 toinstall <- base
 toinstall <- c(toinstall,setdiff(toinstall,wrangler))
 toinstall <- c(toinstall,setdiff(toinstall,stats))
 toinstall <- c(toinstall,setdiff(toinstall,gis))
-toinstall <- c(toinstall,setdiff(toinstall,full))
+toinstall <- c(toinstall,setdiff(toinstall,extras))
 instalaos <- installed.packages() %>% data.frame()
 toinstall <- setdiff(toinstall, instalaos$Package)
 
@@ -21,10 +21,7 @@ if (!require(pacman)) {
 }
 pacman::p_install(toinstall,character.only = T)
 
-gitters <- c("hadley/precis", "hadley/strict", "ropenscilabs/skimr", "smach/rmiscutils", "ropenscilabs/packagemetrics", "jeremystan/aargh", "r-lib/boxes", "ropenscilabs/available", "ropenscilabs/data-packages", "Stan125/GREA", "MilesMcBain/gistfo", "ColinFay/tidystringdist", "drsimonj/twidlr", "gabrielrvsc/Hdeconometrics", "AppliedDataSciencePartners/xgboostExplainer", "ColinFay/aside", "hrbrmstr/msgxtractr", "rstats-db/RPostgres", "vqv/ggbiplot", "rich-iannone/blastula", "ropensci/tabulizerjars", "ropensci/tabulizer", "ThinkRstat/littleboxes", "MangoTheCat/goodpractice", "hadley/pkgdown", "gsimchoni/kandinsky", "datacamp/RDocumentation", "edgararuiz/dbplot", "krlmlr/styler", "ThinkR-open/remedy")
+gitters <- c("hadley/precis", "hadley/strict", "ropenscilabs/skimr", "smach/rmiscutils", "ropenscilabs/packagemetrics", "jeremystan/aargh", "r-lib/boxes", "ropenscilabs/available", "ropenscilabs/data-packages", "Stan125/GREA", "MilesMcBain/gistfo", "ColinFay/tidystringdist", "drsimonj/twidlr", "gabrielrvsc/Hdeconometrics", "AppliedDataSciencePartners/xgboostExplainer", "ColinFay/aside", "hrbrmstr/msgxtractr", "rstats-db/RPostgres", "vqv/ggbiplot", "rich-iannone/blastula", "ropensci/tabulizerjars", "ropensci/tabulizer", "ThinkRstat/littleboxes", "MangoTheCat/goodpractice", "hadley/pkgdown", "gsimchoni/kandinsky", "datacamp/RDocumentation", "edgararuiz/dbplot", "krlmlr/styler", "ThinkR-open/remedy","MilesMcBain/packup","ropenscilabs/styles","sassalley/hexmapr")
 
 
 pacman::p_install_gh(gitters, dependencies = FALSE)
-
-
-
