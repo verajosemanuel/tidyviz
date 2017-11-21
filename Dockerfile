@@ -2,6 +2,8 @@ FROM jvera/tidyviz-base:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
+ADD github_installs.R /tmp/github_installs.R
+
 RUN install2.r --error --deps TRUE bookdown \
 C50 \
 car \
@@ -41,6 +43,7 @@ rpart.plot \
 rsample \
 RTextTools \
 scanstatistics \
+shiny \
 sugrrants \
 sweep \
 textclean \
@@ -52,4 +55,5 @@ timetk \
 topicmodels \
 withr \
 xgboost \
+&& Rscript /tmp/github_installs.R \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
