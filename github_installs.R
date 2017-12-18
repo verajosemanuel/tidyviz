@@ -2,7 +2,6 @@ library(devtools)
 
 
 install_github("AliciaSchep/gglabeller")
-install_github("AntoineGuillot2/D3partitionR")
 install_github("AppliedDataSciencePartners/xgboostExplainer")
 install_github("bhaskarvk/leaflet.extras")
 install_github("ColinFay/aside")
@@ -39,6 +38,8 @@ install_github("ThinkRstat/littleboxes")
 install_github("trestletech/shinyAce")
 install_github("vqv/ggbiplot")
 install_github("wilkox/ggfittext")
+install_github("thomasp85/patchwork")
+install_github("seasmith/AlignAssign")
 install_github("swarm-lab/editR") # requires devtools::shinyAce shiny shinyFiles shinyBS rmarkdown knitr
 # install_github("gsimchoni/kandinsky")
 # install_github("MangoTheCat/goodpractice")
@@ -47,3 +48,4 @@ install_github("swarm-lab/editR") # requires devtools::shinyAce shiny shinyFiles
 # install_github("rich-iannone/blastula")
 # install_github("ropenscilabs/available")
 # install_github("Stan125/GREA")
+# install_github("AntoineGuillot2/D3partitionR")
