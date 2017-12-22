@@ -45,6 +45,7 @@ RTextTools \
 scanstatistics \
 shiny \
 sugrrants \
+swatches \
 sweep \
 textclean \
 tibbletime \
