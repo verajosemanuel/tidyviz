@@ -44,6 +44,7 @@ rsample \
 RTextTools \
 scanstatistics \
 shiny \
+skimr \
 sugrrants \
 swatches \
 sweep \
