@@ -44,6 +44,7 @@ robets \
 rpart.plot \
 rsample \
 RTextTools \
+rtweet \
 scanstatistics \
 shiny \
 skimr \
