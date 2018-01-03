@@ -5,6 +5,7 @@ LABEL maintainer "vera.josemanuel@gmail.com"
 ADD github_installs.R /tmp/github_installs.R
 
 RUN install2.r --error --deps TRUE bookdown \
+brms \
 C50 \
 car \
 caret \
@@ -17,6 +18,7 @@ cshapes \
 FFTrees \
 forecTheta \
 gbm \
+ggstance \
 glmnet \
 googleLanguageR \
 hexSticker \

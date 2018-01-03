@@ -40,6 +40,7 @@ install_github("wilkox/ggfittext")
 install_github("thomasp85/patchwork")
 install_github("seasmith/AlignAssign")
 install_github("swarm-lab/editR") # requires devtools::shinyAce shiny shinyFiles shinyBS rmarkdown knitr
+install_github("mvuorre/brmstools")
 # install_github("gsimchoni/kandinsky")
 # install_github("MangoTheCat/goodpractice")
 # install_github("MilesMcBain/gistfo")
