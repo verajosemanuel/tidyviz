@@ -10,7 +10,7 @@ cran <- cran[, -65]
 # make it a tibble
 cran <- tbl_df(cran)
 
-mycran <- rio::import("tidyviz-packages.xlsx")
+mycran <- rio::import("list.csv") %>% as.data.frame()
 df.git <- rio::import("git_packages.xlsx")
 
 mycran <- janitor::remove_empty_cols(mycran)
@@ -18,6 +18,20 @@ mycran <- janitor::remove_empty_rows(mycran)
 
 cran <- cran[, c("Package", "Title", "Description", "URL")] %>%
         select(Package, Description)
+
+
+df <- right_join(cran, data.frame(Package = mycran$PACKAGE))
+
+
+
+fileConn<-file("all_my_packages_md_table.md")
+writeLines(knitr::kable(df), fileConn)
+close(fileConn)
+
+
+
+
+
 
 
 base <- right_join(cran, data.frame(Package = mycran$BASE )) %>%
