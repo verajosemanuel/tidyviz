@@ -49,6 +49,7 @@ rtweet \
 scanstatistics \
 shiny \
 skimr \
+stm \
 sugrrants \
 swatches \
 sweep \
