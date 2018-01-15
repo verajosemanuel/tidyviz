@@ -18,6 +18,7 @@ cshapes \
 FFTrees \
 forecTheta \
 gbm \
+ggraph \
 ggstance \
 glmnet \
 googleLanguageR \
