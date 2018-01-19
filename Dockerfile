@@ -62,7 +62,8 @@ timetk \
 topicmodels \
 withr \
 xgboost \
-yardstick 
+yardstick \
+yarrr 
 
 # && Rscript /tmp/github_installs.R \
 # && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
