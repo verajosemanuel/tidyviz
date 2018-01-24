@@ -46,7 +46,6 @@ rpart.plot \
 rsample \
 RTextTools \
 rtweet \
-scanstatistics \
 shiny \
 skimr \
 stm \
@@ -66,4 +65,4 @@ yardstick \
 yarrr \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 # && Rscript /tmp/github_installs.R \
-
+# scanstatistics \
