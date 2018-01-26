@@ -1,11 +1,9 @@
-PACKAGE
 alphahull
 Amelia
 anim.plots
 animation
 basictabler
 bigrquery
-bookdown
 bookdown
 brms
 C50
@@ -93,7 +91,6 @@ heatmaply
 here
 hexbin
 hexSticker
-hexSticker
 highcharter
 Hmisc
 hrbrthemes
@@ -110,14 +107,12 @@ leaps
 lemon
 lessR
 liftr
-liftr
 likert
 lime
 linemap
 liquidSVM
 logging
 magick
-manipulate
 manipulate
 mapdata
 mapedit
@@ -127,10 +122,8 @@ mapsapi
 maptools
 mapview
 metricsgraphics
-metricsgraphics
 mi
 missForest
-mschart
 mschart
 naniar
 naturalsort
@@ -140,7 +133,6 @@ OutliersO3
 party
 pathological
 pipefittr
-pipefittr
 pkggraph
 placement
 plotKML
@@ -148,7 +140,6 @@ plotly
 plotrr
 pool
 postGIStools
-printr
 printr
 profvis
 qdapRegex
@@ -159,7 +150,6 @@ randomForest
 randomForestExplainer
 raster
 rasterVis
-reprex
 reprex
 revealjs
 rgdal
@@ -220,3 +210,4 @@ waterfalls
 withr
 xgboost
 yardstick
+yarrr
