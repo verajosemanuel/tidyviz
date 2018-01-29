@@ -49,6 +49,7 @@ rtweet \
 shiny \
 skimr \
 stm \
+styler \
 sugrrants \
 swatches \
 sweep \
