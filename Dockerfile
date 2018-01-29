@@ -49,7 +49,6 @@ rtweet \
 shiny \
 skimr \
 stm \
-styler \
 sugrrants \
 swatches \
 sweep \
@@ -67,3 +66,4 @@ yarrr \
 && rm -rf /tmp/downloaded_packages/  /tmp/*.rds
 # && Rscript /tmp/github_installs.R \
 # scanstatistics \
+# styler \
