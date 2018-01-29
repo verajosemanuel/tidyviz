@@ -48,7 +48,6 @@ RTextTools \
 rtweet \
 shiny \
 skimr \
-stm \
 sugrrants \
 swatches \
 sweep \
@@ -67,3 +66,4 @@ yarrr \
 # && Rscript /tmp/github_installs.R \
 # scanstatistics \
 # styler \
+# stm \
