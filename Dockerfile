@@ -15,6 +15,7 @@ cleanNLP \
 confinterpret \
 corrr \
 cshapes \
+diceR \
 FFTrees \
 forecTheta \
 gbm \
