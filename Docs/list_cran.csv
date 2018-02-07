@@ -59,7 +59,6 @@ geofacet
 geonames
 geoR
 geosphere
-GeoXp
 GGally
 ggalt
 ggbeeswarm
@@ -101,7 +100,6 @@ hrbrthemes
 htmlwidgets
 igraph
 janitor
-Kmisc
 knitr
 koRpus
 lambda.tools
@@ -193,7 +191,6 @@ spanish
 sparklyr
 spatstat
 stm
-stow
 styler
 sugrrants
 summarytools
