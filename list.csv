@@ -1,3 +1,4 @@
+Package
 alphahull
 Amelia
 anim.plots
@@ -41,6 +42,7 @@ DiagrammeR
 diceR
 diffobj
 directlabels
+drake
 dygraphs
 egg
 extrafont
@@ -64,7 +66,6 @@ ggbeeswarm
 ggcorrplot
 ggedit
 ggforce
-ggfortify
 gghighlight
 ggimage
 ggiraph
@@ -77,6 +78,7 @@ ggrepel
 ggridges
 ggsci
 ggseas
+ggsn
 ggstance
 ggtern
 ggThemeAssist
@@ -131,7 +133,7 @@ naniar
 naturalsort
 networkD3
 numform
-Outliers
+outliers
 party
 pathological
 pipefittr
@@ -140,10 +142,12 @@ placement
 plotKML
 plotly
 plotrr
+pmap
 pool
 postGIStools
 printr
 profvis
+psych
 qdapRegex
 quantmod
 questionr
@@ -183,9 +187,11 @@ sinew
 sjmisc
 skimr
 smpic
+snakecase
 sp
 sparklyr
 spatstat
+stm
 stow
 styler
 sugrrants

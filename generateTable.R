@@ -11,28 +11,19 @@ cran <- cran[, -65]
 cran <- tbl_df(cran)
 
 mycran <- rio::import("list.csv") %>% as.data.frame()
-df.git <- rio::import("git_packages.xlsx")
+# df.git <- rio::import("git_packages.xlsx")
 
 mycran <- janitor::remove_empty_cols(mycran)
 mycran <- janitor::remove_empty_rows(mycran)
 
-cran <- cran[, c("Package", "Title", "Description", "URL")] %>%
-        select(Package, Description)
+cran <- cran[, c("Package", "Title", "Description", "URL", "Version","Date")]
+
+df <- right_join(cran, mycran)
 
 
-df <- right_join(cran, data.frame(Package = mycran$PACKAGE))
-
-
-
-fileConn<-file("all_my_packages_md_table.md")
+fileConn <- file("all_my_packages_md_table.md")
 writeLines(knitr::kable(df), fileConn)
 close(fileConn)
-
-
-
-
-
-
 
 base <- right_join(cran, data.frame(Package = mycran$BASE )) %>%
         left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
@@ -45,63 +36,8 @@ write_file(kk,"base.html")
 
 
 
-wrangler <- right_join(cran, data.frame(Package = mycran$WRANGLER)) %>%
-  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
-  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
-  select(Package,Description) %>%
-  rename('Wrangler' = Package)
-
-kk <- knitr::kable(wrangler, format = "html")
-write_file(kk,"wrangler.html")
-
-
-
-stats <- right_join(cran, data.frame(Package = mycran$STATS)) %>%
-  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
-  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
-  select(Package,Description) %>%
-  rename('Stats' = Package)
-
-kk <- knitr::kable(stats, format = "html")
-write_file(kk,"stats.html")
-
-
-
-gis <- right_join(cran, data.frame(Package = mycran$GIS)) %>%
-  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
-  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
-  select(Package,Description) %>%
-  rename('Gis' = Package)
-
-kk <- knitr::kable(gis, format = "html")
-write_file(kk,"gis.html")
-
-
-
-tidyviz <- right_join(cran, data.frame(Package = mycran$TIDYVIZ)) %>%
-  left_join(df.git[, c('Package', 'Description')], by = 'Package') %>%
-  mutate(Description = ifelse(is.na(Description.x), as.character(Description.y), as.character(Description.x))) %>%
-  select(Package,Description) %>%
-  rename('TidyViz' = Package)
-
-kk <- knitr::kable(tidyviz, format = "html")
-write_file(kk,"tidyviz.html")
-
-
-
-all_packages <- cbind(base[1:97,], wrangler) %>%
-  bind_cols(stats) %>%
-  bind_cols(gis) %>%
-  rbind(c(NA,NA,NA,NA,NA,NA,NA,NA)) %>%
-  bind_cols(tidyviz)
-
-
-kk <- knitr::kable(all_packages, format = "html")
-write_file(kk,"all.html")
-
-
-
-rio::export(all_packages, file = "all_packages.xlsx", format = "xlsx" )
+rio::export(df, file = "cran_packages.xlsx", format = "xlsx" )
+write.csv(df, file = "cran_packages.csv", row.names = FALSE, sep = ';')
 
 
 
