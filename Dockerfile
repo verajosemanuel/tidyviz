@@ -58,6 +58,7 @@ tictoc \
 tidygraph \
 tidyquant \
 timetk \
+tmuxr \
 topicmodels \
 withr \
 xgboost \

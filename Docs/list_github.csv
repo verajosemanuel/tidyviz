@@ -1,6 +1,7 @@
 AliciaSchep/gglabeller
 AntoineGuillot2/D3partitionR
 AppliedDataSciencePartners/xgboostExplainer
+benmarwick/wordcountaddin
 bhaskarvk/leaflet.extras
 ColinFay/aside
 ColinFay/tidystringdist
@@ -19,6 +20,7 @@ hadley/strict
 hafen/trelliscopejs
 hrbrmstr/msgxtractr
 hrbrmstr/waffle
+jkaupp/nord
 jeremystan/aargh
 kevinushey/Kmisc
 krlmlr/styler
@@ -32,6 +34,7 @@ pbiecek/breakDown
 richarddmorey/tweetRcode
 rich-iannone/blastula
 r-lib/boxes
+ropensci/ssh
 ropensci/tabulizer
 ropensci/tabulizerjars
 ropenscilabs/available
@@ -47,6 +50,7 @@ swarm-lab/editR
 ThinkR-open/remedy
 ThinkRstat/littleboxes
 thomasp85/patchwork
+tjmahr/WrapRmd
 trestletech/shinyAce
 vqv/ggbiplot
 wilkox/ggfittext
