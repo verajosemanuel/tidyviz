@@ -19,8 +19,6 @@ diceR \
 FFTrees \
 forecTheta \
 gbm \
-ggraph \
-ggstance \
 glmnet \
 googleLanguageR \
 hexSticker \
