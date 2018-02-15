@@ -59,6 +59,7 @@ tidyquant \
 timetk \
 tmuxr \
 topicmodels \
+TSrepr \
 withr \
 xgboost \
 yardstick \
