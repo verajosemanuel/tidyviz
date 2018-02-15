@@ -46,6 +46,7 @@ rsample \
 RTextTools \
 rtweet \
 shiny \
+shinyalert \
 skimr \
 sugrrants \
 swatches \
