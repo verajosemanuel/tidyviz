@@ -2,6 +2,7 @@ library(devtools)
 
 install_github("AliciaSchep/gglabeller")
 install_github("AppliedDataSciencePartners/xgboostExplainer")
+install_github("aryoda/tryCatchLog")
 install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE)
 install_github("bhaskarvk/leaflet.extras")
 install_github("christophM/iml")
