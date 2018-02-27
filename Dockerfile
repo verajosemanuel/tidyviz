@@ -36,6 +36,7 @@ metricsgraphics \
 mschart \
 multiROC \
 party \
+pcaMethods \
 pipefittr \
 printr \
 qdapRegex \
