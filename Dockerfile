@@ -6,6 +6,7 @@ ADD github_installs.R /tmp/github_installs.R
 
 RUN install2.r --error --deps TRUE bookdown \
 boruta \
+breakDown \
 brms \
 C50 \
 car \
@@ -33,6 +34,7 @@ liquidSVM \
 manipulate \
 metricsgraphics \
 mschart \
+multiROC \
 party \
 pipefittr \
 printr \
@@ -46,6 +48,7 @@ rpart.plot \
 rsample \
 RTextTools \
 rtweet \
+santaR \
 shiny \
 shinyalert \
 skimr \
@@ -61,6 +64,7 @@ timetk \
 tmuxr \
 topicmodels \
 TSrepr \
+TSstudio \
 withr \
 xgboost \
 yardstick \

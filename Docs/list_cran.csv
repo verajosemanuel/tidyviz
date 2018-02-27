@@ -8,6 +8,7 @@ basictabler
 boruta
 bigrquery
 bookdown
+breakDown
 brms
 C50
 car
@@ -130,6 +131,7 @@ metricsgraphics
 mi
 missForest
 mschart
+multiROC
 naniar
 naturalsort
 networkD3
@@ -137,6 +139,7 @@ numform
 outliers
 party
 pathological
+PMCMRplus
 pipefittr
 pkggraph
 placement
@@ -177,6 +180,7 @@ rts
 rtweet
 rvg
 rworldmap
+santaR
 scanstatistics
 scatterplot3d
 sessioninfo
@@ -195,6 +199,7 @@ spanish
 sparklyr
 spatstat
 stm
+stranger
 styler
 sugrrants
 summarytools
@@ -215,6 +220,8 @@ tmap
 tmaptools
 tmuxr
 topicmodels
+TSrepr
+TSstudio
 udpipe
 usethis
 VIM
