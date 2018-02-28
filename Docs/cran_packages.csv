@@ -38,14 +38,29 @@ Animations","Provides functions for animations in statistics, covering topics
     this package are a series of functions to save animations to various formats,
     e.g. Flash, 'GIF', HTML pages, 'PDF' and videos. 'PDF' animations can be
     inserted into 'Sweave' / 'knitr' easily.","https://yihui.name/animation","2.5","2017-03-30"
+"autoplotly","Automatic Generation of Interactive Visualizations for Popular
+Statistical Results","Functionalities to automatically generate interactive visualizations for popular
+             statistical results supported by 'ggfortify', such as time series, PCA,
+             clustering and survival analysis, with 'plotly.js' <https://plot.ly/>  and
+             'ggplot2' style. The generated visualizations can also be easily extended
+             using 'ggplot2' and 'plotly' syntax while staying interactive.","https://github.com/terrytangyuan/autoplotly","0.1.1",NA
 "basictabler","Construct Rich Tables for Output to 'HTML'/'Excel'","Easily create tables from data 
     frames/matrices.  Create/manipulate tables 
     row-by-row, column-by-column or cell-by-cell.  
     Use common formatting/styling to output 
     rich tables as 'HTML', 'HTML widgets' or to 
     'Excel'. ","https://github.com/cbailiss/basictabler","0.1.0",NA
+"Boruta","Wrapper Algorithm for All Relevant Feature Selection","An all relevant feature selection wrapper algorithm.
+    It finds relevant features by comparing original attributes'
+    importance with importance achievable at random, estimated
+    using their permuted copies.","https://m2.icm.edu.pl/boruta/","5.2.0",NA
 "bigrquery","An Interface to Google's 'BigQuery' 'API'","Easily talk to Google's 'BigQuery' database from R.","https://github.com/rstats-db/bigrquery","0.4.1",NA
-"bookdown","Authoring Books and Technical Documents with R Markdown","Output formats and utilities for authoring books and technical documents with R Markdown.","https://github.com/rstudio/bookdown","0.6",NA
+"bookdown","Authoring Books and Technical Documents with R Markdown","Output formats and utilities for authoring books and technical documents with R Markdown.","https://github.com/rstudio/bookdown","0.7",NA
+"breakDown","Break Down Plots","Break Down Plots are inspired by waterfall plots created by 'xgboostExplainer' package
+    (see <https://github.com/AppliedDataSciencePartners/xgboostExplainer>). 
+    The idea behind Break Down Plots it to decompose model prediction for a single observation. 
+    Break Down Plots show the contribution of every variable present in the model. 
+    Such plots will work for binary classifiers and general regression models. ","https://pbiecek.github.io/breakDown/","0.1.4","2018-02-15"
 "brms","Bayesian Regression Models using Stan","Fit Bayesian generalized (non-)linear multivariate multilevel models
     using Stan for full Bayesian inference. A wide range of distributions 
     and link functions are supported, allowing users to fit -- among others -- 
@@ -166,13 +181,13 @@ Data Frame as Part of the Data Screening Process","Data screening is an importan
     errors. It provides an extendable suite of test for common potential
     errors in a dataset. ","https://github.com/ekstroem/dataMaid","1.1.0","2018-02-06"
 "datapasta","R Tools for Data Copy-Pasta","RStudio addins and R functions that make copy-pasting vectors and tables to text painless.","https://github.com/milesmcbain/datapasta","3.0.0",NA
-"dataPreparation","Automated Data Preparation","Do most of the painful data preparation for a data science project with a minimum amount of code; Take advantages of data.table efficiency and use some algorithmic trick in order to perform data preparation in a time and RAM efficient way.",NA,"0.3.4",NA
+"dataPreparation","Automated Data Preparation","Do most of the painful data preparation for a data science project with a minimum amount of code; Take advantages of data.table efficiency and use some algorithmic trick in order to perform data preparation in a time and RAM efficient way.",NA,"0.3.5",NA
 "descriptr","Generate Descriptive Statistics & Explore Statistical
 Distributions","Generate descriptive statistics such as measures of location,
     dispersion, frequency tables, cross tables, group summaries and multiple
     one/two way tables. Visualize and compute percentiles/probabilities of 
     normal, t, f, chi square and binomial distributions.","https://rsquaredacademy.github.io/descriptr/,
-https://github.com/rsquaredacademy/descriptr","0.3.0",NA
+https://github.com/rsquaredacademy/descriptr","0.4.0",NA
 "desctable","Produce Descriptive and Comparative Tables Easily","Easily create descriptive and comparative tables.
     It makes use and integrates directly with the tidyverse family of packages, and pipes.
     Tables are produced as data frames/lists of data frames for easy manipulation after creation,
@@ -185,7 +200,7 @@ https://github.com/rsquaredacademy/descriptr","0.3.0",NA
     compare cluster assignments across algorithms using internal and external
     indices, visualizations such as heatmaps, and significance testing for the
     existence of clusters.","https://github.com/AlineTalhouk/diceR,
-https://alinetalhouk.github.io/diceR","0.3.2","2018-01-12"
+https://alinetalhouk.github.io/diceR","0.4.0","2018-02-22"
 "diffobj","Diffs for R Objects","Generate a colorized diff of two R objects for an intuitive
     visualization of their differences.","https://github.com/brodieG/diffobj","0.1.9","2018-01-26"
 "directlabels","Direct Labels for Multicolor Plots","An extensible framework
@@ -203,6 +218,8 @@ https://alinetalhouk.github.io/diceR","0.3.2","2018-01-12"
     series- and axis-display and interactive features like zoom/pan and
     series/point highlighting.","https://github.com/rstudio/dygraphs","1.1.1.4","2017-01-04"
 "egg","Extensions for 'ggplot2', to Align Plots, and Set Panel Sizes","Miscellaneous functions to help customise 'ggplot2' objects. High-level functions are provided to post-process 'ggplot2' layouts and allow alignment between plot panels, as well as setting panel sizes to fixed values. ",NA,"0.2.0",NA
+"errorist","Automatically Search Errors or Warnings","Provides environment hooks that obtain errors and warnings which
+    occur during the execution of code to automatically search for solutions.","https://github.com/coatless/errorist","0.0.1",NA
 "extrafont","Tools for using fonts","Tools to using fonts other than the standard PostScript fonts.
     This package makes it easy to use system TrueType fonts and with PDF or
     PostScript output files, and with bitmap output files in Windows. extrafont
@@ -222,7 +239,7 @@ https://alinetalhouk.github.io/diceR","0.3.2","2018-01-12"
     robust against overfitting.",NA,"1.3.5","2017-11-01"
 "filesstrings","Handy File and String Manipulation","Convenient functions for moving files, deleting directories, 
     and a variety of string operations that facilitate manipulating files 
-    and extracting information from strings.","https://www.github.com/rorynolan/filesstrings","2.0.2",NA
+    and extracting information from strings.","https://www.github.com/rorynolan/filesstrings","2.0.4",NA
 "forecTheta","Forecasting Time Series by Theta Models","Routines for forecasting univariate time series using Theta Models. Contains several cross-validation routines. ","http://arxiv.org/abs/1503.03529","2.2","2016-05-25"
 "fs","Cross-Platform File System Operations Based on 'libuv'","A cross-platform interface to file system operations, built on
   top of the 'libuv' C library.","http://fs.r-lib.org","1.1.0",NA
@@ -245,7 +262,6 @@ Utilities","Wrappers for the Geospatial Data Abstraction Library (GDAL)
 "geonames","Interface to www.geonames.org web service","Code for querying the web service at www.geonames.org",NA,"0.998","2011-24-11"
 "geoR","Analysis of Geostatistical Data","Geostatistical analysis including traditional, likelihood-based and Bayesian methods.","http://www.leg.ufpr.br/geoR","1.7-5.2","2016-05-02"
 "geosphere","Spherical Trigonometry","Spherical trigonometry for geographic applications. That is, compute distances and related measures for angular (longitude/latitude) locations. ",NA,"1.5-7","2017-11-02"
-"GeoXp",NA,NA,NA,NA,NA
 "GGally","Extension to 'ggplot2'","
     The R package 'ggplot2' is a plotting system based on the grammar of graphics.
     'GGally' extends 'ggplot2' by adding several functions
@@ -344,7 +360,7 @@ http://github.com/rdpeng/gpclib","1.5-5","2013-04-01"
 "gtable","Arrange 'Grobs' in Tables","Tools to make it easier to work with ""tables"" of 'grobs'.",NA,"0.2.0",NA
 "gtrendsR","Perform and Display Google Trends Queries","An interface for retrieving and displaying the information returned
     online by Google Trends is provided. Trends (number of hits) over the time as
-    well as geographic representation of the results can be displayed.","https://github.com/PMassicotte/gtrendsR","1.4.0","2017-10-19"
+    well as geographic representation of the results can be displayed.","https://github.com/PMassicotte/gtrendsR","1.4.1","2018-02-26"
 "heatmaply","Interactive Cluster Heat Maps Using 'plotly'","Create interactive cluster 'heatmaps' that can be saved as a stand-
     alone HTML file, embedded in 'R Markdown' documents or in a 'Shiny' app, and
     available in the 'RStudio' viewer pane. Hover the mouse pointer over a cell to
@@ -401,9 +417,8 @@ https://github.com/harrelfe/Hmisc","4.1-1","2018-01-03"
     optimized for user-friendliness. Advanced R users can already do everything
     covered here, but with janitor they can do it faster and save their thinking for
     the fun stuff.","https://github.com/sfirke/janitor","0.3.1",NA
-"Kmisc",NA,NA,NA,NA,NA
 "knitr","A General-Purpose Package for Dynamic Report Generation in R","Provides a general-purpose tool for dynamic report generation in R
-    using Literate Programming techniques.","https://yihui.name/knitr/","1.19",NA
+    using Literate Programming techniques.","https://yihui.name/knitr/","1.20",NA
 "koRpus","An R Package for Text Analysis","A set of tools to analyze texts. Includes, amongst others, functions for automatic language detection, hyphenation,
                several indices of lexical diversity (e.g., type token ratio, HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG,
                LIX, Dale-Chall). Basic import functions for language corpora are also provided, to enable frequency analyses (supports
@@ -467,7 +482,7 @@ Library","Create and customize interactive maps using the 'Leaflet'
     or animation. In RStudio images are automatically previewed when printed to
     the console, resulting in an interactive editing environment. The latest 
     version of the package includes a native graphics device for creating 
-    in-memory graphics or drawing onto images using pixel coordinates.","https://github.com/ropensci/magick#readme","1.6",NA
+    in-memory graphics or drawing onto images using pixel coordinates.","https://github.com/ropensci/magick#readme","1.7",NA
 "manipulate","Interactive Plots for RStudio","Interactive plotting functions for use within RStudio.
   The manipulate function accepts a plotting expression and a set of
   controls (e.g. slider, picker, checkbox, or button) which are used
@@ -507,11 +522,13 @@ Documents","Create native charts for 'Microsoft PowerPoint' and 'Microsoft Word'
  and format their content. The chart's underlying data is automatically saved within the 
  'Word' document or 'PowerPoint' presentation. It extends package 'officer' that does 
  not contain any feature for 'Microsoft' native charts production. ","https://ardata-fr.github.io/mschart/","0.2.2",NA
+"multiROC","Calculating and Visualizing ROC Curves Across Multi-Class
+Classifications","Tools to solve real-world problems with multiple classes by computing the areas under ROC curve via micro-averaging and macro-averaging. The methodology is described in V. Van Asch (2013) <https://www.clips.uantwerpen.be/~vincent/pdf/microaverage.pdf> and Pedregosa et al. (2011) <http://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html>.",NA,"1.0.0",NA
 "naniar","Data Structures, Summaries, and Visualisations for Missing Data","Missing values are ubiquitous in data and need to be explored and
     handled in the initial stages of analysis. 'naniar' provides data structures 
     and functions that facilitate the plotting of missing values and examination 
     of imputations. This allows missing data dependencies to be explored with 
-    minimal deviation from the common work patterns of 'ggplot2' and tidy data. ","https://github.com/njtierney/naniar","0.1.0",NA
+    minimal deviation from the common work patterns of 'ggplot2' and tidy data. ","https://github.com/njtierney/naniar","0.2.0",NA
 "naturalsort","Natural Ordering","Provides functions related to human natural ordering.
     It handles adjacent digits in a character sequence as a number so that
     natural sort function arranges a character vector by their numbers, not digit
@@ -548,6 +565,38 @@ Documents","Create native charts for 'Microsoft PowerPoint' and 'Microsoft Word'
   Zeileis et al. (2008) <doi:10.1198/106186008X319331> and 
   Strobl et al. (2007) <doi:10.1186/1471-2105-8-25>.","http://party.R-forge.R-project.org","1.2-4","2017-12-13"
 "pathological","Path Manipulation Utilities","Utilities for paths, files and directories.","https://github.com/richierocks/pathological","0.1-2","2017-02-14"
+"pcaMethods",NA,NA,NA,NA,NA
+"PMCMRplus","Calculate Pairwise Multiple Comparisons of Mean Rank Sums
+Extended","For one-way layout experiments the one-way ANOVA can
+	     be performed as an omnibus test. All-pairs multiple comparisons 
+	     tests (Tukey-Kramer test, Scheffe test, LSD-test) 
+	     and many-to-one tests (Dunnett test) for normally distributed 
+	     residuals and equal within variance are available. Furthermore,
+	     all-pairs tests (Games-Howell test, Tamhane's T2 test, 
+	     Dunnett T3 test, Ury-Wiggins-Hochberg test) and many-to-one
+	     (Tamhane-Dunnett Test) for normally distributed residuals 
+	     and heterogeneous variances are provided. Van der Waerden's normal
+	     scores test for omnibus, all-pairs and many-to-one tests is
+	     provided for non-normally distributed residuals and homogeneous
+	     variances. The Kruskal-Wallis, BWS and Anderson-Darling
+	     omnibus test and all-pairs tests
+	     (Nemenyi test, Dunn test, Conover test, Dwass-Steele-Critchlow-
+	     Fligner test) as well as many-to-one (Nemenyi test, Dunn test,
+	     U-test) are given for the analysis of variance by ranks. 
+             Non-parametric trend tests (Jonckheere test, Cuzick test,
+	     Johnson-Mehrotra test, Spearman test) are included. 
+	     In addition, a Friedman-test for one-way ANOVA with repeated 
+	     measures on ranks (CRBD) and Skillings-Mack test for unbalanced 
+	     CRBD is provided with consequent all-pairs tests (Nemenyi test, 
+	     Siegel test, Miller test, Conover test, Exact test)
+	     and many-to-one tests (Nemenyi test, Demsar test, Exact test). 
+	     A trend can be tested with Pages's test. Durbin's test 
+	     for a two-way balanced incomplete block design (BIBD) is given 
+	     in this package as well as Gore's test for CRBD with multiple
+	     observations per cell is given.  Outlier tests, Mandel's k- and
+	     h statistic as well as functions for Type I error and Power 
+	     analysis as well as generic summary, print and plot methods 
+             are provided.",NA,"1.0.0","2018-01-15"
 "pipefittr","Convert Nested Functions to Pipes","To take nested function calls and convert them to a more readable form using pipes from package 'magrittr'.",NA,"0.1.2",NA
 "pkggraph","A Consistent and Intuitive Platform to Explore the Dependencies
 of Packages on the Comprehensive R Archive Network Like
@@ -581,7 +630,7 @@ to the 'knitr' Output Format","Extends the S3 generic function knit_print() in '
     to automatically print some objects using an appropriate format such as
     Markdown or LaTeX. For example, data frames are automatically printed as
     tables, and the help() pages can also be rendered in 'knitr' documents.","https://yihui.name/printr/","0.1","2017-05-19"
-"profvis","Interactive Visualizations for Profiling R Code","Interactive visualizations for profiling R code.","https://rstudio.github.io/profvis/","0.3.4",NA
+"profvis","Interactive Visualizations for Profiling R Code","Interactive visualizations for profiling R code.","https://rstudio.github.io/profvis/","0.3.5",NA
 "psych","Procedures for Psychological, Psychometric, and Personality
 Research","A general purpose toolbox for personality, psychometric theory and experimental psychology.   Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.   Functions for simulating and testing particular item and test structures are included. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the <http://personality-project.org/r> web page.","http://personality-project.org/r/psych
 http://personality-project.org/r/psych-manual.pdf","1.7.8","2017-08-17"
@@ -638,7 +687,7 @@ http://trac.osgeo.org/geos/","0.3-26","2017-10-30"
     used to compare different clusterings.","http://logfc.wordpress.com","0.6","2016-10-05"
 "rlang","Functions for Base Types and Core R and 'Tidyverse' Features","A toolbox for working with base types, core R features
   like the condition system, and core 'Tidyverse' features like tidy
-  evaluation.","http://rlang.tidyverse.org, https://github.com/tidyverse/rlang","0.1.6",NA
+  evaluation.","http://rlang.tidyverse.org, https://github.com/r-lib/rlang","0.2.0",NA
 "rmarkdown","Dynamic Documents for R","Convert R Markdown documents into a variety of formats.","http://rmarkdown.rstudio.com","1.8",NA
 "rms","Regression Modeling Strategies","Regression modeling, testing, estimation, validation,
 	graphics, prediction, and typesetting by storing enhanced model design
@@ -681,10 +730,20 @@ http://trac.osgeo.org/geos/","0.3-26","2017-10-30"
 "rvg","R Graphics Devices for Vector Graphics Output","Vector Graphics devices for 'SVG', 'DrawingML' for Microsoft Word, 
   PowerPoint and Excel. Functions extending package 'officer' are provided to 
   embed 'DrawingML' graphics into 'Microsoft PowerPoint' presentations and 
-  'Microsoft Excel' workbooks.","https://github.com/davidgohel/rvg","0.1.7",NA
+  'Microsoft Excel' workbooks.","https://github.com/davidgohel/rvg","0.1.8",NA
 "rworldmap","Mapping Global Data","Enables mapping of country level and gridded user datasets.","https://github.com/AndySouth/rworldmap/,
 https://groups.google.com/forum/#!forum/rworldmap,
 http://andysouth.co.uk/","1.3-6","2016-02-03"
+"santaR","Short Asynchronous Time-Series Analysis","A graphical and automated pipeline for the analysis 
+		of short time-series in R ('santaR'). This approach is designed to accommodate asynchronous 
+		time sampling (i.e. different time points for different individuals), 
+		inter-individual variability, noisy measurements and large numbers of variables. 
+		Based on a smoothing splines functional model, 'santaR' is able to detect variables
+		highlighting significantly different temporal trajectories between study groups.
+		Designed initially for metabolic phenotyping, 'santaR' is also suited for other Systems Biology 
+		disciplines. Command line and graphical analysis (via a 'shiny' application) enable fast and
+		parallel automated analysis and reporting, intuitive visualisation and comprehensive plotting
+		options for non-specialist users.","https://github.com/adwolfer","1.0","2018-01-22"
 "scanstatistics","Space-Time Anomaly Detection using Scan Statistics","Detection of anomalous space-time clusters using the scan 
     statistics methodology. Focuses on prospective surveillance of data streams, 
     scanning for clusters with ongoing anomalies. Hypothesis testing is made 
@@ -698,6 +757,10 @@ http://andysouth.co.uk/","1.3-6","2016-02-03"
     applications with R. Automatic ""reactive"" binding between inputs and
     outputs and extensive prebuilt widgets make it possible to build
     beautiful, responsive, and powerful applications with minimal effort.","http://shiny.rstudio.com","1.0.5",NA
+"shinyalert","Easily Create Pretty Popup Messages (Modals) in 'Shiny'","Easily create pretty popup messages (modals) in 'Shiny'. A modal can
+    contain text, images, OK/Cancel buttons, an input to get a response from the
+    user, and many more customizable options.","https://github.com/daattali/shinyalert
+https://daattali.com/shiny/shinyalert-demo/","1.0",NA
 "sigr","Succinct and Correct Statistical Summaries for Reports","Succinctly and correctly format statistical summaries of
     various models and tests (F-test, Chi-Sq-test, Fisher-test, T-test, and rank-significance).  The main purpose is unified reporting and planning
     of experimental results, working around issue such as the difficulty of
@@ -732,12 +795,17 @@ https://winvector.github.io/sigr/","0.2.3","2018-01-28"
     'smpic' you can easily save your plots with the exact dimensions needed for 
     the different platforms.","https://github.com/mikkelkrogsholm/smpic,
 https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/","0.1.0",NA
-"snakecase","Convert Strings into any Case","A consistent, flexible and easy to use tool to parse and convert strings into cases like snake or camel among others.","https://github.com/Tazinho/snakecase","0.8.1","2018-01-20"
+"snakecase","Convert Strings into any Case","A consistent, flexible and easy to use tool to parse and convert strings into cases like snake or camel among others.","https://github.com/Tazinho/snakecase","0.9.0","2018-02-24"
 "sp","Classes and Methods for Spatial Data","Classes and methods for spatial
   data; the classes document where the spatial location information
   resides, for 2D or 3D data. Utility functions are provided, e.g. for
   plotting data as maps, spatial selection, as well as methods for
   retrieving coordinates, for subsetting, print, summary, etc.","https://github.com/edzer/sp/ https://edzer.github.io/sp/","1.2-7",NA
+"spanish","Translate Quantities from Strings Spelled in Spanish to Integer","Character vector to numerical translation in Euros from Spanish
+    spelled monetary quantities. Text must be previously cleaned & removed
+    extraneous words, symbols or cents. Quantities MUST be written in a correct
+    Spanish cause this isn't a grammar tool. Upper limit is up to the millions
+    range.","https://github.com/verajosemanuel","0.3.2","2017-12-14"
 "sparklyr","R Interface to Apache Spark","R interface to Apache Spark, a fast and general engine for big data
     processing, see <http://spark.apache.org>. This package supports connecting to
     local and remote Apache Spark clusters, provides a 'dplyr' compatible back-end,
@@ -755,7 +823,8 @@ https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/","0.1.0",NA
   and estimation of topic-covariate regressions. Methods developed in
   Roberts et al (2014) <doi:10.1111/ajps.12103> and 
   Roberts et al (2016) <doi:10.1080/01621459.2016.1141684>.","http://structuraltopicmodel.com","1.3.3","2018-1-26"
-"stow",NA,NA,NA,NA,NA
+"stranger","Simple Toolkit in R for ANomalies Get, Explain and Report","Framework for unsupervised anomalies detection that simplifies the user experience because the one does not need to be concerned with the many packages and functions that are required. Package 'stranger' acts as a wrapper around existing packages (""a la 'caret' for modeling"") and provides a clean and uniform toolkit for evaluation/explain/reporting purposes.","https://welovedatascience.github.io/stranger,
+https://github.com/welovedatascience/stranger","0.3.2",NA
 "styler","Non-Invasive Pretty Printing of R Code","
     Pretty-prints R code without changing the user's formatting intent.","https://github.com/r-lib/styler, https://r-lib.github.io/styler/","1.0.0","2017-12-05"
 "sugrrants","Supporting Graphs for Analysing Time Series","Provides 'ggplot2' graphics for analysing time series data. It aims 
@@ -764,9 +833,9 @@ https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/","0.1.0",NA
 "summarytools","Tools to Quickly and Neatly Summarize Data","Data frame summaries, cross-tabulations,
   weight-enabled frequency tables and common univariate
   statistics in concise tables available in a variety of
-  formats (plain ASCII, rmarkdown and HTML). A good point-
-  of-entry for exploring data, both for experienced and
-  new R users.","https://github.com/dcomtois/summarytools","0.8.1","2018-01-12"
+  formats (plain ASCII, Markdown and HTML). A good 
+  point-of-entry for exploring data, both for experienced
+  and new R users.","https://github.com/dcomtois/summarytools","0.8.2","2018-02-10"
 "swatches","Read, Inspect, and Manipulate Color Swatch Files","There are numerous places to create and download color
     palettes. These are usually shared in 'Adobe' swatch file formats of
     some kind. There is also often the need to use standard palettes
@@ -798,13 +867,15 @@ Psychology","Contains functions for the easy display of statistical tests as wel
   base R, and to add metadata (id, title, ...) that can be used for printing and 
   xlsx export. The 'Tatoo_report' class is provided as a 
   convenient helper to write several such tables to a workbook, one table per 
-  worksheet.","https://github.com/statistikat/tatoo","1.0.10",NA
+  worksheet. Tatoo is built on top of 'openxlsx', but intimate knowledge of 
+  that package is not required to use tatoo.","https://github.com/statistikat/tatoo","1.1.0",NA
 "textclean","Text Cleaning Tools","Tools to clean and process text.  Tools are geared at checking for substrings
           that are not optimal for analysis and replacing or removing them (normalizing) with
           more analysis friendly substrings (see Sproat, Black, Chen, Kumar, Ostendorf, &
           Richards (2001) <doi:10.1006/csla.2001.0169>). For example, emoticons are often
           used in text but not always easily handled by analysis algorithms.  The
           'replace_emoticon()' function replaces emoticons with word equivalents.","https://github.com/trinker/textclean","0.6.3","2018-01-14"
+"thinkr","Tools for Cleaning Up Messy Files","Some tools for cleaning up messy 'Excel' files to be suitable for R. People who have been working with 'Excel' for years built more or less complicated sheets with names, characters, formats that are not homogeneous. To be able to use them in R nowadays, we built a set of functions that will avoid the majority of importation problems and keep all the data at best.",NA,"0.11","2018-02-13"
 "threejs","Interactive 3D Scatter Plots, Networks and Globes","Create interactive 3D scatter plots, network plots, and
     globes using the 'three.js' visualization library (<https://threejs.org>).","https://bwlewis.github.io/rthreejs","0.3.1","2017-08-11"
 "tibbletime","Time Aware Tibbles","Built on top of the 'tibble' package, 'tibbletime' is an extension
@@ -824,26 +895,32 @@ Stack and List structures","This package provides the timing functions 'tic' and
     data frames describing node and edge data respectively. 'tidygraph'
     provides an approach to manipulate these two virtual data frames using the
     API defined in the 'dplyr' package, as well as provides tidy interfaces to 
-    a lot of common graph algorithms.","https://github.com/thomasp85/tidygraph","1.0.0","2017-07-06"
+    a lot of common graph algorithms.","https://github.com/thomasp85/tidygraph","1.1.0","2018-02-10"
 "tidyquant","Tidy Quantitative Financial Analysis","Bringing financial analysis to the 'tidyverse'. The 'tidyquant' 
     package provides a convenient wrapper to various 'xts', 'zoo', 'quantmod', 'TTR' 
     and 'PerformanceAnalytics' package 
     functions and returns the objects in the tidy 'tibble' format. The main 
     advantage is being able to use quantitative functions with the 'tidyverse'
     functions including 'purrr', 'dplyr', 'tidyr', 'ggplot2', 'lubridate', etc. See 
-    the 'tidyquant' website for more information, documentation and examples.","https://github.com/business-science/tidyquant","0.5.3","2017-08-03"
+    the 'tidyquant' website for more information, documentation and examples.","https://github.com/business-science/tidyquant","0.5.4","2018-02-18"
 "timetk","A Tool Kit for Working with Time Series in R","
     Get the time series index, signature, and summary from time series objects and
     time-based tibbles. Create future time series based on properties of 
     existing time series index.  
     Coerce between time-based tibbles ('tbl') and 'xts', 'zoo', and 'ts'. ","https://github.com/business-science/timetk","0.1.0","2017-07-25"
-"tmap","Thematic Maps","Thematic maps are geographical maps in which spatial data distributions are visualized. This package offers a flexible, layer-based, and easy to use approach to create thematic maps, such as choropleths and bubble maps.","https://github.com/mtennekes/tmap","1.11","2017-11-24"
-"tmaptools","Thematic Map Tools","Set of tools for reading and processing spatial data. The aim is to supply the workflow to create thematic maps. This package also facilitates 'tmap', the package for visualizing thematic maps.","https://github.com/mtennekes/tmaptools","1.2-2","2017-11-24"
+"tmap","Thematic Maps","Thematic maps are geographical maps in which spatial data distributions are visualized. This package offers a flexible, layer-based, and easy to use approach to create thematic maps, such as choropleths and bubble maps.","https://github.com/mtennekes/tmap","1.11-1","2018-02-13"
+"tmaptools","Thematic Map Tools","Set of tools for reading and processing spatial data. The aim is to supply the workflow to create thematic maps. This package also facilitates 'tmap', the package for visualizing thematic maps.","https://github.com/mtennekes/tmaptools","1.2-3","2018-02-13"
+"tmuxr","Manage 'tmux'","Create, control, and record 'tmux' sessions, windows, and panes
+    using a pipeable API.","https://github.com/datascienceworkshops/tmuxr","0.1.0",NA
 "topicmodels","Topic Models","Provides an interface to the C code for Latent Dirichlet
 	     Allocation (LDA) models and Correlated Topics Models
 	     (CTM) by David M. Blei and co-authors and the C++ code
 	     for fitting LDA models using Gibbs sampling by Xuan-Hieu
 	     Phan and co-authors.",NA,"0.2-7",NA
+"TSrepr","Time Series Representations","Methods for representations (i.e. dimensionality reduction, preprocessing, feature extraction) of time series to help more accurate and effective time series data mining.
+    Non-data adaptive, data adaptive, model-based and data dictated (clipped) representation methods are implemented. Also min-max and z-score normalisations, and forecasting accuracy measures are implemented.","https://petolau.github.io/package/,
+https://github.com/PetoLau/TSrepr/","1.0.0","2018-01-26"
+"TSstudio","Tools for Time Series Analysis and Forecasting","Provides a set of interactive visualization tools for time series analysis supporting ts, mts, zoo and xts objects. That includes visualization functions for forecasting model performance (forecasted vs. actual), time series interactive plots (single and multiple series) and seasonality plots.",NA,"0.1.1",NA
 "udpipe","Tokenization, Parts of Speech Tagging, Lemmatization and
 Dependency Parsing with the 'UDPipe' 'NLP' Toolkit","This natural language processing toolkit provides language-agnostic
     'tokenization', 'parts of speech tagging', 'lemmatization' and 'dependency
@@ -852,7 +929,11 @@ Dependency Parsing with the 'UDPipe' 'NLP' Toolkit","This natural language proce
     at <http://universaldependencies.org/format.html>. The techniques are explained
     in detail in the paper: 'Tokenizing, POS Tagging, Lemmatizing and Parsing UD 2.0
     with UDPipe', available at <doi:10.18653/v1/K17-3009>.","https://bnosac.github.io/udpipe/en/index.html,
-https://github.com/bnosac/udpipe","0.3",NA
+https://github.com/bnosac/udpipe","0.4",NA
+"usethis","Automate Package and Project Setup","Automate package and project setup tasks that are otherwise
+    performed manually. This includes setting up unit testing, test 
+    coverage, continuous integration, Git, 'GitHub', licenses, 'Rcpp', 'RStudio' 
+    projects, and more.","https://github.com/r-lib/usethis","1.3.0",NA
 "VIM","Visualization and Imputation of Missing Values","New tools for the visualization of missing and/or imputed values
     are introduced, which can be used for exploring the data and the structure of
     the missing and/or imputed values. Depending on this structure of the missing
