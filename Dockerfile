@@ -71,7 +71,7 @@ withr \
 xgboost \
 yardstick \
 yarrr \
-&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds
+&& rm -rf /tmp/downloaded_packages/  /tmp/*.rds \
 && Rscript /tmp/github_installs.R
 # scanstatistics \
 # styler \
