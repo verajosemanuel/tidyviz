@@ -62,33 +62,4 @@ Any file you place there, will be available for the container to use, and vice v
 ### More info: Using Rstudio Image
 
 [https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image)
-
-## Included packages
-
-All packages from Base, Wrangler, Stats, Gis plus the following:
-
-bigrquery
-bookdown
-hexSticker
-liftr
-manipulate
-pipefittr
-printr
-quantmod
-reprex
-smpic
-ColinFay/aside
-hrbrmstr/msgxtractr
-rstats-db/RPostgres
-vqv/ggbiplot
-rich-iannone/blastula
-ropensci/tabulizerjars
-ropensci/tabulizer
-ThinkRstat/littleboxes
-MangoTheCat/goodpractice
-hadley/pkgdown
-gsimchoni/kandinsky
-datacamp/RDocumentation
-edgararuiz/dbplot
-krlmlr/styler
-ThinkR-open/remedy                                                                                   
+                                                                               
