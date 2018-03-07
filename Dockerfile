@@ -2,7 +2,7 @@ FROM jvera/base-extras:latest
 
 LABEL maintainer "vera.josemanuel@gmail.com"
 
-ADD github_installs.R /tmp/github_installs.R
+# ADD github_installs.R /tmp/github_installs.R
 
 RUN Rscript -e 'source("http://bioconductor.org/biocLite.R")' -e 'biocLite("pcaMethods")'
 
