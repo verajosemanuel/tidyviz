@@ -26,6 +26,7 @@ gbm \
 glmnet \
 googleLanguageR \
 hexSticker \
+infer \
 koRpus \
 lambda.tools \
 leaflet.minicharts \
