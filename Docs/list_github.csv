@@ -24,7 +24,6 @@ hrbrmstr/waffle
 jkaupp/nord
 jeremystan/aargh
 kevinushey/Kmisc
-krlmlr/styler
 lantanacamara/lightgbmExplainer
 MangoTheCat/goodpractice
 MilesMcBain/deplearning
@@ -43,6 +42,7 @@ ropenscilabs/data-packages
 ropenscilabs/icon
 ropenscilabs/packagemetrics
 rstats-db/RPostgres
+rstudio/blogdown
 seasmith/AlignAssign
 sicarul/xray
 smach/rmiscutils
@@ -56,3 +56,4 @@ trestletech/shinyAce
 vqv/ggbiplot
 wilkox/ggfittext
 WinVector/rquery
+

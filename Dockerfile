@@ -53,10 +53,12 @@ santaR \
 shiny \
 shinyalert \
 skimr \
+styler \
 sugrrants \
 swatches \
 sweep \
 textclean \
+textfeatures \
 tibbletime \
 tictoc \
 tidygraph \

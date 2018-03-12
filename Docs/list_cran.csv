@@ -3,6 +3,7 @@ alphahull
 Amelia
 anim.plots
 animation
+archivist
 autoplotly
 basictabler
 Boruta
@@ -138,6 +139,7 @@ naturalsort
 networkD3
 numform
 outliers
+OutliersO3
 party
 pathological
 pcaMethods
@@ -207,10 +209,12 @@ sugrrants
 summarytools
 swatches
 sweep
+tableone
 tabplot
 tadaatoolbox
 tatoo
 textclean
+textfeatures
 thinkr
 threejs
 tibbletime
@@ -227,6 +231,8 @@ TSstudio
 udpipe
 usethis
 VIM
+viridis
+viridislite
 visdat
 visNetwork
 waterfalls
