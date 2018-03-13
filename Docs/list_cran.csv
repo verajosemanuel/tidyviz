@@ -39,6 +39,7 @@ DataExplorer
 dataMaid
 datapasta
 dataPreparation
+densityClust 
 descriptr
 desctable
 DescTools
@@ -70,6 +71,7 @@ ggbeeswarm
 ggcorrplot
 ggedit
 ggforce
+ggfortify
 gghighlight
 ggimage
 ggiraph
@@ -193,6 +195,7 @@ shiny
 shinyalert
 sigr
 Simpsons
+simstudy
 sinew
 sjmisc
 skimr
