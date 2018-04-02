@@ -17,6 +17,7 @@ cleanNLP \
 confinterpret \
 corrr \
 cshapes \
+default \
 diceR \
 FFTrees \
 forecTheta \
