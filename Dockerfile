@@ -18,6 +18,7 @@ confinterpret \
 corrr \
 cshapes \
 default \
+diagram \
 diceR \
 FFTrees \
 forecTheta \
