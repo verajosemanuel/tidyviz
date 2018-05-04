@@ -3,6 +3,7 @@ alphahull
 Amelia
 anim.plots
 animation
+anomalize
 archivist
 autoplotly
 basictabler
@@ -22,6 +23,7 @@ choroplethrMaps
 chunked
 cleanNLP
 colourpicker
+compare
 condformat
 confinterpret
 corrr
@@ -88,6 +90,7 @@ ggsci
 ggseas
 ggsn
 ggstance
+ggstatsplot
 ggtern
 ggThemeAssist
 ggthemes
@@ -207,6 +210,8 @@ sp
 spanish
 sparklyr
 spatstat
+staplr
+startup
 stm
 stranger
 styler

@@ -55,6 +55,7 @@ santaR \
 shiny \
 shinyalert \
 skimr \
+staplr \
 styler \
 sugrrants \
 swatches \
