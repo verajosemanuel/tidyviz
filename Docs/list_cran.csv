@@ -150,6 +150,7 @@ OutliersO3
 party
 pathological
 pcaMethods
+pkgdown
 PMCMRplus
 pipefittr
 pkggraph
@@ -202,7 +203,6 @@ sigr
 Simpsons
 simstudy
 sinew
-sjmisc
 skimr
 smpic
 snakecase
