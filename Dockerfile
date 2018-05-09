@@ -11,6 +11,7 @@ brms \
 C50 \
 car \
 caret \
+caretEnsemble \
 changepoint \
 chunked \
 cleanNLP \
