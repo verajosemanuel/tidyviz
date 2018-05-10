@@ -15,6 +15,7 @@ caretEnsemble \
 changepoint \
 chunked \
 cleanNLP \
+clustree \
 confinterpret \
 corrr \
 cshapes \
