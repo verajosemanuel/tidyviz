@@ -15,6 +15,7 @@ caretEnsemble \
 changepoint \
 chunked \
 cleanNLP \
+clustree \
 confinterpret \
 corrr \
 cshapes \
@@ -27,6 +28,7 @@ gbm \
 glmnet \
 googleLanguageR \
 hexSticker \
+iml \
 infer \
 koRpus \
 lambda.tools \
@@ -37,6 +39,7 @@ lime \
 liquidSVM \
 manipulate \
 metricsgraphics \
+mlr \
 mschart \
 multiROC \
 party \
