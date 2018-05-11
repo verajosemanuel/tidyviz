@@ -22,6 +22,7 @@ choroplethr
 choroplethrMaps
 chunked
 cleanNLP
+clustree
 colourpicker
 compare
 condformat
@@ -39,6 +40,7 @@ DataCombine
 dataCompareR
 DataExplorer
 dataMaid
+datamap
 datapasta
 dataPreparation
 default
@@ -111,6 +113,7 @@ Hmisc
 hrbrthemes
 htmlwidgets
 igraph
+iml
 infer
 janitor
 knitr
@@ -139,6 +142,7 @@ mapview
 metricsgraphics
 mi
 missForest
+mlr
 mschart
 multiROC
 naniar
@@ -162,6 +166,7 @@ pmap
 pool
 postGIStools
 printr
+processx
 profvis
 psych
 qdapRegex
@@ -247,6 +252,7 @@ visdat
 visNetwork
 waterfalls
 withr
+workflowr
 xgboost
 yardstick
 yarrr
