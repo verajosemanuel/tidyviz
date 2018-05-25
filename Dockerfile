@@ -38,6 +38,7 @@ leaps \
 liftr \
 lime \
 liquidSVM \
+live \
 manipulate \
 metricsgraphics \
 mlr \
