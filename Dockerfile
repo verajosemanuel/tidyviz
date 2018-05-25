@@ -30,6 +30,7 @@ googleLanguageR \
 hexSticker \
 iml \
 infer \
+komaletter \
 koRpus \
 lambda.tools \
 leaflet.minicharts \
