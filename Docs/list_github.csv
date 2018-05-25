@@ -6,8 +6,10 @@ benmarwick/wordcountaddin
 bhaskarvk/leaflet.extras
 ColinFay/aside
 ColinFay/tidystringdist
+dantonnoriega/xmltools
 datacamp/RDocumentation
-dgrtwo/gganimate
+dreamRs/addinit
+dreamRs/prefixer
 drsimonj/twidlr
 dyerlab/popgraph
 edgararuiz/dbplot
@@ -16,8 +18,8 @@ EmilHvitfeldt/ggpage
 gabrielrvsc/HDeconometrics
 gsimchoni/kandinsky
 hadley/precis
-hadley/strict
 hafen/trelliscopejs
+hrbrmstr/cloc
 hrbrmstr/msgxtractr
 hrbrmstr/waffle
 IndrajeetPatil/ggstatsplot
@@ -33,7 +35,9 @@ mvuorre/brmstools
 pbiecek/breakDown
 richarddmorey/tweetRcode
 rich-iannone/blastula
+r-lib/bench
 r-lib/boxes
+r-lib/conflicted
 ropensci/ssh
 ropensci/tabulizer
 ropensci/tabulizerjars
