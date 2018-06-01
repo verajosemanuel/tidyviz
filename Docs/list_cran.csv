@@ -57,6 +57,7 @@ drake
 dygraphs
 egg
 errorist
+ERSA
 extrafont
 factoextra
 FFTrees
@@ -117,6 +118,7 @@ iml
 infer
 janitor
 knitr
+komaletter
 koRpus
 lambda.tools
 leaflet
@@ -129,6 +131,7 @@ likert
 lime
 linemap
 liquidSVM
+live
 logging
 magick
 manipulate
@@ -168,6 +171,7 @@ postGIStools
 printr
 processx
 profvis
+promises
 psych
 qdapRegex
 quantmod
@@ -210,6 +214,7 @@ simstudy
 sinew
 skimr
 smpic
+SmartEDA
 snakecase
 sp
 spanish
@@ -225,6 +230,7 @@ summarytools
 swatches
 sweep
 tableone
+table1
 tabplot
 tadaatoolbox
 tatoo
