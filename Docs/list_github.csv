@@ -5,6 +5,7 @@ aryoda/tryCatchLog
 benmarwick/wordcountaddin
 bhaskarvk/leaflet.extras
 ColinFay/aside
+ColinFay/fryingpane
 ColinFay/tidystringdist
 dantonnoriega/xmltools
 datacamp/RDocumentation
@@ -61,5 +62,7 @@ tjmahr/WrapRmd
 trestletech/shinyAce
 vqv/ggbiplot
 wilkox/ggfittext
+WinVector/addinexamples
 WinVector/rquery
 kassambara/r2excel
+https://gitlab.com/jozefhajnala/jhaddins.git
