@@ -27,6 +27,7 @@ colourpicker;Color
 compare;EDA
 condformat;Tables
 confinterpret;Explain
+conflicted;Programming
 corrr;Stats
 cowplot;Plots
 cr17;Models
@@ -220,6 +221,7 @@ sp;Geo
 spanish;
 sparklyr;Big Data
 spatstat;Geo
+ssh;Tools
 staplr;Text
 startup;Tools / Programming
 stm;Text
@@ -259,7 +261,9 @@ visNetwork;Plots
 waterfalls;Plots
 withr;Programming
 workflowr;workflow
+WVPlots;Plots
 xgboost;Models
+xray;EDA
 yardstick;Model
 yarrr;EDA
 ztable;Table

@@ -1,5 +1,6 @@
 AliciaSchep/gglabeller
 AntoineGuillot2/D3partitionR
+ankane/dbx
 AppliedDataSciencePartners/xgboostExplainer
 aryoda/tryCatchLog
 benmarwick/wordcountaddin
@@ -16,6 +17,7 @@ dyerlab/popgraph
 edgararuiz/dbplot
 edgararuiz/tidypredict
 EmilHvitfeldt/ggpage
+emitanaka/anicon
 gabrielrvsc/HDeconometrics
 gsimchoni/kandinsky
 hadley/precis
@@ -38,8 +40,6 @@ richarddmorey/tweetRcode
 rich-iannone/blastula
 r-lib/bench
 r-lib/boxes
-r-lib/conflicted
-ropensci/ssh
 ropensci/tabulizer
 ropensci/tabulizerjars
 ropenscilabs/available
