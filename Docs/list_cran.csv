@@ -1,4 +1,4 @@
-Package;
+Package;Category
 alphahull;Color
 Amelia;Imputation
 anim.plots;Animation
@@ -55,6 +55,7 @@ diceR;Cluster
 diffobj;EDA / Tools
 directlabels;Plots
 drake;workflow
+dqrng;Tools
 dygraphs;Plots
 egg;Plots
 errorist;Programming / Tools
@@ -197,7 +198,7 @@ robets;Time Series
 rpart.plot;Plot
 rpostgis;Databases
 rsample;Models
-RTextTools;Tex
+RTextTools;Text
 rts;Geo
 rtweet;Data / Cloud
 rvg;Plots
@@ -231,8 +232,8 @@ sugrrants;Time Series
 summarytools;EDA
 swatches;Color
 sweep;Forecasting
-tableone;Table
-table1;Table
+tableone;Tables
+table1;Tables
 tabplot;Plots / Big Data
 tadaatoolbox;Stats
 tatoo;Tools
@@ -264,6 +265,6 @@ workflowr;workflow
 WVPlots;Plots
 xgboost;Models
 xray;EDA
-yardstick;Model
+yardstick;Models
 yarrr;EDA
-ztable;Table
+ztable;Tables
