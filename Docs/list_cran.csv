@@ -52,6 +52,7 @@ DescTools;EDA / Stats
 diagram;Plots
 DiagrammeR;Plots
 diceR;Cluster
+diffdf;EDA / Tools
 diffobj;EDA / Tools
 directlabels;Plots
 drake;workflow
@@ -78,6 +79,7 @@ GGally;Plots
 ggalt;Plots
 ggbeeswarm;Plots
 ggcorrplot;Plots
+ggdistribute;Plots
 ggedit;Plots
 ggforce;Plots
 ggfortify;Plots
@@ -169,6 +171,7 @@ plotly;Plots
 plotrr;EDA
 pmap;Maps
 pool;Databases
+PortfolioAnalytics;Time Series / Financial
 postGIStools;Databases
 printr;Tables / Reports
 processx;Tools / System
@@ -178,6 +181,7 @@ psych;Tools
 qdapRegex;Tools / Regex
 quantmod;Models
 questionr;
+r2d3;Plots
 R.utils;Tools
 randomForest;Models
 randomForestExplainer;Explain
@@ -221,6 +225,7 @@ snakecase;Programming / Tools
 sp;Geo
 spanish;
 sparklyr;Big Data
+sparseIndexTracking;Time Series / Financial
 spatstat;Geo
 ssh;Tools
 staplr;Text
