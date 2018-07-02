@@ -79,6 +79,7 @@ packages<-c("bookdown",
 "TSrepr",
 "TSstudio",
 "withr",
+"xaringan",
 "xgboost",
 "yardstick",
 "yarrr")
