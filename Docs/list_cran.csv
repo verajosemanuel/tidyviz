@@ -65,6 +65,7 @@ extrafont;Tools / Plots
 factoextra;EDA / Factorial Analysis
 FFTrees;Plots
 filesstrings;Tools / Files
+flatxml;Tools / Files
 forecTheta;Forecasting
 fs;Tools / Files
 funModeling;EDA / Models
@@ -158,6 +159,7 @@ networkD3;Plots
 numform;Tools
 outliers;Outliers
 OutliersO3;Outliers
+packagefinder;Tools
 party;Models
 pathological;Files
 pcaMethods;Stats / Factorial Analysis
