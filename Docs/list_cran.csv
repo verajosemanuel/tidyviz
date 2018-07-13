@@ -25,6 +25,7 @@ cleanNLP;Text
 clustree;Cluster
 colourpicker;Color
 compare;EDA
+compareGroups;EDA
 condformat;Tables
 confinterpret;Explain
 conflicted;Programming
@@ -67,6 +68,7 @@ FFTrees;Plots
 filesstrings;Tools / Files
 flatxml;Tools / Files
 forecTheta;Forecasting
+formattable;Tables
 fs;Tools / Files
 funModeling;EDA / Models
 futile.logger;Tools / Logs
