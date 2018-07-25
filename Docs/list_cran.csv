@@ -17,6 +17,7 @@ car;Stats
 caret;Models
 cartography;Maps
 changepoint;Time Series
+changepointsHD;Time Series
 charlatan;Data / Testing
 choroplethr;Maps
 choroplethrMaps;Maps
@@ -105,6 +106,7 @@ ggtern;Plots
 ggThemeAssist;Plots / Color
 ggthemes;Plots / Color
 ggvis;Plots
+gifski;Plots / Animations
 glmnet;Stats
 gmodels;Models
 googleLanguageR;Text / Cloud
