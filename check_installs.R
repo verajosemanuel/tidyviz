@@ -1,5 +1,7 @@
 
-packages<-c("bookdown",
+packages<-c("animation",
+"anim.plots",
+"bookdown",
 "Boruta",
 "breakDown",
 "brms",
