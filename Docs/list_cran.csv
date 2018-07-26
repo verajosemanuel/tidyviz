@@ -183,6 +183,7 @@ printr;Tables / Reports
 processx;Tools / System
 profvis;Programming / Tools
 promises;Programming
+prophet;Forecasting / Time Series
 psych;Tools
 qdapRegex;Tools / Regex
 quantmod;Models
@@ -237,6 +238,7 @@ ssh;Tools
 staplr;Text
 startup;Tools / Programming
 stm;Text
+stR;Forecasting / Time Series
 stranger;Outliers
 styler;Programming
 sugrrants;Time Series
