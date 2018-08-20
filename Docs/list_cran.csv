@@ -22,6 +22,7 @@ charlatan;Data / Testing
 choroplethr;Maps
 choroplethrMaps;Maps
 chunked;Big Data
+cleandata;EDA
 cleanNLP;Text
 clustree;Cluster
 colourpicker;Color
@@ -61,6 +62,8 @@ drake;workflow
 dqrng;Tools
 dygraphs;Plots
 egg;Plots
+eikosograms;EDA
+epubr;Text
 errorist;Programming / Tools
 ERSA;EDA / Stats
 extrafont;Tools / Plots
