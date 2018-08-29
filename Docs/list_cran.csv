@@ -159,6 +159,7 @@ mi;Imputation
 missForest;Imputation
 mlr;Models
 mschart;Report
+multicolor;Programming / Tools
 multiROC;Models
 naniar;EDA
 naturalsort;Tools
@@ -224,6 +225,7 @@ sessioninfo;Tools
 shapefiles;Geo
 shiny;UI
 shinyalert;UI
+shinyFeedback ;UI
 sigr;EDA / Stats
 Simpsons;Stats
 simstudy;Data
