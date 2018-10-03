@@ -23,6 +23,7 @@ edgararuiz/tidypredict
 EmilHvitfeldt/ggpage
 emitanaka/anicon
 gabrielrvsc/HDeconometrics
+gadenbuie/xaringanthemer
 gsimchoni/kandinsky
 hadley/precis
 hafen/trelliscopejs
@@ -32,6 +33,7 @@ hrbrmstr/waffle
 IndrajeetPatil/ggstatsplot
 jkaupp/nord
 jeremystan/aargh
+kassambara/r2excel
 kevinushey/Kmisc
 lantanacamara/lightgbmExplainer
 MangoTheCat/goodpractice
@@ -71,5 +73,5 @@ vqv/ggbiplot
 wilkox/ggfittext
 WinVector/addinexamples
 WinVector/rquery
-kassambara/r2excel
 https://gitlab.com/jozefhajnala/jhaddins.git
+yihui/xaringan
