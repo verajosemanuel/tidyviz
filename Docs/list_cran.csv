@@ -9,6 +9,7 @@ autoplotly;Plots
 basictabler;Tables
 Boruta;EDA
 bigrquery;Big Data / Cloud
+binb;Markdown
 bookdown;Markdown
 breakDown;Cluster
 brms;
@@ -195,6 +196,7 @@ quantmod;Models
 questionr;
 r2d3;Plots
 R.utils;Tools
+randomcoloR;Charts
 randomForest;Models
 randomForestExplainer;Explain
 raster;Geo
@@ -246,6 +248,7 @@ startup;Tools / Programming
 stm;Text
 stR;Forecasting / Time Series
 stranger;Outliers
+strex;Text / Regex
 styler;Programming
 sugrrants;Time Series
 supernova;EDA
@@ -270,6 +273,7 @@ tmap;Maps
 tmaptools;Maps
 tmuxr;System
 topicmodels;Text
+tsbox;Time Series
 TSrepr;Time Series
 TSstudio;Time Series
 udpipe;Text
