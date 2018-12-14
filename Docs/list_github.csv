@@ -54,6 +54,7 @@ ropenscilabs/data-packages
 ropenscilabs/icon
 ropenscilabs/packagemetrics
 ropenscilabs/umapr
+ropensci/writexl
 rstats-db/RPostgres
 rstudio/blogdown
 seasmith/AlignAssign

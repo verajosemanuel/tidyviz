@@ -169,6 +169,7 @@ numform;Tools
 outliers;Outliers
 OutliersO3;Outliers
 packagefinder;Tools
+padr;Time Series
 paletteer;Charts
 party;Models
 pathological;Files
@@ -213,6 +214,7 @@ rlang;Tools / Programming
 rmarkdown;Report
 rms;Stats
 robets;Time Series
+ROCR;Models
 rpart.plot;Plot
 rpostgis;Databases
 rsample;Models
