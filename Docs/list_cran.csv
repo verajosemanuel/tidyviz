@@ -62,11 +62,13 @@ directlabels;Plots
 drake;workflow
 dqrng;Tools
 dygraphs;Plots
+echarts4r;Plots
 egg;Plots
 eikosograms;EDA
 epubr;Text
 errorist;Programming / Tools
 ERSA;EDA / Stats
+esquisse;EDA / Plots
 extrafont;Tools / Plots
 factoextra;EDA / Factorial Analysis
 FFTrees;Plots
