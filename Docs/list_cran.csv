@@ -199,6 +199,7 @@ quantmod;Models
 questionr;
 r2d3;Plots
 R.utils;Tools
+radiant;EDA
 randomcoloR;Charts
 randomForest;Models
 randomForestExplainer;Explain
