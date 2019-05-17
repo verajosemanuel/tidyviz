@@ -290,6 +290,7 @@ viridis;Color
 viridislite;Color
 visdat;EDA
 visNetwork;Plots
+vroom;Data Read
 waterfalls;Plots
 withr;Programming
 workflowr;workflow
