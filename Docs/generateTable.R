@@ -37,3 +37,13 @@ a$writeToExcelWorksheet(
   applyStyles = TRUE
 )
 saveWorkbook(wb, file = here("recommended_cran_packages.xlsx"), overwrite = TRUE)
+
+
+# compare packages with packagemtrics
+
+library(packagemetrics)
+table_packages[28] <- "basictabler"
+table_packages[29] <- "Formattable"
+table_packages[28] <- "flextable"
+pkg_df <- package_list_metrics(table_packages) # included vector of table pkgs
+ft <- metrics_table(pkg_df)

@@ -12,7 +12,6 @@ Boruta;EDA
 bigrquery;Big Data / Cloud
 blorr;Stats
 binb;Markdown
-blogdown;Reports
 bookdown;Markdown
 breakDown;Cluster
 brms;Charts
@@ -43,6 +42,7 @@ cshapes;Maps
 ctv;Help
 d3heatmap;Plots
 d3Tree;Plots
+DALEX;Models
 data.table;Tables
 DataCombine;EDA
 dataCompareR;EDA
@@ -51,7 +51,6 @@ dataMaid;Imputation
 datamaps;Maps
 datapasta;Tools
 dataPreparation;EDA
-dbplot;Plots
 default;Programming
 densityClust ;Cluster
 descriptr;EDA / Stats
@@ -92,7 +91,6 @@ geoR;Maps
 geosphere;Maps
 GGally;Plots
 ggalt;Plots
-gganimate;Animation
 ggbeeswarm;Plots
 ggcorrplot;Plots
 ggdistribute;Plots
@@ -104,7 +102,6 @@ gghighlight;Plots
 ggimage;Plots
 ggiraph;Plots
 ggmap;Plots
-ggpage;Reports
 ggplotAssist;Plots
 ggplotgui;Plots
 ggpubr;Plots
@@ -215,7 +212,6 @@ raster;Geo
 rasterVis;Geo
 reprex;Help
 revealjs;Report
-RDocumentation;Tools
 rgdal;Geo
 rgeos;Geo
 rgl;Geo
@@ -302,10 +298,8 @@ viridislite;Color
 visdat;EDA
 visNetwork;Plots
 vroom;Data Read
-waffle;Plots
 waterfalls;Plots
 withr;Programming
-wordcloud2;Plots
 workflowr;workflow
 WVPlots;Plots
 xaringan;Report
@@ -315,3 +309,4 @@ xray;EDA
 yardstick;Models
 yarrr;EDA
 ztable;Tables
+
