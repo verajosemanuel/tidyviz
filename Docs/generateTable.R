@@ -3,6 +3,7 @@ rm(list = ls())
 library(tidyverse)
 library(basictabler)
 library(openxlsx)
+library(here)
 
 cran <- tools::CRAN_package_db()
 
@@ -12,7 +13,7 @@ cran <- cran[, -65]
 # make it a tibble
 cran <- tbl_df(cran)
 
-mycran <- rio::import("D:/kschool/Docker/tidyviz/Docs/list_cran.csv") %>% as.data.frame()
+mycran <- rio::import(here("list_cran.csv")) %>% as.data.frame()
 # df.git <- rio::import("git_packages.xlsx")
 
 
@@ -21,7 +22,7 @@ cran <- cran[, c("Package", "Title", "Description", "URL", "Version","Date")]
 df <- dplyr::right_join(cran, mycran)
 
 
-write.csv(df, file = "D:/kschool/Docker/tidyviz/Docs/cran_packages.csv", row.names = FALSE, sep = ';')
+write.csv(df, file = here("recommended_cran_packages.csv"), row.names = FALSE)
 
 
 a <- qtbl(df)
@@ -35,4 +36,4 @@ a$writeToExcelWorksheet(
   leftMostColumnNumber = 2,
   applyStyles = TRUE
 )
-saveWorkbook(wb, file = "D:/kschool/Docker/tidyviz/Docs/cran_packages.xlsx", overwrite = TRUE)
+saveWorkbook(wb, file = here("recommended_cran_packages.xlsx"), overwrite = TRUE)

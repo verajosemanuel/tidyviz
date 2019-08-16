@@ -7,12 +7,15 @@ anomalize;Outliers / Time Series
 archivist;workflow
 autoplotly;Plots
 basictabler;Tables
+BETS;Time Series
 Boruta;EDA
 bigrquery;Big Data / Cloud
+blorr;Stats
 binb;Markdown
+blogdown;Reports
 bookdown;Markdown
 breakDown;Cluster
-brms;
+brms;Charts
 C50;Models
 car;Stats
 caret;Models
@@ -48,6 +51,7 @@ dataMaid;Imputation
 datamaps;Maps
 datapasta;Tools
 dataPreparation;EDA
+dbplot;Plots
 default;Programming
 densityClust ;Cluster
 descriptr;EDA / Stats
@@ -74,6 +78,7 @@ factoextra;EDA / Factorial Analysis
 FFTrees;Plots
 filesstrings;Tools / Files
 flatxml;Tools / Files
+flextable;Tables
 forecTheta;Forecasting
 formattable;Tables
 fs;Tools / Files
@@ -87,16 +92,19 @@ geoR;Maps
 geosphere;Maps
 GGally;Plots
 ggalt;Plots
+gganimate;Animation
 ggbeeswarm;Plots
 ggcorrplot;Plots
 ggdistribute;Plots
 ggedit;Plots
+ggfittext;Plots
 ggforce;Plots
 ggfortify;Plots
 gghighlight;Plots
 ggimage;Plots
 ggiraph;Plots
 ggmap;Plots
+ggpage;Reports
 ggplotAssist;Plots
 ggplotgui;Plots
 ggpubr;Plots
@@ -207,6 +215,7 @@ raster;Geo
 rasterVis;Geo
 reprex;Help
 revealjs;Report
+RDocumentation;Tools
 rgdal;Geo
 rgeos;Geo
 rgl;Geo
@@ -233,7 +242,7 @@ sessioninfo;Tools
 shapefiles;Geo
 shiny;UI
 shinyalert;UI
-shinyFeedback ;UI
+shinyFeedbackï¿½;UI
 sigr;EDA / Stats
 Simpsons;Stats
 simstudy;Data
@@ -274,9 +283,11 @@ tictoc;Programming
 tidygraph;Plots
 tidyquant;
 timetk;Time Series
+tinytext;Programming
 tmap;Maps
 tmaptools;Maps
 tmuxr;System
+todor;Programming
 topicmodels;Text
 tsbox;Time Series
 TSrepr;Time Series
@@ -291,12 +302,15 @@ viridislite;Color
 visdat;EDA
 visNetwork;Plots
 vroom;Data Read
+waffle;Plots
 waterfalls;Plots
 withr;Programming
+wordcloud2;Plots
 workflowr;workflow
 WVPlots;Plots
 xaringan;Report
 xgboost;Models
+xplorerr;EDA
 xray;EDA
 yardstick;Models
 yarrr;EDA
