@@ -1,6 +1,6 @@
 ##%######################################################%##
 #                                                          #
-####               INIZIALIZA UN RSTUDIO                ####
+####               INICIALIZA UN RSTUDIO                ####
 #                                                          #
 ##%######################################################%##
 
@@ -373,7 +373,9 @@ usethis::edit_r_profile()
                       "cleandata",
                       "compare",
                       "compareGroups",
-                      "conflicted","pak","pacman" )
+                      "conflicted",
+                      "pacman" )
+
 
 df <- data.frame()
 
@@ -462,5 +464,22 @@ rsthemes::set_theme_dark("Fairyfloss {rsthemes}")
 rsthemes::try_rsthemes()
 
 
+
+
+# snippets ---------------------------------------
+
+snippet dtb
+  ${1:df} %>% datatable(
+  extensions = 'Buttons',
+  options = list(
+  dom = 'Blfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+  lengthMenu = list(c(10, 25, 50, -1), c(10, 25, 50, "All"))
+  )
+  )
+
+
+snippet asa
+  ${1:dataset} <- ${1:dataset} %>% ${0}
 
 
